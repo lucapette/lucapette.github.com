@@ -1,0 +1,4 @@
+My little static website.
+
+I have deployed it on pages.github.com.
+I have planned to use jekyll too.
