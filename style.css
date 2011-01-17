@@ -24,3 +24,8 @@ img {
     background: #B0C4DE;
     margin-bottom: 20px;
 }
+.footer {
+    text-align: right;
+    margin: 0;
+    font-style: italic;
+}
