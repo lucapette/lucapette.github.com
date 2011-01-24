@@ -1,16 +1,16 @@
 {% case page.url %}
 {% when '/index.html' %}
-    {% assign home="current" %}
-    {% assign blog="" %}
-    {% assign about="" %}
+    {% assign home = "current" %}
+    {% assign blog = " " %}
+    {% assign about = " " %}
 {% when '/blog.html' %}
-    {% assign home="" %}
-    {% assign blog="current" %}
-    {% assign about="" %}
+    {% assign home = " " %}
+    {% assign blog = "current" %}
+    {% assign about = " " %}
 {% when '/about.html' %}
-    {% assign home="" %}
-    {% assign blog="" %}
-    {% assign about="current" %}
+    {% assign home = " " %}
+    {% assign blog = " " %}
+    {% assign about = "current" %}
 {% endcase %}
 
 <ul id="menu">
