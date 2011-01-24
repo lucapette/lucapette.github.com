@@ -1,0 +1,36 @@
+---
+title: About me
+layout: default
+---
+h1. About me
+
+I'm a 28 years old guy and am really curious person. I live and work in Naples, Italy.
+
+I love:
+
+* Rails
+* Ruby
+* Linux (all flavours, expecially _Ubuntu_)
+* Git
+* Photography
+* Guitar, guitar making, playing guitar, listen to guitar music
+* All well performed music
+* Books
+
+I love many other things too, but I wouldn't like to share them with the world.
+
+I hate:
+
+* Racism
+* Internet Explorer
+* Dance music
+* Timesheets
+* Windows OS (all flavours, expecially _all flavours_)
+
+Surely there are a lot more things that I hate, but I don't want to share them with the world.
+
+Elsewhere:
+
+|!/img/delicious.png!:http://delicious.com/lucapette||!/img/flickr.png!:http://flickr.com/photos/lucapette||!/img/lastfm.png!:http://last.fm/user/lucapette|| !/img/twitter.png!:http://www.twitter.com/lucapette|| !/img/youtube.png!:http://www.youtube.com/user/LucaPette |
+ 
+Feel free to drop me a line at "lucapette@gmail.com":mailto:lucapette@gmail.com.

@@ -1,44 +1,31 @@
 ---
+title: Home Page
 layout: default
-title: Luca Pette
 ---
-{{date | date_as_string}}
-<p>
-I'm <em>Luca Pette</em> and this is my personal page. I'm a 28 years old guy and I'm a really curious person.<br/>
-I love:
-<ul>
-    <li>Rails</li>
-    <li>Ruby</li>
-    <li>Linux (all flavours, expecially <em>Ubuntu</em>)</li>
-    <li>Git</li>
-    <li>Photography</li>
-    <li>Guitar, guitar making, playing guitar, listen
-    to guitar music</li>
-    <li>All well performed music</li>
-</ul>
-I love many other things too, but I wouldn't like to
-share them with the world.<br/>
-I hate:
-<ul>
-    <li>Racism</li>
-    <li>Internet Explorer</li>
-    <li>Dance music</li>
-    <li>Timesheets</li>
-    <li>Windows OS (all flavours, expecially <em>all flavours</em>)</li>
-</ul>
-Surely there are a lot more things that I hate, but I
-don't want to share them with the world.
-</p>
-<p>
-Elsewhere:
-<table>
-    <tr>
-        <td><a href="http://delicious.com/lucapette"><img src="img/delicious.png"/></a></td>
-        <td><a href="http://flickr.com/photos/lucapette"><img src="img/flickr.png"/></a></td>
-        <td><a href="http://last.fm/user/lucapette"><img src="img/lastfm.png"/></a></td>
-        <td><a href="http://www.twitter.com/lucapette"><img src="img/twitter.png"/></a></td>
-        <td><a href="http://www.youtube.com/user/LucaPette"><img src="img/youtube.png"/></a></td>
-    </tr>
-</table>
-Feel free to drop me a line at <a href="mailto:lucapette@gmail.com">lucapette@gmail.com</a>.
-</p>
+<div id="left">
+    <p>
+    Hi everyone,<br>
+    This is my personal page. Occasionally, I'll write stuff about things i like. If you want to know more about me, there
+    is an <a href="/about.html">about</a> page.
+    </p>
+
+    <h2>Latest posts</h2>
+    <ul class="posts">
+        {% for post in site.posts limit: 5 %}
+        <div class="post">
+            <li><a href="{{ post.url }}">{{ post.title }}</a> <span>({{ post.date | date:"%Y-%m-%d" }})</span></li>
+            </br> <em>{{ post.description }} </em>
+        </div>
+        {% endfor %}
+    </ul>
+</div>
+
+<div id="right">
+    <h3>Categories</h3>
+    <ul class="categories">
+        <div class="category">
+            <li><a href="/myself.html">myself</a>
+            <span>({{site.categories.myself | size }})</span></li>
+        </div>
+    </ul>
+</div>

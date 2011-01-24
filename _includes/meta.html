@@ -1,0 +1,10 @@
+{% if page.keywords %}
+  {% assign keywords = page.keywords %}
+{% else %}
+  {% assign keywords = 'Luca Pette, ruby, rails, git' %}
+{% endif %}
+
+{% capture description %}{% if page.description %}{{page.description}}{% else %}{{page.title }} - Luca Pette{% endif %}{% endcapture %}
+
+<meta name="keywords" content="{{keywords | xml_escape | truncate: 160}}" />
+<meta name="description" content="{{description | strip_html | xml_escape | truncate: 200}}" />
