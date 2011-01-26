@@ -29,10 +29,17 @@ img {
     margin-bottom: 20px;
 }
 #footer {
-    text-align: right;
     margin: 0;
     font-style: italic;
     clear: both;
+}
+#footer .l {
+    text-align: left;
+    float: left;
+}
+#footer .r {
+    text-align: right;
+    float: right;
 }
 #left {
     float: left;
