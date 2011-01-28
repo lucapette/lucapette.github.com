@@ -8,22 +8,22 @@ I'm a 28 years old guy and am really curious person. I live and work in Naples, 
 
 I love:
 
-* Rails
-* Ruby
-* Linux (all flavours, expecially _Ubuntu_)
-* Git
-* Photography
-* Guitar, guitar making, playing guitar, listen to guitar music
 * All well performed music
 * Books
+* Git
+* Guitar, guitar making, playing guitar, listen to guitar music
+* Linux (all flavours, expecially _Ubuntu_)
+* Photography
+* Rails
+* Ruby
 
 I love many other things too, but I wouldn't like to share them with the world.
 
 I hate:
 
-* Racism
-* Internet Explorer
 * Dance music
+* Internet Explorer
+* Racism
 * Timesheets
 * Windows OS (all flavours, expecially _all flavours_)
 
