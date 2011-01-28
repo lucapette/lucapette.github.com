@@ -5,8 +5,8 @@ keywords: lucapette, rework, books, jason fried, david hansson
 category: books
 layout: blog
 ---
-I’ve read "Rework":http://37signals.com/rework/ not too much time ago. 
+I read "Rework":http://37signals.com/rework/ not a long time ago. 
 
-It’s a great book. If I had to advise this book to someone I’d say _“Go to a bookstore now. Buy it. Read it. Read it again. Then think about it and use its advices daily.”_. It’s a simple book to read. Tiny chunks of words can give you the right enthusiasm to go on and you will definitely want to read it again.
+It’s a great book. If I had to advise this book to someone I’d say _“Go to a bookstore now. Buy it. Read it. Read it again. Then think about it and use its advice every day.”_. It’s a simple book to read. Tiny chunks of words can give you the right enthusiasm to go on and you will definitely want to read it again.
 
 So my final review is: *“You have to read it. Full stop.”*
