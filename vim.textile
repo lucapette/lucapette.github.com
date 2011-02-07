@@ -1,5 +1,6 @@
 ---
 title: Posts about vim
+description: Posts by lucapette about vim
 keywords: lucapette, vim, plugins, technique
 layout: blog
 ---

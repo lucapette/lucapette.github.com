@@ -1,5 +1,6 @@
 ---
 title: Posts about myself
+description: Posts by lucapette about lucapette
 keywords: lucapette, posts
 layout: blog
 ---

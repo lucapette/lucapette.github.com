@@ -1,5 +1,6 @@
 ---
 title: Posts about books
+description: Posts by lucapette about books
 keywords: lucapette, books, reviews
 layout: blog
 ---
