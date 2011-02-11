@@ -47,4 +47,4 @@ I have a general good opinion of this book. It has several good aspects and abov
 
 h2. What I disliked most
 
-There are a few aspects I disliked in the book. If I have to be critic about it I would say it covers aspect of programming that I consider neither Ruby-related nor "Best Practices" but, obviously, it is just an opinion. However, you *should read* it if you care about Ruby.
+There are a few aspects I disliked in the book. If I have to be critic about it I would say it covers aspects of programming that I consider neither Ruby-related nor "Best Practices" but, obviously, it is just an opinion. However, you *should read* it if you care about Ruby.
