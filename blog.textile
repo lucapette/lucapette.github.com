@@ -1,7 +1,7 @@
 ---
 title: Blog
 description: Luca Pette's blog
-layout: blog
+layout: category
 ---
 <ul>
     {% for post in site.posts %}
