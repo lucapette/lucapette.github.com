@@ -1,12 +1,13 @@
 ---
 title: Blog
+description: Luca Pette's blog
 layout: blog
 ---
 <ul>
     {% for post in site.posts %}
     <div class="post">
         <li><a href="{{ post.url }}">{{ post.title }}</a> <span>({{ post.date | date:"%Y-%m-%d" }})</span></li>
-        <em>{{ post.description }} </em>
+        <span class="description">{{ post.description }} </span>
     </div>
     {% endfor %}
 </ul>

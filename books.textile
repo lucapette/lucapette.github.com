@@ -1,14 +1,14 @@
 ---
-title: Posts about books
-description: Posts by lucapette about books
+title: Books
+description: posts about books
 keywords: lucapette, books, reviews
-layout: blog
+layout: category
 ---
 <ul class="posts">
     {% for post in site.categories.books %}
         <div class="post">
             <li><a href="{{ post.url }}">{{ post.title }}</a> <span>({{ post.date | date:"%Y-%m-%d" }})</span></li>
-            <em>{{ post.description }} </em>
+            <span class="description">{{ post.description }} </span>
         </div>
     {% endfor %}
 </ul>

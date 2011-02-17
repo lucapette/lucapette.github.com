@@ -13,12 +13,11 @@
                     {%  assign blog="current" %}
                     {% include navigation.html %}
                     <div id="left">
-                        <div id="post">
-                            <h1>{{page.title}}</h1>
-                            {{ content }}
-                            {% include disqus.html %}
-                        </div>
+                        <h1>{{page.title}}</h1>
+                        <span class="description">{{ page.description }}</span>
+                        {{ content }}
                     </div>
+
                     {% include categories.html %}
                     {% include footer.html %}
                 </div>
