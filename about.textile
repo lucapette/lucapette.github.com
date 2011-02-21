@@ -12,7 +12,7 @@ I love:
 * Books
 * Git
 * Guitar, guitar making, playing guitar, listen to guitar music
-* Linux (all flavours, expecially _Ubuntu_)
+* Linux (all flavours, especially _Ubuntu_)
 * Photography
 * Rails
 * Ruby
@@ -25,7 +25,7 @@ I hate:
 * Internet Explorer
 * Racism
 * Timesheets
-* Windows OS (all flavours, expecially _all flavours_)
+* Windows OS (all flavours, especially _all flavours_)
 
 Surely there are a lot more things that I hate, but I don't want to share them with the world.
 

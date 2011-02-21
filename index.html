@@ -2,22 +2,18 @@
 title: Home Page
 layout: default
 ---
-<div id="left">
-    <p>
-        Hi everyone,<br>
-        I am Luca Pette and this is my personal website. Occasionally, I'll write stuff about things I like.
-        If you want to know more about me, I have an <a href="/about.html">about</a> page.
-    </p>
+<p>
+    Hi everyone,<br>
+    I am Luca Pette and this is my personal website. Occasionally, I'll write stuff about things I like.
+    If you want to know more about me, I have an <a href="/about.html">about</a> page.
+</p>
 
-    <h2>Latest posts</h2>
-    <ul class="posts">
-        {% for post in site.posts limit: 5 %}
-        <div class="post">
-            <li><a href="{{ post.url }}">{{ post.title }}</a> <span>({{ post.date | date:"%Y-%m-%d" }})</span></li>
-            <span class="description">{{ post.description }} </span>
-        </div>
-        {% endfor %}
-    </ul>
-</div>
-
-{% include categories.html %}
+<h2>Latest posts</h2>
+<ul class="posts">
+    {% for post in site.posts limit: 5 %}
+    <div class="post">
+        <li><a href="{{ post.url }}">{{ post.title }}</a> <span class="date">({{ post.date | date:"%Y-%m-%d" }})</span></li>
+        <span class="description">{{ post.description }}</span>
+    </div>
+    {% endfor %}
+</ul>

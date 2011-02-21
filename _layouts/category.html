@@ -12,19 +12,17 @@
                 <div id="inner">
                     {%  assign blog="current" %}
                     {% include navigation.html %}
-                    <div id="left">
-                        <h1>{{page.title}}</h1>
-                        <span class="description">{{ page.description }}</span>
-                        {{ content }}
+                    <div id="content">
+                        <div id="left">
+                            <h1>{{page.title}}</h1>
+                            <span class="description">{{ page.description }}</span>
+                            {{ content }}
+                        </div>
+                        {% include categories.html %}
                     </div>
-
-                    {% include categories.html %}
                     {% include footer.html %}
                 </div>
             </div>
         </div>
-        <a href="http://github.com/lucapette"><img style="position: absolute; top:0; right: 0; border: 0;"
-            src="https://assets2.github.com/img/71eeaab9d563c2b3c590319b398dd35683265e85?repo=&url=http%3A%2F%2Fs3.amazonaws.com%2Fgithub%2Fribbons%2Fforkme_right_gray_6d6d6d.png&path="
-            alt="Fork me on GitHub"></a>
     </body>
 </html>

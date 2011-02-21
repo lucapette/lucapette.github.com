@@ -29,6 +29,9 @@ h1, h2, h3 {
     background: #FFFFFA;
     padding: 10px;
 }
+#content {
+    padding-left: 1em;
+}
 #outer {
     background: #B0C4DE;
     margin-bottom: 20px;
@@ -90,12 +93,17 @@ ul#menu li.current a {
     background: #FFFFFF; 
     color: #000000;
 }
-#post {
-    padding: 0 1em;
+ul.posts {
+    list-style-type: none;
+    padding-left: 0.5em;
 }
 .post {
     margin-bottom: 1em;
 }
 .description {
     font-style: italic;
+}
+ul#archive {
+    list-style-type: none;
+    padding-left: 0;
 }

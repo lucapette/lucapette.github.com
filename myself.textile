@@ -1,8 +1,8 @@
 ---
 title: Myself
-description: recursive posts
+description: posts for ego
 keywords: lucapette, posts
-layout: blog
+layout: category
 ---
 <ul class="posts">
     {% for post in site.categories.myself %}
