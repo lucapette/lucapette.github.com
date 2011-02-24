@@ -2,7 +2,7 @@
 title: Rails
 description: posts about rails
 keywords: lucapette, rails
-layout: blog
+layout: category
 ---
 <ul class="posts">
     {% for post in site.categories.rails %}
