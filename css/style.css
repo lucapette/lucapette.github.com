@@ -20,7 +20,7 @@ h1, h2, h3 {
     margin-bottom: 0;
 }
 #container {
-    width: 90%;
+    width: 80%;
     margin-top: 10px;
     margin-left: auto ;
     margin-right: auto ;
@@ -51,11 +51,10 @@ h1, h2, h3 {
 }
 #left {
     float: left;
-    width: 90%;
+    width: 80%;
 }
 #right {
     float: right;
-    width: 10%;
 }
 ul#categories {
     padding-left: 0.5em;
