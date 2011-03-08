@@ -1,7 +1,7 @@
 ---
 title: A review of Metaprogramming Ruby
 description:  A review of metaprogramming Ruby
-keywords: lucapette, metaprogramming ryby, book, review, Paolo Perrotta
+keywords: lucapette, metaprogramming ruby, book, review, Paolo Perrotta
 category: books
 layout: blog
 ---
