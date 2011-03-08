@@ -106,3 +106,9 @@ ul#archive {
     list-style-type: none;
     padding-left: 0;
 }
+.highlight {
+    overflow: auto;
+}
+.hightlight pre {
+    margin: 0;
+}
