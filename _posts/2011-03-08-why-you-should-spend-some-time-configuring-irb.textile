@@ -11,7 +11,7 @@ h2. Why should I configure it?
 
 In my opinion irb is powerful enough even without any particular configuration. I have been used to a _raw_ irb for a long time and I think you could use it in an efficient way. But I still think you should spend some time configuring irb. The reasons are simple. Firstly, having personal irb configurations is a boost for productivity. There are many tasks you perform repeatedly when you are playing with an API or when you are trying Ruby features. Configuring irb while focusing on your needs will save your time. Secondly, spending time reading other configurations or thinking about your needs is a very good learning opportunity.
 
-The aim of this post is not _Hey guys, have a look at my confi, it's so beautiful!_ but I think we can use my config as an example of what you can achieve configuring irb. I don’t like to recommend my configs to other people but I won’t stop recommending making your tools more personal. Based on my experience, a personal toolbox is a good way to boost productivity.
+The aim of this post is not _Hey guys, have a look at my config, it's so beautiful!_ but I think we can use my config as an example of what you can achieve configuring irb. I don’t like to recommend my configs to other people but I won’t stop recommending making your tools more personal. Based on my experience, a personal toolbox is a good way to boost productivity.
 
 h2. What you can’t miss
 
