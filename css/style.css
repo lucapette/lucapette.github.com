@@ -55,10 +55,14 @@ h1, h2, h3 {
 }
 #right {
     float: right;
+    width: 15%;
 }
 ul#categories {
     padding-left: 0.5em;
     list-style: none;
+}
+ul#related-posts {
+    padding-left: 0.5em;
 }
 ul#menu {
     list-style-type: none;

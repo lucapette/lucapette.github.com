@@ -18,7 +18,10 @@
                             {{ content }}
                             {% include disqus.html %}
                         </div>
-                        {% include categories.html %}
+                        <div id="right">
+                            {% include categories.html %}
+                            {% include related_posts.html %}
+                        </div>
                     </div>
                     {% include footer.html %}
                 </div>
