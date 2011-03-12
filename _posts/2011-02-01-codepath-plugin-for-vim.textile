@@ -33,4 +33,4 @@ Every time I open a NERDTree window It opens itself based on my function. I did 
 let g:fuzzy_roots = [CodePath()]
 {% endhighlight %}
 
-II Think codepath.vim is a really simple vim plugin and it is really useful for me, I hope you can use it in your vim configuration. I haven't planned new features yet but I will add the multi-codepath feature if I receive feedback on it.
+I think codepath.vim is a really simple vim plugin and it is really useful for me, I hope you can use it in your vim configuration. I haven't planned new features yet but I will add the multi-codepath feature if I receive feedback on it.

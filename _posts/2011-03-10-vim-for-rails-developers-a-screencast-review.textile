@@ -28,7 +28,7 @@ I’m going to talk about "snipmate":http://www.vim.org/scripts/script.php?scrip
 Tags feature is one of the most interesting features of vim and I completely agree with Ben on the necessity of covering it in a screencast. Ben presents "ctags":http://ctags.sourceforge.net/ and performs a complete description of tags features in vim. Furthermore, he gives you nice tips on how to use tags from the command line.
 
 * _*Ack*_
-I confess I wasn’t familiar with "ack":http://betterthangrep.com/ and I want to thank Ben for introducing it to me. Now I use it on a daily basis and I can say it’s better than grep, -practically-(see comments) it’s grep for programmers (Ben defines like that as well). Ben will convince you to use it with a perfect example, giving you tips on its configuration. Of course, the part contains some good advice on ack using within vim.
+I confess I wasn’t familiar with "ack":http://betterthangrep.com/ and I want to thank Ben for introducing it to me. Now I use it on a daily basis and I can say it’s better than grep, -practically- (see comments) it’s grep for programmers (Ben defines like that as well). Ben will convince you to use it with a perfect example, giving you tips on its configuration. Of course, the part contains some good advice on ack using within vim.
 
 * _*Quick-notes*_
 I think you should buy this screencast even only for this part of the screecast. Ben will show you a bunch of great tips and I’m sure they will be a great source of inspiration for learning some little-known vim features. In my humble opinion, this is the best part of the whole screencast. It will definitely help you to make a step further in your vim.
