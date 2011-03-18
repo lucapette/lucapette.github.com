@@ -1,0 +1,155 @@
+---
+title: Improving IRB history 
+description: Improving IRB history
+keywords: lucapette, ruby, irb, console
+category: irb
+layout: blog
+---
+I’ve started to consider irb "configurations":http://lucapette.com/irb/why-you-should-spend-some-time-configuring-irb/ as a way to improve my productivity. Following this path I’ve got some nice stuff in my "irbrc":https://github.com/lucapette/dotfiles/blob/master/irbrc. In the last days I was thinking about how to make irb history more similar to the bash one. So, I thought there was a need for the following features:
+
+History command
+History execute
+History grep
+
+Also, ignoring duplicated lines on irb exit would be great.
+
+h2. The methods
+
+That’s why the best thing I can do now is to show you the code I wrote to achieve the above mentioned features:
+
+{% highlight ruby %}
+def history_a(n=Readline::HISTORY.size)
+    size=Readline::HISTORY.size
+    Readline::HISTORY.to_a[(size - n)..size-1]
+end
+
+def decorate_h(n)
+    size=Readline::HISTORY.size
+    ((size - n)..size-1).zip(history_a(n)).map {|e| e.join(" ")}
+end
+
+def h(n=10)
+    entries = decorate_h(n)
+    puts entries
+    entries.size
+end
+
+def hgrep(word)
+    matched=decorate_h(Readline::HISTORY.size - 1).select {|h| h.match(word)}
+    puts matched
+    matched.size
+end
+
+def h!(start, stop=nil)
+    stop=start unless stop
+    code = history_a[start..stop]
+    code.each_with_index { |e,i|
+        irb_context.evaluate(e,i)
+    }   
+    Readline::HISTORY.pop
+    code.each { |l| 
+        Readline::HISTORY.push l
+    }   
+    puts code
+end
+{% endhighlight %}
+
+Let me confess I don’t like a lot the naming of some methods :) By the way, these methods make the following output possibile:
+
+{% highlight ruby %}
+ruby-1.9.2-p0 > h
+199 h
+200 h
+201 hgrep "json"
+202 h
+203 h
+204 h "toy"
+205 h
+206 hgrep "toy"
+207 h! 197
+208 h
+ => 10 
+ruby-1.9.2-p0 > hgrep "toy"
+89 a=Arra.toy
+97 a=Array.toy
+189 a=Arra.toy
+197 a=Array.toy
+204 h "toy"
+206 hgrep "toy"
+209 hgrep "toy"
+ => 7 
+ruby-1.9.2-p0 > h! 197
+a=Array.toy
+ => nil 
+ruby-1.9.2-p0 > a=Array.toy
+ => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+{% endhighlight %}
+
+I do know there are many posts around the web on this subject but I don’t like some aspects of the solutions I came across. I wanted a bash like history and none of the solutions I found has a real working re-execute command. I found some solutions but all of them use eval to execute code and don’t replace the re-executed command in the history. Actually the h! method I wrote uses irb_context to evaluate the input lines. The issue with the eval version is easy to explain with an example:
+
+{% highlight ruby %}
+ruby-1.9.2-p0 > eval("a=Array.toy")
+ => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+ruby-1.9.2-p0 > a
+NameError: undefined local variable or method `a' for main:Object
+    from (irb):2
+    from /home/lucapette/.rvm/rubies/ruby-1.9.2-p0/bin/irb:17:in `<main>'
+ruby-1.9.2-p0 > a=Array.toy
+ => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+ruby-1.9.2-p0 > a="l"
+ => "l" 
+ruby-1.9.2-p0 > h 5
+200 eval("a=Array.toy")
+201 a
+202 a=Array.toy
+203 a="l"
+204 h 5
+ => 5 
+ruby-1.9.2-p0 > h! 202
+a=Array.toy
+ => nil 
+ruby-1.9.2-p0 > a
+ => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+{% endhighlight %}
+
+Not a very big deal but I really prefer my implementation of the re-execute command. However, I can’t really explain the difference between the two implementations. I think it could be a scope problem, please tell me if I’m wrong.
+
+
+h2. Erasing duplicates
+
+The last feature I wanted to have in my irb history is an equivalent to bash:
+
+{% highlight bash %}
+export HISTCONTROL=erasedups
+{% endhighlight %}
+
+this of course means erasing your duplicates command lines. So I came up with the following:
+
+{% highlight ruby %}
+# don't save duplicates
+IRB.conf[:AT_EXIT].unshift Proc.new {
+    no_dups = [] 
+    Readline::HISTORY.each_with_index { |e,i|
+        begin
+            no_dups << e if Readline::HISTORY[i] != Readline::HISTORY[i+1]
+        rescue IndexError
+        end
+    }  
+    Readline::HISTORY.clear
+    no_dups.each { |e|
+        Readline::HISTORY.push e
+    }  
+}
+{% endhighlight %}
+
+I confess I don’t like a lot the final implementation of the algorithm I wrote. But it does his job: IRB.conf[:AT_EXIT] is an array of proc that irb would call when you leave it. Thus, I simply added a proc that willy rewrite your irb history with uniq lines. Please tell me if you can do the same using a more elegant solution.
+
+h2. yaih
+
+Well, the history commands we talked about could be a nice improvement in your irbrc too. I published a gem to share these methods with you. Install it with:
+
+{% highlight ruby %}
+gem install yaih
+{% endhighlight %}
+
+and then require it in your irbrc. I published "yaih":https://github.com/lucapette/yaih just a couple of days ago and it has some lacks. I would like to write some tests for it but I need some suggestion because I don’t know how I can write effective tests in this kind of situation. Then I’d like to add some options, especially if someone will kindly suggest me some :)
