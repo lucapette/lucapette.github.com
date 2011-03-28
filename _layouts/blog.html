@@ -13,14 +13,21 @@
                     {% include navigation.html %}
                     <div id="content">
                         <div id="left">
-                            <h1>{{page.title}}</h1>
-                            {{ content }}
-                            {% include disqus.html %}
+                            <article>
+                                <header>
+                                    <h1>{{page.title}}</h1>
+                                    <time pubdate class=description>{{ page.date | date:"%Y-%m-%d" }}</time>
+                                </header>
+                                {{ content }}
+                                <section>
+                                    {% include disqus.html %}
+                                </section>
+                            </article>
                         </div>
-                        <div id="right">
+                        <aside>
                             {% include categories.html %}
                             {% include related_posts.html %}
-                        </div>
+                        </aside>
                     </div>
                     {% include footer.html %}
                 </div>

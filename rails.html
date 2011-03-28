@@ -1,0 +1,16 @@
+---
+title: Rails
+description: posts about rails
+keywords: lucapette, rails
+layout: category
+---
+<ul class="posts">
+    {% for post in site.categories.rails %}
+        <article class=post>
+            <li><a href="{{ post.url }}">{{ post.title }}</a>
+            <time pubdate>({{ post.date | date:"%Y-%m-%d" }})</time>
+        </li>
+        <span class="description">{{ post.description }}</span>
+        </article>
+    {% endfor %}
+</ul>

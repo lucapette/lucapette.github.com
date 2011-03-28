@@ -2,6 +2,9 @@ html, body {
     margin:0;
     padding:0
 }
+header, footer, nav, article, section, aside, video {
+	display:block;
+}
 body {
     font-size: 1.2.em;
     text-align: left;
@@ -13,6 +16,27 @@ a{
 }
 img {
     border: 0;
+}
+aside {
+    float: right;
+    width: 15%;
+}
+aside ul {
+    padding-left: 0.5em;
+    list-style: none;
+}
+footer {
+    margin: 0;
+    font-style: italic;
+    clear: both;
+}
+footer .l {
+    text-align: left;
+    float: left;
+}
+footer .r {
+    text-align: right;
+    float: right;
 }
 h1, h2, h3 {
     font: 1.5em;
@@ -36,33 +60,9 @@ h1, h2, h3 {
     background: #B0C4DE;
     margin-bottom: 20px;
 }
-#footer {
-    margin: 0;
-    font-style: italic;
-    clear: both;
-}
-#footer .l {
-    text-align: left;
-    float: left;
-}
-#footer .r {
-    text-align: right;
-    float: right;
-}
 #left {
     float: left;
     width: 80%;
-}
-#right {
-    float: right;
-    width: 15%;
-}
-ul#categories {
-    padding-left: 0.5em;
-    list-style: none;
-}
-ul#related-posts {
-    padding-left: 0.5em;
 }
 ul#menu {
     list-style-type: none;
@@ -100,7 +100,7 @@ ul.posts {
     list-style-type: none;
     padding-left: 0.5em;
 }
-.post {
+article {
     margin-bottom: 1em;
 }
 .description {
