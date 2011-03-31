@@ -54,3 +54,15 @@ Bring the cursor to the position stored in the _m_ mark.
 Go to <a href="http://vimdoc.sourceforge.net/htmldoc/motion.html#^">the first non-blank character of the line</a>.
 
 So, nothing magic but useful. And I'd be glad to see other possible solutions.
+
+*Update:*
+
+Thanks to a comment below, the above mentioned mapping can be refactored in the
+following way:
+
+{% highlight vim %}
+map   <silent> <F5> mmgg=G'm
+imap  <silent> <F5> <Esc> mmgg=G'm
+{% endhighlight%}
+
+Indeed, I've already "updated":https://github.com/lucapette/vimfiles/commit/9c1bafee15be2a4b47e3421e0537ff9ed1e3fb4f my vimrc.
