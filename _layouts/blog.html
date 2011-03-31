@@ -6,29 +6,31 @@
         {% include meta.html %}
     </head>
     <body>
-        <div id="container">
-            <div id="outer">
-                <div id="inner">
+        <div id=container>
+            <div id=outer>
+                <div id=inner>
                     {%  assign blog="current" %}
                     {% include navigation.html %}
-                    <div id="content">
-                        <div id="left">
+                    <section id=main>
+                        <section id=left>
                             <article>
                                 <header>
                                     <h1>{{page.title}}</h1>
                                     <time pubdate class=description>{{ page.date | date:"%Y-%m-%d" }}</time>
                                 </header>
+                                <section class=content>
                                 {{ content }}
+                                </section>
                                 <section>
                                     {% include disqus.html %}
                                 </section>
                             </article>
-                        </div>
+                        </section>
                         <aside>
                             {% include categories.html %}
                             {% include related_posts.html %}
                         </aside>
-                    </div>
+                    </section>
                     {% include footer.html %}
                 </div>
             </div>

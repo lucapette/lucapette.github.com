@@ -9,13 +9,13 @@ If you want to know more about me, I have an <a href="/about.html">about</a> pag
 </p>
 
 <h2>Latest posts</h2>
-<ul class="posts">
+<ul class=posts>
     {% for post in site.posts limit: 5 %}
         <article class=post>
             <li><a href="{{ post.url }}">{{ post.title }}</a>
             <time pubdate>({{ post.date | date:"%Y-%m-%d" }})</time>
         </li>
-        <span class="description">{{ post.description }}</span>
+        <span class=description>{{ post.description }}</span>
         </article>
     {% endfor %}
 </ul>

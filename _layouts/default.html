@@ -6,18 +6,18 @@
         {% include meta.html %}
     </head>
     <body>
-        <div id="container">
-            <div id="outer">
-                <div id="inner">
+        <div id=container>
+            <div id=outer>
+                <div id=inner>
                     {% include navigation.html %}
-                    <div id="content">
-                        <div id="left">
+                    <section id=main>
+                        <section id="left">
                             {{ content }}
-                        </div>
+                        </section>
                         <aside>
                             {% include categories.html %}
                         </aside>
-                    </div>
+                    </section>
                     {% include footer.html %}
                 </div>
             </div>

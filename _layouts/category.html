@@ -6,21 +6,21 @@
         {% include meta.html %}
     </head>
     <body>
-        <div id="container">
-            <div id="outer">
-                <div id="inner">
+        <div id=container>
+            <div id=outer>
+                <div id=inner>
                     {%  assign blog="current" %}
                     {% include navigation.html %}
-                    <div id="content">
-                        <div id="left">
+                    <section id=main>
+                        <section id=left>
                             <h1>{{page.title}}</h1>
                             <span class="description">{{ page.description }}</span>
                             {{ content }}
-                        </div>
+                        </section>
                         <aside>
                             {% include categories.html %}
                         </aside>
-                    </div>
+                    </section>
                     {% include footer.html %}
                 </div>
             </div>

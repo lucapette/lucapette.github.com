@@ -24,6 +24,7 @@ aside {
 aside ul {
     padding-left: 0.5em;
     list-style: none;
+    margin-top:0;
 }
 footer {
     margin: 0;
