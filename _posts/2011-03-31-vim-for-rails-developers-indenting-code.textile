@@ -1,0 +1,56 @@
+---
+title: "Vim for rails developers: indenting code"
+description: a quick tip on how you can indent your code preserving the cursor position
+keywords: lucapette, vim, rails, indenting code, tip, map, mapping 
+categories:
+- vim
+- rails
+layout: blog
+---
+I use Vim mainly to write code and, in order to maintain some sanity, I like my
+code indented. I like to have a mapping for indenting the entire file I'm
+editing. My first attempt to solve this simple problem was:
+
+{% highlight vim %}
+map   <silent> <F5> gg=G<CR>
+imap  <silent> <F5> <Esc> gg=G<CR>
+{% endhighlight%}
+
+When I pressed  &#060;f5&#062;, both in normal and insert mode, I got all the
+current file indented.
+The process is very simple, basically it works in the following way:
+
+* *gg* 
+<a href="http://vimdoc.sourceforge.net/htmldoc/motion.html#gg">go to first line</a>
+* *=G* 
+<a href="http://vimdoc.sourceforge.net/htmldoc/change.html#=">indent</a> until <a href="http://vimdoc.sourceforge.net/htmldoc/motion.html#G">G</a> that is the <a href="http://vimdoc.sourceforge.net/htmldoc/motion.html">motion</a> parameter of the *&#061;* command.
+
+Well this was cool. It just worked fine and made all the current file
+indented. I was used to the just mentioned mappings for a long time but,
+recently, I was annoyed by a little issue this mapping had. Practically, when I
+pressed  &#060;f5&#062; I lost the cursor position and I didn't like that. So, yesterday
+I reached the WTF point and decided to solve this problem. After a few
+attempts with the <a href="http://vimdoc.sourceforge.net/htmldoc/motion.html#jumplist">jumplist</a> and with the <a href="http://vimdoc.sourceforge.net/htmldoc/motion.html#changelist">changelist</a>, I found a solution I really like.
+Eventually, I came up with the following:
+
+{% highlight vim %}
+map   <silent> <F5> mmgg=G`m^
+imap  <silent> <F5> <Esc> mmgg=G`m^
+{% endhighlight%}
+
+that works exactly as the prevoius solution but, in addition, it brings the
+cursor back where it was before you pressed  &#060;f5&#062;. Now I use the <a href="http://vimdoc.sourceforge.net/htmldoc/motion.html#mark">mark</a> command, and
+the sequence is:
+
+* *mm*
+Put the current position in the _m_ mark.
+* *gg* 
+As the previous solution.
+* *=G* 
+Here too.
+* *`m*
+Bring the cursor to the position stored in the _m_ mark.
+* *^*
+Go to <a href="http://vimdoc.sourceforge.net/htmldoc/motion.html#^">the first non-blank character of the line</a>.
+
+So, nothing magic but useful. And I'd be glad to see other possible solutions.
