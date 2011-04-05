@@ -3,9 +3,10 @@ html, body {
     padding:0
 }
 header, footer, nav, article, section, aside, video {
-	display:block;
+    display:block;
 }
 body {
+    font-family: Arial, "Lucida Grande", sans-serif;
     font-size: 1.2.em;
     text-align: left;
     background: #FFFFFA;
