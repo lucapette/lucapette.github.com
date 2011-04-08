@@ -108,6 +108,10 @@ article {
 .description {
     font-style: italic;
 }
+.published-date {
+    font-style: italic;
+    margin-left: 0.3em;
+}
 ul#archive {
     list-style-type: none;
     padding-left: 0;

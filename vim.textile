@@ -4,11 +4,11 @@ description: posts about vim
 keywords: lucapette, vim
 layout: category
 ---
-<ul class="posts">
+<ul class=posts>
     {% for post in site.categories.vim %}
-        <div class="post">
+        <article class=post>
             <li><a href="{{ post.url }}">{{ post.title }}</a> <span>({{ post.date | date:"%Y-%m-%d" }})</span></li>
-            <span class="description">{{ post.description }} </span>
-        </div>
+            <span class=description>{{ post.description }} </span>
+        </article>
     {% endfor %}
 </ul>
