@@ -5,8 +5,9 @@ layout: default
 h1. About me
 
 I'm a 28 years old guy and am really curious person. I live and work in Naples, Italy.
+I have a nice "404":/404.html page.
 
-h3(#love). I love:
+h2. I love:
 
 * All well performed music
 * Books
@@ -19,7 +20,7 @@ h3(#love). I love:
 
 I love many other things too, but I wouldn't like to share them with the world.
 
-h3(#hate). I hate:
+h2. I hate:
 
 * Dance music
 * Internet Explorer
@@ -29,8 +30,4 @@ h3(#hate). I hate:
 
 Surely there are a lot more things that I hate, but I don't want to share them with the world.
 
-h3(#elsewhere). Elsewhere:
-
-|!/img/delicious.png!:http://delicious.com/lucapette||!/img/flickr.png!:http://flickr.com/photos/lucapette||!/img/lastfm.png!:http://last.fm/user/lucapette|| !/img/twitter.png!:http://www.twitter.com/lucapette|| !/img/youtube.png!:http://www.youtube.com/user/LucaPette |
- 
 Feel free to drop me a line at "lucapette@gmail.com":mailto:lucapette@gmail.com.

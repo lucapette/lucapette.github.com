@@ -6,11 +6,11 @@ header, footer, nav, article, section, aside, video {
     display:block;
 }
 body {
-    font-family: Arial, "Lucida Grande", sans-serif;
-    font-size: 1.2.em;
-    text-align: left;
     background: #FFFFFA;
     color: #666;
+    font-family: Arial, "Lucida Grande", sans-serif;
+    font-size: 120%;
+    text-align: left;
 }
 a{
     color: #00AAAA;
@@ -28,9 +28,9 @@ aside ul {
     margin-top:0;
 }
 footer {
-    margin: 0;
-    font-style: italic;
     clear: both;
+    font-style: italic;
+    margin: 0;
 }
 footer .l {
     text-align: left;
@@ -41,15 +41,18 @@ footer .r {
     float: right;
 }
 h1, h2, h3 {
-    font: 1.5em;
     color: #CCAD85;
-    margin-bottom: 0;
+    margin: 0;
 }
 #container {
     width: 70%;
     margin-top: 10px;
     margin-left: auto ;
     margin-right: auto ;
+}
+#main {
+    margin-left: 0.5em;
+    line-height: 1.5;
 }
 #inner {
     background: #FFFFFA;
@@ -67,17 +70,17 @@ h1, h2, h3 {
     width: 80%;
 }
 ul#menu {
-    list-style-type: none;
-    padding-bottom: 24px;
-    padding-left: 0.5em;
     border-bottom: 1px solid #B0C4DE;
+    list-style-type: none;
     margin: 0;
+    padding-bottom: 27px;
+    padding-left: 0.5em;
 }
 ul#menu li {
     background-color: #B0C4DE;    
     border: 1px solid #B0C4DE;
     float: left;
-    height: 21px;
+    height: 24px;
     margin: 2px 2px 0 2px;
 }
 ul#menu li.current {
@@ -88,11 +91,11 @@ ul#menu li.current a {
     color: #000000;
 }
 #menu a {
-    float: left;
-    display: block;
-    text-decoration: none;
-    padding: 4px;
     color: #FFF;
+    display: block;
+    float: left;
+    padding: 4px;
+    text-decoration: none;
 }
 #menu a:hover {
     background: #FFFFFF; 
@@ -100,13 +103,14 @@ ul#menu li.current a {
 }
 ul.posts {
     list-style-type: none;
-    padding-left: 0.5em;
+    padding-left: 0;
 }
 article {
     margin-bottom: 1em;
 }
 .description {
     font-style: italic;
+    margin-left: 0.5em;
 }
 .published-date {
     font-style: italic;
