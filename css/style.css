@@ -58,8 +58,8 @@ h1, h2, h3 {
     background: #FFFFFA;
     padding: 10px;
 }
-#content {
-    padding-left: 1em;
+.content {
+    text-align: justify;
 }
 #outer {
     background: #B0C4DE;
