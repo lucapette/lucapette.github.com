@@ -2,7 +2,7 @@
 title: About me
 layout: default
 ---
-I'm a 28 years old guy and am really curious person. I live and work in Naples, Italy. I have a nice "404":/404.html page.
+I am a 28 year old guy and I am really curious person. I live and work in Naples, Italy. I have a nice "404":/404.html page.
 
 h2. I love
 
