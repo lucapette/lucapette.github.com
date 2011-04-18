@@ -4,11 +4,8 @@ description: posts for ego
 keywords: lucapette, posts
 layout: category
 ---
-<ul class="posts">
+<ul id=archive>
     {% for post in site.categories.myself %}
-        <div class="post">
-            <li><a href="{{ post.url }}">{{ post.title }}</a> <span>({{ post.date | date:"%Y-%m-%d" }})</span></li>
-            <span class="description">{{ post.description }} </span>
-        </div>
+      <li><span class=date>{{ post.date | date:"%Y-%m-%d"  }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>

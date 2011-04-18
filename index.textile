@@ -2,8 +2,4 @@
 title: Home Page
 layout: default
 ---
-h2. Hi everyone
-
-I am Luca Pette and this is my personal website. Occasionally, I'll write stuff about things I like.
-
-|!/img/delicious.png!:http://delicious.com/lucapette||!/img/flickr.png!:http://flickr.com/photos/lucapette||!/img/lastfm.png!:http://last.fm/user/lucapette|| !/img/twitter.png!:http://www.twitter.com/lucapette|| !/img/youtube.png!:http://www.youtube.com/user/LucaPette |
+Hello, I am Luca Pette and this is my personal website. I am a computer programmer with a great passion for Ruby and its world.

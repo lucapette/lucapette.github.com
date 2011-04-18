@@ -2,12 +2,9 @@
 title: About me
 layout: default
 ---
-h1. About me
+I'm a 28 years old guy and am really curious person. I live and work in Naples, Italy. I have a nice "404":/404.html page.
 
-I'm a 28 years old guy and am really curious person. I live and work in Naples, Italy.
-I have a nice "404":/404.html page.
-
-h2. I love:
+h2. I love
 
 * All well performed music
 * Books
@@ -17,10 +14,11 @@ h2. I love:
 * Photography
 * Rails
 * Ruby
+* Vim
 
 I love many other things too, but I wouldn't like to share them with the world.
 
-h2. I hate:
+h2. I hate
 
 * Dance music
 * Internet Explorer
@@ -29,5 +27,3 @@ h2. I hate:
 * Windows OS (all flavours, especially _all flavours_)
 
 Surely there are a lot more things that I hate, but I don't want to share them with the world.
-
-Feel free to drop me a line at "lucapette@gmail.com":mailto:lucapette@gmail.com.

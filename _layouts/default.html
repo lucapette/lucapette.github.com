@@ -7,17 +7,11 @@
     </head>
     <body>
         <div id=container>
-            <div id=outer>
-                <div id=inner>
-                    {% include navigation.html %}
-                    <section id=main>
-                        <section id="left">
-                            {{ content }}
-                        </section>
-                    </section>
-                    {% include footer.html %}
-                </div>
-            </div>
+            {% include navigation.html %}
+            <section id=main>
+                {{ content }}
+            </section>
+            {% include footer.html %}
         </div>
     </body>
 </html>

@@ -7,33 +7,27 @@
     </head>
     <body>
         <div id=container>
-            <div id=outer>
-                <div id=inner>
-                    {%  assign blog="current" %}
-                    {% include navigation.html %}
-                    <section id=main>
-                        <section id=left>
-                            <article>
-                                <header>
-                                    <h1>{{page.title}}</h1>
-                                    <time pubdate class=published-date>{{ page.date | date:"%Y-%m-%d" }}</time>
-                                </header>
-                                <section class=content>
-                                {{ content }}
-                                </section>
-                                <section>
-                                    {% include disqus.html %}
-                                </section>
-                            </article>
-                        </section>
-                        <aside>
-                            {% include categories.html %}
-                            {% include related_posts.html %}
-                        </aside>
+            {%  assign blog="current" %}
+            {% include navigation.html %}
+            <section id=main>
+                <article>
+                    <header>
+                        <h1>{{page.title}}</h1>
+                        <time pubdate class=published-date>{{ page.date | date:"%Y-%m-%d" }}</time>
+                        in
+                        {% for category in page.categories %}
+                        <a href="/{{ category }}.html"> {{ category }}</a>
+                        {% endfor %}
+                    </header>
+                    <section class=content>
+                    {{ content }}
                     </section>
-                    {% include footer.html %}
-                </div>
-            </div>
+                    <section>
+                        {% include disqus.html %}
+                    </section>
+                </article>
+            </section>
+            {% include footer.html %}
         </div>
     </body>
 </html>
