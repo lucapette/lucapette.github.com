@@ -1,6 +1,7 @@
 ---
 title: About me
 layout: default
+keywords: lucapette, about me
 ---
 I'm 28 years old and I live and work in Naples, Italy. I'm a really curious person. I have a nice "404":/404.html page.
 
