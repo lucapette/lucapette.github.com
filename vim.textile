@@ -1,6 +1,6 @@
 ---
 title: Vim
-description: posts about vim
+description: '"Vim":http://www.vim.org/ is my editor of choice. I use it very intensely and I like to share my experiences with it.'
 keywords: lucapette, vim
 layout: category
 ---
