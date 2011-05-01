@@ -52,6 +52,7 @@ h2, h3 {
 nav {
     border-bottom: 1px dotted #B0C4DE;
 }
+
 #menu-wrap {
     overflow: hidden;
     position: relative;
@@ -121,4 +122,7 @@ ul#archive {
 }
 .highlight pre {
     margin: 0;
+}
+.share {
+    float: right;
 }

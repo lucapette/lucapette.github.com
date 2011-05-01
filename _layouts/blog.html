@@ -13,11 +13,15 @@
                 <article>
                     <header>
                         <h1>{{page.title}}</h1>
-                        <time pubdate class=published-date>{{ page.date | date:"%Y-%m-%d" }}</time>
-                        in
-                        {% for category in page.categories %}
-                        <a href="/{{ category }}.html"> {{ category }}</a>
-                        {% endfor %}
+                            <time pubdate class=published-date>{{ page.date | date:"%Y-%m-%d" }}</time>
+                            in
+                            {% for category in page.categories %}
+                            <a href="/{{ category }}.html"> {{ category }}</a>
+                            {% endfor %}
+                        <div class=share>
+                            <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="lucapette">Tweet</a>
+                            <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                        </div>
                     </header>
                     <section class=content>
                     {{ content }}
