@@ -15,7 +15,7 @@ The aim of "Metaprogramming Ruby":http://pragprog.com/titles/ppmetr/metaprogramm
 
 My considerations grouped by chapter:
 
-* _*Monday:  The Object Model*_
+(#chapters)* _*Monday:  The Object Model*_
 This book is not intended for beginners, at least not for absolute ones, but this chapter is so clear, simple and enjoyable to read that I would recommend reading it to everyone. It is a very readable introduction to how modules, classes and objects are meant to be in Ruby. Furthermore, this chapter contains the best definition of the _private_ Ruby keyword I have ever read.
 * _*Tuesday: Methods*_
 The chapter covers some of the most fascinating aspects of metaprogramming. It starts with a nice example of how some simple Ruby features can be used to refactor a class in a very elegant way. The main topics of the chapter are _Dynamic Methods_ and _method_missing()_. Both topics are very well-covered. At the end of the chapter the author warns you about some problems you might face while using the techniques mentioned above. He uses nice examples to explain these issues.

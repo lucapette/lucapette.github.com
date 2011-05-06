@@ -15,7 +15,7 @@ Ruby Best Practices is well-organized and it covers many interesting aspects of 
 
 My consideration grouped by chapter:
 
-* _*Driving Code Through Test*_
+(#chapters)* _*Driving Code Through Test*_
 The first chapter is one of my favourites. Unfortunately, I work in a country where there is no culture about tests. I really liked the examples presented, this chapter helped me to understand better how to write fine tests.   
 * _*Designing Beautiful APIs*_
 The concepts behind the topics covered in this chapter deserve more than a chapter. This aspect of programming can be very important especially while using Ruby, when you are new to it you often feel you are using it without understanding its true beauty. You write Ruby code but you don't speak Ruby yet. Then, you need something that puts you on the right path to speak this wonderful language. This chapter can help you to enter the path because it is full of great advice about how APIs can be written. The examples about _parameters_ is the most interesting part of the chapter.

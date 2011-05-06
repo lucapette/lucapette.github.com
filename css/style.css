@@ -126,3 +126,6 @@ ul#archive {
 .share {
     float: right;
 }
+#chapters li em strong{
+    color: #CCAD85;
+}
