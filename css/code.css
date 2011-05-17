@@ -61,3 +61,10 @@
 .highlight .vg { color: #003333 }
 .highlight .vi { color: #003333 }
 .highlight .il { color: #FF6600 }
+
+.terminal { font-family: monospace; color: #eeeeee; background-color: #000000; height: 300px; overflow: auto;}
+.normal { color: #eeeeee; background-color: #000000; }
+.type { color: #aaaa77; }
+.special { color: #33aa00; }
+.identifier { color: #ffcc00; }
+.string { color: #66ff00; 
