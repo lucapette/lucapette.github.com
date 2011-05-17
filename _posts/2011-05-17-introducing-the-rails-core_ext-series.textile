@@ -1,0 +1,159 @@
+---
+title: Introducing the Rails core_ext series
+description: introducing the rails core_ext series, the index article of the series
+keywords: lucapette, core_ext, activesupport 
+category: rails
+layout: blog
+---
+I think code reading matters. And I'm not the "only":http://www.joelonsoftware.com/articles/fog0000000053.html "one":http://c2.com/cgi/wiki?ReadGreatPrograms "who":http://theadmin.org/articles/2010/05/23/code-reading-new-ideas-and-new-solutions/ "thinks":http://www.skorks.com/2010/05/why-i-love-reading-other-peoples-code-and-you-should-too/ "so":http://blogs.msdn.com/b/ericlippert/archive/2004/06/14/reading-code-is-hard.aspx. Recently, I've been thinking about giving myself a goal regarding code reading. And I was thinking to set this goal to something related to Rails because I really want to dig into Rails code. So, while reading the appendixes of the rails three way, I realized that the Rails extensions to Ruby core are cool and, above all, there are many things I didn't know. So wrapping up these thoughts I've set the following goal: I'll try to cover all the Rails core_ext with some posts. I'll try to understand how to use the stuff and how it actually works. I hope that writing some posts will help me to complete this goal and to do it quickly. Furthermore, this series could be useful mainly for the beginners that want to dig into Rails. Code reading matters, you know.
+
+Ruby is a such a powerful language that allows the programmer to add/modify the behaviour of any class, even the classes that comes with the language itself. Many of us know that this is a very cool feature if you use in a proper way. And this is the main reason that convinced Rails core_ext. Rails is a large, wide-used and well-written Ruby project. Its source code is absolutely worth reading.
+
+Rails source is organized in sub-project and the project that contains the core extensions is activesupport. In the subdirectory lib/active_support/core_ext you'll find the following directories (I know... it's a quite long list):
+
+p(terminal). <span class="special">|</span><span class="type">~</span><span class="identifier">array</span><span class="identifier">/</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">access.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">conversions.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">extract_options.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">grouping.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">random_access.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">uniq_by.rb</span>
+<span class="special">|</span> <span class="special">`</span><span class="type">-</span><span class="normal">wrap.rb</span>
+<span class="special">|</span><span class="type">~</span><span class="identifier">big_decimal</span><span class="identifier">/</span>
+<span class="special">|</span> <span class="special">`</span><span class="type">-</span><span class="normal">conversions.rb</span>
+<span class="special">|</span><span class="type">~</span><span class="identifier">class</span><span class="identifier">/</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">attribute.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">attribute_accessors.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">delegating_attributes.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">inheritable_attributes.rb</span>
+<span class="special">|</span> <span class="special">`</span><span class="type">-</span><span class="normal">subclasses.rb</span>
+<span class="special">|</span><span class="type">~</span><span class="identifier">date</span><span class="identifier">/</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">acts_like.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">calculations.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">conversions.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">freeze.rb</span>
+<span class="special">|</span> <span class="special">`</span><span class="type">-</span><span class="normal">zones.rb</span>
+<span class="special">|</span><span class="type">~</span><span class="identifier">date_time</span><span class="identifier">/</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">acts_like.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">calculations.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">conversions.rb</span>
+<span class="special">|</span> <span class="special">`</span><span class="type">-</span><span class="normal">zones.rb</span>
+<span class="special">|</span><span class="type">~</span><span class="identifier">file</span><span class="identifier">/</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">atomic.rb</span>
+<span class="special">|</span> <span class="special">`</span><span class="type">-</span><span class="normal">path.rb</span>
+<span class="special">|</span><span class="type">~</span><span class="identifier">float</span><span class="identifier">/</span>
+<span class="special">|</span> <span class="special">`</span><span class="type">-</span><span class="normal">rounding.rb</span>
+<span class="special">|</span><span class="type">~</span><span class="identifier">hash</span><span class="identifier">/</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">conversions.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">deep_dup.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">deep_merge.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">diff.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">except.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">indifferent_access.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">keys.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">reverse_merge.rb</span>
+<span class="special">|</span> <span class="special">`</span><span class="type">-</span><span class="normal">slice.rb</span>
+<span class="special">|</span><span class="type">~</span><span class="identifier">integer</span><span class="identifier">/</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">inflections.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">multiple.rb</span>
+<span class="special">|</span> <span class="special">`</span><span class="type">-</span><span class="normal">time.rb</span>
+<span class="special">|</span><span class="type">~</span><span class="identifier">kernel</span><span class="identifier">/</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">agnostics.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">debugger.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">reporting.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">requires.rb</span>
+<span class="special">|</span> <span class="special">`</span><span class="type">-</span><span class="normal">singleton_class.rb</span>
+<span class="special">|</span><span class="type">~</span><span class="identifier">module</span><span class="identifier">/</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">aliasing.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">anonymous.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">attr_accessor_with_default.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">attr_internal.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">attribute_accessors.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">delegation.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">deprecation.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">introspection.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">method_names.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">reachable.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">remove_method.rb</span>
+<span class="special">|</span> <span class="special">`</span><span class="type">-</span><span class="normal">synchronization.rb</span>
+<span class="special">|</span><span class="type">~</span><span class="identifier">numeric</span><span class="identifier">/</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">bytes.rb</span>
+<span class="special">|</span> <span class="special">`</span><span class="type">-</span><span class="normal">time.rb</span>
+<span class="special">|</span><span class="type">~</span><span class="identifier">object</span><span class="identifier">/</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">acts_like.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">blank.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">conversions.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">duplicable.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">inclusion.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">instance_variables.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">to_json.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">to_param.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">to_query.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">try.rb</span>
+<span class="special">|</span> <span class="special">`</span><span class="type">-</span><span class="normal">with_options.rb</span>
+<span class="special">|</span><span class="type">~</span><span class="identifier">process</span><span class="identifier">/</span>
+<span class="special">|</span> <span class="special">`</span><span class="type">-</span><span class="normal">daemon.rb</span>
+<span class="special">|</span><span class="type">~</span><span class="identifier">range</span><span class="identifier">/</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">blockless_step.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">conversions.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">cover.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">include_range.rb</span>
+<span class="special">|</span> <span class="special">`</span><span class="type">-</span><span class="normal">overlaps.rb</span>
+<span class="special">|</span><span class="type">~</span><span class="identifier">string</span><span class="identifier">/</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">access.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">behavior.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">conversions.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">encoding.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">exclude.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">filters.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">inflections.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">inquiry.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">interpolation.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">multibyte.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">output_safety.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">starts_ends_with.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">strip.rb</span>
+<span class="special">|</span> <span class="special">`</span><span class="type">-</span><span class="normal">xchar.rb</span>
+<span class="special">|</span><span class="type">~</span><span class="identifier">time</span><span class="identifier">/</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">acts_like.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">calculations.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">conversions.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">marshal.rb</span>
+<span class="special">|</span> <span class="special">|</span><span class="type">-</span><span class="normal">publicize_conversion_methods.rb</span>
+<span class="special">|</span> <span class="special">`</span><span class="type">-</span><span class="normal">zones.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">array.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">benchmark.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">big_decimal.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">class.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">enumerable.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">exception.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">file.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">float.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">hash.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">integer.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">kernel.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">load_error.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">logger.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">module.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">name_error.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">numeric.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">object.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">proc.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">process.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">range.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">regexp.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">rexml.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">string.rb</span>
+<span class="special">|</span><span class="type">-</span><span class="normal">uri.rb</span>
+
+In order to maintain some sanity is a good idea to organize code putting all the stuff related to a _topic_ in a directory and putting a bunch of require statements in a ruby file with the same name of the _topic_ directory. So, for example, if you want to take a look at all the code written by the awesome Rails guys related to the Hash class you're likely to find the hash.rb. It contains a bunch of require statements. In this way you could get an idea of the stuff related to hash at a glance.
+
+For a couple of days, I've been thinking how to organize the single posts of this series. I like to extract some patterns for a series because if I have a pattern to follow I could stay focused of the topic and write better. I have already done it with my "reviews":/books.html and I am satisfied. You have to consider that organizing stuff in English for a non-native speaker isn't a simple task, at least for me. By the way, I will use the following pattern:
+
+* Show the code
+* Describe its intents
+* Describe how it works
+* Search for use in rails code
+* Try some example in irb
+
+I wrote the pattern down in the introduction post because I'd like to get some suggestion about it, I'm quite excited about this series. Furthermore, This post will be the table of content of the series.
