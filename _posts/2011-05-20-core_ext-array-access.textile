@@ -44,7 +44,7 @@ This extension is very simple. It works in a very simple way. Here there is an e
 003 > Array.toy.from(5)
  => [6, 7, 8, 9, 10] 
 004 > Array.toy.from(11)
- => nil 
+ => []
 {% endhighlight %}
 
 Keeping to read the source, you run into the specular of from, that is _*to*_:
