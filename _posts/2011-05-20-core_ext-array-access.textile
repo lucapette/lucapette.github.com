@@ -34,7 +34,7 @@ def from(position)
 end
 {% endhighlight %}
 
-This extension is very simple. It works in a very simple way. The || assignment operator is widely used. It allows the get default values in a very concise way. Here there is an example of how to use the method:
+This extension is very simple. It works in a very simple way. Here there is an example of how to use the method:
 
 {% highlight 'ruby' %}
 001 > Array.toy
