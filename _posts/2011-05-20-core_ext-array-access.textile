@@ -27,10 +27,10 @@ Let’s go with access.rb then. The first method we meet is _*from*_:
 #
 #   %w( a b c d ).from(0)  # => %w( a b c d )
 #   %w( a b c d ).from(2)  # => %w( c d )
-#   %w( a b c d ).from(10) # => %w()
+#   %w( a b c d ).from(10) # => nil
 #   %w().from(0)           # => %w()
 def from(position)
-  self[position, length] || []
+  self[position..-1]
 end
 {% endhighlight %}
 
