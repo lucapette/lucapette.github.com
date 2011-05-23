@@ -9,7 +9,7 @@
         <div id=container>
             {%  assign blog="current" %}
             {% include navigation.html %}
-            <section id=main>
+            <div id=main>
                 <article>
                     <header>
                         <h1>{{page.title}}</h1>
@@ -23,14 +23,14 @@
                             <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
                         </div>
                     </header>
-                    <section class=content>
+                    <div class=content>
                     {{ content }}
-                    </section>
-                    <section>
+                    </div>
+                    <div>
                         {% include disqus.html %}
-                    </section>
+                    </div>
                 </article>
-            </section>
+            </div>
             {% include footer.html %}
         </div>
     </body>
