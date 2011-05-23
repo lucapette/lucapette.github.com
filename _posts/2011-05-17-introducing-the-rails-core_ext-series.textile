@@ -157,3 +157,5 @@ For a couple of days, I've been thinking how to organize the single posts of thi
 * Try some example in irb
 
 I wrote the pattern down in the introduction post because I'd like to get some suggestion about it, I'm quite excited about this series. Furthermore, This post will be the table of content of the series.
+
+* "Array: access":/rails/core_ext-array-access/

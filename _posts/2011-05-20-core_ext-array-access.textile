@@ -1,0 +1,120 @@
+---
+title: 'Rails core_ext: Array - access'
+description: 'Rails core_ext: array - access'
+keywords: lucapette, core_ext, activesupport, array, access
+category: rails
+layout: blog
+---
+
+So, after the "introduction":http://lucapette.com/rails/introducing-the-rails-core_ext-series/ to the series, let's start with the Array extensions. The array.rb, located in rails/activesupport/lib/active_support/core_ext/, contains the following lines (consider that I have reordered the require statements):
+
+{% highlight 'ruby' %}
+require 'active_support/core_ext/array/access'
+require 'active_support/core_ext/array/conversions'
+require 'active_support/core_ext/array/extract_options'
+require 'active_support/core_ext/array/grouping'
+require 'active_support/core_ext/array/random_access'
+require 'active_support/core_ext/array/uniq_by'
+require 'active_support/core_ext/array/wrap'
+{% endhighlight %}
+
+Before I start with the access.rb file I want to underline once again the "organization" pattern of the core_ext. You have a stuff.rb in the core_ext directory, it contains a bunch of require statements of files located in a sub-directory called with the same stuff name. Each file contains one or more extensions for that core stuff class. It's not a strict rule but you should follow it. It’s a neat way of putting things together.
+
+Let’s go with access.rb then. The first method we meet is _*from*_:
+
+{% highlight 'ruby' %}
+# Returns the tail of the array from +position+.
+#
+#   %w( a b c d ).from(0)  # => %w( a b c d )
+#   %w( a b c d ).from(2)  # => %w( c d )
+#   %w( a b c d ).from(10) # => %w()
+#   %w().from(0)           # => %w()
+def from(position)
+  self[position, length] || []
+end
+{% endhighlight %}
+
+This extension is very simple. It works in a very simple way. Here there is an example of how to use the method:
+
+{% highlight 'ruby' %}
+001 > Array.toy
+ => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+002 > Array.toy.from(1)
+ => [2, 3, 4, 5, 6, 7, 8, 9, 10] 
+003 > Array.toy.from(5)
+ => [6, 7, 8, 9, 10] 
+004 > Array.toy.from(11)
+ => []
+{% endhighlight %}
+
+Keeping to read the source, you run into the specular of from, that is _*to*_:
+
+{% highlight 'ruby' %}
+# Returns the beginning of the array up to +position+.
+#
+#   %w( a b c d ).to(0)  # => %w( a )
+#   %w( a b c d ).to(2)  # => %w( a b c )
+#   %w( a b c d ).to(10) # => %w( a b c d )
+#   %w().to(0)           # => %w()
+def to(position)
+  self[0..position]
+end
+{% endhighlight %}
+
+Some examples:
+
+{% highlight 'ruby' %}
+001 > Array.toy
+ => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+002 > Array.toy.to(3)
+ => [1, 2, 3, 4] 
+003 > Array.toy.to(7)
+ => [1, 2, 3, 4, 5, 6, 7, 8] 
+004 > Array.toy.to(10)
+ => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+005 > Array.toy.to(42)
+ => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+006 > Array.toy.to(-4)
+ => [1, 2, 3, 4, 5, 6, 7] 
+007 > Array.toy.to(-8)
+ => [1, 2, 3] 
+{% endhighlight %}
+
+There is no much to say about this method. These two additions to the Array class are both extremely simple to read. A nice thing about these two addition is that I wasn't able to find any references in the source of Rails. I've tried something like:
+
+{% highlight 'sh' %}
+ack "\.to\(" --no-group --ignore-dir=test
+{% endhighlight %}
+
+But both this search and the one about the from method returned the rows in the access.rb we are talking about. Maybe this way of searching for references is not perfect but, as always, I am very open about suggestions.
+
+The access.rb contains other methods. I haven't covered them so far because there are not exactly suitable for code reading. But... actually they are very fun to read:
+
+{% highlight 'ruby' %}
+# Equal to self[1].
+def second
+  self[1]
+end
+
+# Equal to self[2].
+def third
+  self[2]
+end
+
+# Equal to self[3].
+def fourth
+  self[3]
+end
+
+# Equal to self[4].
+def fifth
+  self[4]
+end
+
+# Equal to self[41]. Also known as accessing "the reddit".
+def forty_two
+  self[41]
+end
+{% endhighlight %}
+
+They are nice in my opinion and I guess they are there for some sort of historical reasons. In particular, you should pay attention to the forty_two method. My hint is: if you use vim try :help 42. It could help in a certain way:)
