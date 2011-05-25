@@ -44,17 +44,17 @@ and you want to get
 
 Well, you can do it in a huge number of ways. A good way, without counting macros, is (consider the cursor on the first line):
 
-* *^df=3ea!<esc>* go to start of line ^ delete until an =, go to end of the third word and insert a !.
+* *^df=3ea!&lt;esc&gt;* go to start of line ^ delete until an =, go to end of the third word and insert a !.
 * j
-* *^df=3ea!<esc>*
+* *^df=3ea!&lt;esc&gt;*
 * j
-* *^df=3ea!<esc>*
+* *^df=3ea!&lt;esc&gt;*
 
 It is quite efficient and, as you have already noticed, there is a pattern repeated three times, each per line. Obviously, this is a perfect situation for macro and you can reach this:
 
 * *qq*
 _start recording_
-* *^df=3ea!<esc>j*
+* *^df=3ea!&lt;esc&gt;j*
 _record the command_
 * *q* stop recording
 * j 
@@ -85,7 +85,7 @@ but, because of recursion, I could have deleted things I didn't mean to. I used 
 
 h2. Ack.vim
 
-"Ack":http://betterthangrep.com is grep for programmers. I won't stop repeating it. If you don't use it you should stop reading this post and go to install it. Well, Ack.vim is a very well-done interface plugin for ack, it gives you some commands to work with and it opens a quickfix window when you perform a search. Furthermore, I strongly suggest you map *:cn* and *:cp* in normal mode, I have mapped them to <c-n> and <c-p> respectively. 
+"Ack":http://betterthangrep.com is grep for programmers. I won't stop repeating it. If you don't use it you should stop reading this post and go to install it. Well, Ack.vim is a very well-done interface plugin for ack, it gives you some commands to work with and it opens a quickfix window when you perform a search. Furthermore, I strongly suggest you map *:cn* and *:cp* in normal mode, I have mapped them to &lt;c-n&gt; and &lt;c-p&gt; respectively. 
 Personally, I use ack a lot. It's a perfect tool, while you dig into source code written by others. Another perfect use for ack is code maintenance.
 
 h2. Recursive macros and Ack.vim together
@@ -98,7 +98,7 @@ By the way, in that situation I choose to solve the problem in the following way
 _Ack.vim searches, by default, in the current directory_
 * *:Ack has_role \\?*
 _I searched for has_role? references with ack.vim. (codepath.vim)_
-* *qqqeas<esc>:cn@qq*
+* *qqqeas&lt;esc&gt;:cn@qq*
 
 I recorded a recursive macro that adds an s to the end of the current word, searches for the next reference through ack and reapplies the macro. The end of recursion in this case is the end of references, if you type :cn when there isn't a next occurrence in the quickfix window then the macro will stop.
 
