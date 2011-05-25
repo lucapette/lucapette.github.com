@@ -70,7 +70,7 @@ OK, if you like Vim you'll like that. But we can do it better because Vim is so 
 _clear the q register_
 * *qq*
 _start recording_
-* *^df=3ea!j@q*
+* *^df=3ea&lt;esc&gt;!j@q*
 _record the recursive macro, note the @q_
 * *q*
 _stop recording_
