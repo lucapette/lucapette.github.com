@@ -1,7 +1,7 @@
 ---
 title: Improving IRB history 
 description: Improving IRB history
-keywords: lucapette, ruby, irb, console
+keywords: ruby, irb, console
 category: irb
 layout: blog
 ---

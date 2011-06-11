@@ -1,7 +1,7 @@
 ---
 title: Getting nice bash aliases with Ruby
-description: getting some bash cd aliases with Ruby
-keywords: lucapette, ruby, bash, alias, aliases
+description: Getting some bash cd aliases with Ruby
+keywords: ruby, bash, alias, aliases
 category: ruby
 layout: blog
 ---

@@ -1,7 +1,7 @@
 ---
 title: Why you should spend some time configuring irb
 description:  Why you should spend some time configuring irb
-keywords: lucapette, ruby, irb, console
+keywords: ruby, irb, console
 category: irb
 layout: blog
 ---

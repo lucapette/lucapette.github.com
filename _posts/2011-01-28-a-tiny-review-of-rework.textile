@@ -1,7 +1,7 @@
 ---
 title: A tiny review of rework
-description: a review of rework
-keywords: lucapette, rework, books, jason fried, david hansson
+description: a tiny review of rework
+keywords: rework, books, jason fried, david hansson
 category: books
 layout: blog
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'Rails core_ext: Array - access'
 description: 'Rails core_ext: array - access'
-keywords: lucapette, core_ext, activesupport, array, access
+keywords: core_ext, activesupport, array, access
 category: rails
 layout: blog
 ---

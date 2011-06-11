@@ -1,7 +1,7 @@
 ---
 title: "rvmprompt.vim"
-description: a tiny plugin fom rvm prompt command
-keywords: lucapette, vim, rvm, plugin rvmprompt.vim
+description: a vim status-line plugin based on rvm prompt command
+keywords: vim, rvm, plugin, rvmprompt.vim
 category: vim
 layout: blog
 ---

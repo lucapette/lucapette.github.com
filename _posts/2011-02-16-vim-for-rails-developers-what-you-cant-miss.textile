@@ -1,7 +1,7 @@
 ---
 title: "Vim for rails developers: what you can't miss"
-description: my first article of the series "vim for rails"
-keywords: lucapette, vim, rails,rails.vim, NERDTree, FuzzyFinderTextMate, codepath
+description: my first article of the series "vim for rails developer"
+keywords: vim, rails,rails.vim, NERDTree, FuzzyFinderTextMate, codepath
 categories:
 - vim
 - rails

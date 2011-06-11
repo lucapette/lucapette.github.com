@@ -1,7 +1,7 @@
 ---
 title: A review of Ruby Best Practices
 description:  A review of Ruby Best Practices
-keywords: lucapette, ruby best practices, book, review, Gregory Brown
+keywords: ruby best practices, book, review, Gregory Brown
 category: books
 layout: blog
 ---
