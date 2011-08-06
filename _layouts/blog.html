@@ -19,23 +19,13 @@
                             {% for category in page.categories %}
                             <a href="/{{ category }}.html"> {{ category }}</a>
                             {% endfor %}
-                        <div class=share>
-                          <a class="FlattrButton" style="display:none;"
-                            title="{{ page.title }}"
-                            data-flattr-uid="lucapette"
-                            data-flattr-tags="{{ page.keywords }}"
-                            data-flattr-button="compact"
-                            data-flattr-category="software"
-                            href="http://lucapette.com/{{ page.url }}">Flattr this</a>
-
-                            <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="lucapette">Tweet</a>
-                            <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-                        </div>
+                            {% include share.html %}
                     </header>
                     <div class=content>
                     {{ content }}
                     </div>
-                    <div>
+                    {% include share.html %}
+                    <div class=comment-section>
                         {% include disqus.html %}
                     </div>
                 </article>
