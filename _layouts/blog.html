@@ -19,7 +19,7 @@
                             {% for category in page.categories %}
                             <a href="/{{ category }}.html"> {{ category }}</a>
                             {% endfor %}
-                            {% include share.html %}
+                            <div class="share">{% include share.html %}</div>
                     </header>
                     <div class=content>
                     {{ content }}
