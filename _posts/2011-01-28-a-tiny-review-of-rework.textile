@@ -5,8 +5,12 @@ keywords: rework, books, jason fried, david hansson
 category: books
 layout: blog
 ---
-I read "Rework":http://37signals.com/rework/ not a long time ago. 
 
-It’s a great book. If I had to advise this book to someone I’d say _“Go to a bookstore now. Buy it. Read it. Read it again. Then think about it and use its advice every day.”_. It’s a simple book to read. Tiny chunks of words can give you the right enthusiasm to go on and you will definitely want to read it again.
+<a href="http://www.amazon.com/gp/product/0307463745/ref=as_li_tf_il?ie=UTF8&tag=lucapette-20&linkCode=as2&camp=217145&creative=399377&creativeASIN=0307463745"><img border="0" src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=0307463745&MarketPlace=US&ID=AsinImage&WS=1&tag=lucapette-20&ServiceVersion=20070822"
+style="display:inline; float: left; margin: 4px 8px 0 0"></a> I read "Rework":http://37signals.com/rework/ not a long time ago. It's a great book. If I had to advise this book to someone I'd say _"Go to a bookstore now. Buy it. Read it. Read it again. Then think about it and use its advice every day."_. It's a simple book to read. Tiny chunks of words can give you the right enthusiasm to go on and you will definitely want to read it again.
 
-So my final review is: *“You have to read it. Full stop.”*
+<div class="clearfix"></div>
+
+So my final review is: *"You have to read it. Full stop."*
+
+{% include amazon.html %}
