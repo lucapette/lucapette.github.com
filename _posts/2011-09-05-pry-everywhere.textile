@@ -99,4 +99,4 @@ end
 Hirb.enable
 {% endhighlight %}
 
-In this way, "Hirb":https://github.com/cldwalker/hirb is working flawlessly. And the combination of Rails and Pry is just fantastic. Give it a try. I have been able to migrate to Pry with a fair effort, hoping this king of configuration can help you too!
+In this way, "Hirb":https://github.com/cldwalker/hirb is working flawlessly. And the combination of Rails and Pry is just fantastic. Give it a try. I have been able to migrate to Pry with a fair effort, hoping this kind of configuration can help you too!
