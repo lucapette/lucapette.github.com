@@ -5,7 +5,7 @@ keywords: pry, rails, irb, ruby
 category: pry
 layout: blog
 ---
-I have to confess that I'm generally skeptical about alternatives for tools that work so fine like IRB. An I really like IRB. So why Pry? And why everywhere? Because *Pry features blew my mind*.
+I have to confess that I'm generally skeptical about alternatives for tools that work so fine like IRB. And I really like IRB. So why Pry? And why everywhere? Because *Pry features blew my mind*.
 When I wrote "about IRB customization":/irb/why-you-should-spend-some-time-configuring-irb, I was doing what I always do when I like a tool: customize it in order to feel the tools more familiar with my way of thinking. So, when I run into "Pry":http://pry.github.com/, some of its features blew my mind because they were exactly what I really would like to have in IRB.
 For example, sometimes you would like to explore a class or an object quickly. The way you can do it with Pry feels just natural. It just seems the right way too do it:
 
