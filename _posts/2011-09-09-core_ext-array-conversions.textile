@@ -1,0 +1,206 @@
+---
+title: 'Rails core_ext: Array - conversions'
+description: 'Rails core_ext: array - conversions'
+keywords: core_ext, activesupport, array, conversions
+category: rails
+layout: blog
+---
+{% include core_ext.html %}
+
+The file conversions.rb contains three interesting extensions to the Array class. Furthermore, it requires other core_ext extensions. I will mention what these methods do.
+
+The first method you meet when you read this file is the following:
+
+{% highlight 'ruby' %}
+ def to_sentence(options = {})
+    if defined?(I18n)
+      default_words_connector     = I18n.translate(:'support.array.words_connector',     :locale => options[:locale])
+      default_two_words_connector = I18n.translate(:'support.array.two_words_connector', :locale => options[:locale])
+      default_last_word_connector = I18n.translate(:'support.array.last_word_connector', :locale => options[:locale])
+    else
+      default_words_connector     = ", "
+      default_two_words_connector = " and "
+      default_last_word_connector = ", and "
+    end
+
+    options.assert_valid_keys(:words_connector, :two_words_connector, :last_word_connector, :locale)
+    options.reverse_merge! :words_connector => default_words_connector, :two_words_connector => default_two_words_connector, :last_word_connector => default_last_word_connector
+
+    case length
+      when 0
+        ""
+      when 1
+        self[0].to_s.dup
+      when 2
+        "#{self[0]}#{options[:two_words_connector]}#{self[1]}"
+      else
+        "#{self[0...-1].join(options[:words_connector])}#{options[:last_word_connector]}#{self[-1]}"
+    end
+  end
+{% endhighlight %}
+
+This is a very nice method to get the collection printed in a _human_ way. The best way to understand what it can do for you is trying it in the console:
+
+{% highlight 'ruby' %}
+ruby-1.9.2-p180 :022 > a=Array.toy 5
+ => [1, 2, 3, 4, 5]
+ruby-1.9.2-p180 :023 > a.to_sentence
+ => "1, 2, 3, 4, and 5"
+ruby-1.9.2-p180 :024 > I18n.locale= :it
+ => :it
+ruby-1.9.2-p180 :025 > a.to_sentence
+ => "1, 2, 3, 4 e 5"
+ruby-1.9.2-p180 :028 > a.to_sentence(:last_word_connector=>" AnD ")
+ => "1, 2, 3, 4 AnD 5"
+{% endhighlight %}
+
+So, it's a very nice way to get arrays printed as sentences but be aware that to_sentence uses to_s on the objects in the array:
+
+{% highlight 'ruby' %}
+ruby-1.9.2-p180 :012 > User.all.to_sentence
+  User Load (0.1ms)  SELECT `users`.* FROM `users`
+ => "#<User:0x0000000483dea8> and #<User:0x0000000483dd68>"
+ruby-1.9.2-p180 :013 > class User
+ruby-1.9.2-p180 :014?>   def to_s
+ruby-1.9.2-p180 :015?>     login
+ruby-1.9.2-p180 :016?>     end
+ruby-1.9.2-p180 :017?>   end
+ => nil
+ruby-1.9.2-p180 :018 > User.all.to_sentence
+  User Load (0.1ms)  SELECT `users`.* FROM `users`
+ => "admin and foo"
+{% endhighlight %}
+
+By the way, I think that redefining to_s is a good practice, especially when dealing with models.
+Reading the code we run into several nice things. First of all, we meet defined? operator, I think it's a quite understandable operator but please remember that it's an "operator":http://kconrails.com/2010/12/20/rubys-defined-operator/ and not a kernel or whatever method. By the way, in this case defined? is used to check if I18n is loaded in the current application. Then we run into two nice extension to Hash:
+
+* assert_valid_keys
+It raises an error if self (the receiver hash) contains keys not passed in as parameters
+* reverse_merge!
+It simply is the exact opposite of merge!
+
+And finally we run into the case that does of the dirty work to format the array as a nice sentence.
+
+The second method we find in conversions.rb is:
+
+{% highlight 'ruby' %}
+def to_formatted_s(format = :default)
+  case format
+    when :db
+      if respond_to?(:empty?) && self.empty?
+        "null"
+      else
+        collect { |element| element.id }.join(",")
+      end
+    else
+      to_default_s
+  end
+end
+
+alias_method :to_default_s, :to_s
+alias_method :to_s, :to_formatted_s
+{% endhighlight %}
+
+This method is even simple than the first one we met:
+
+{% highlight 'ruby' %}
+ruby-1.9.2-p180 :009 > Array.toy
+ => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+ruby-1.9.2-p180 :010 > Array.toy.to_formatted_s
+ => "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+ruby-1.9.2-p180 :011 > User.all.to_formatted_s
+ => "[#<User id: 19, email: "admin@example.com", encrypted_password: "$2a$10$9NVwhyh2tZa3QhalfWkrFu.XBV4YyC3kXRylQSvr8iAD...", reset_password_token: nil, remember_created_at: nil, sign_in_count: 11, current_sign_in_at: "2011-05-20 13:47:25", last_sign_in_at: "2011-05-20 13:44:27", current_sign_in_ip: "127.0.0.1", last_sign_in_ip: "127.0.0.1", confirmation_token: nil, confirmed_at: "2011-05-19 13:07:50", confirmation_sent_at: "2011-05-19 13:07:50", failed_attempts: 0, unlock_token: nil, locked_at: nil, login: "admin", created_at: "2011-05-19 13:07:50", updated_at: "2011-05-20 13:47:25", name: "admin", surname: nil, institution: "admin", reason: nil, roles_mask: 1, office: nil, phone_number: nil>, #<User id: 24, email: "luca@lala.it", encrypted_password: "", reset_password_token: nil, remember_created_at: nil, sign_in_count: 0, current_sign_in_at: nil, last_sign_in_at: nil, current_sign_in_ip: nil, last_sign_in_ip: nil, confirmation_token: "5YAYubaUQfzy1gWGxu4u", confirmed_at: nil, confirmation_sent_at: "2011-05-20 09:31:42", failed_attempts: 0, unlock_token: nil, locked_at: nil, login: "dario", created_at: "2011-05-20 09:27:04", updated_at: "2011-05-20 09:31:42", name: "dario", surname: "luca", institution: "luca", reason: "luca", roles_mask: nil, office: "luca", phone_number: "luca">]"
+ruby-1.9.2-p180 :012 > User.all.to_formatted_s :db
+ => "19,24"
+{% endhighlight %}
+
+I think the code is too much simple to describe how it works. The only notable thing is the two alias_method call just below the method definition. To be honest, I don't know the very reason why these methods got aliased but I guess they want to be sure that when you try to get a string from an array of stuff you would use this method by default.
+
+The last one you find in the conversions.rb is to_xml. It's a very powerful and elegant piece of code. It exposes the terrific API of "Builder":http://builder.rubyforge.org/ and you can do many nice things with it. So, first of all, the code:
+
+{% highlight ruby linenos %}
+def to_xml(options = {})
+  require 'active_support/builder' unless defined?(Builder)
+
+  options = options.dup
+  options[:indent]  ||= 2
+  options[:builder] ||= Builder::XmlMarkup.new(:indent => options[:indent])
+  options[:root]    ||= if first.class.to_s != "Hash" && all? { |e| e.is_a?(first.class) }
+                          underscored = ActiveSupport::Inflector.underscore(first.class.name)
+                          ActiveSupport::Inflector.pluralize(underscored).tr('/', '_')
+                        else
+                          "objects"
+                        end
+
+  builder = options[:builder]
+  builder.instruct! unless options.delete(:skip_instruct)
+
+  root = ActiveSupport::XmlMini.rename_key(options[:root].to_s, options)
+  children = options.delete(:children) || root.singularize
+
+  attributes = options[:skip_types] ? {} : {:type => "array"}
+  return builder.tag!(root, attributes) if empty?
+
+  builder.__send__(:method_missing, root, attributes) do
+    each { |value| ActiveSupport::XmlMini.to_tag(children, value, options) }
+    yield builder if block_given?
+  end
+end
+{% endhighlight %}
+
+OK, this is the very first method in this series that is not extremely simple to read. The first line is a conditional require for Builder. If you aren't familiar with Builder I strongly recommend to play with it. Fox example, take a look to the following:
+
+{% highlight 'ruby' %}
+ruby-1.9.2-p180 :001 > require "builder"
+ => nil
+ruby-1.9.2-p180 :002 > x = Builder::XmlMarkup.new
+ => #<Builder::XmlMarkup:0x000000046dc460 @indent=0, @level=0, @target="">
+ruby-1.9.2-p180 :003 > x.example do
+ruby-1.9.2-p180 :004 >     x.foo do
+ruby-1.9.2-p180 :005 >       x.bar("baz")
+ruby-1.9.2-p180 :006?>     end
+ruby-1.9.2-p180 :007?>   end
+ => "<example><foo><bar>baz</bar></foo></example>"
+{% endhighlight %}
+
+It's a very powerful (and well-designed) API, isn't it?
+
+So, after the conditional require you can read how this method implements some options. The most notable thing in these first lines is how to_xml recognizes the types in the collection. Practically the lines 7-12 implement the following behaviour:
+
+{% highlight 'ruby' %}
+ruby-1.9.2-p180 :008 > [1,2,3].to_xml
+=> "<?xml version="1.0" encoding="UTF-8"?>\n  <fixnums type="array">\n  <fixnum type="integer">1</fixnum>\n  <fixnum type="integer">2</fixnum>\n  <fixnum type="integer">3</fixnum>\n </fixnums>\n"
+ruby-1.9.2-p180 :009 > [1,"2",3].to_xml
+=> "<?xml version="1.0" encoding="UTF-8"?>\n  <objects type="array">\n  <object type="integer">1</object>\n <object>2</object>\n  <object type="integer">3</object>\n</objects>\n"
+{% endhighlight %}
+
+The next lines just gives you the possibility to skip the XML declaration, then it gives you the root tag name following Rails conventions and finally it gives you the possibility to choose the type of the attributes. Finally the code handles two cases separately: if the array is empty, it simply returns a closed tags .If the array contains something than to_xml exposes (in a very concise and clever way) builder APIs to the user preserving the Rails conventions in terms of naming, without overlooking the iteration on the elements of the collection.
+
+The last three lines of code deserve some explanations. Think about the builder APIs, they are a perfect case for method_missing and, in fact, the inner implementation of builder is based on "method_missing":http://builder.rubyforge.org/classes/Builder/XmlBase.html#M000018. Literally speaking, the last three lines of code exposes the single elements of your array to builder APIs through method_missing. The method call to the to_tag method is used for formatting the single attributes, consider that the code tries to use to_xml on your objects and then call "tag!":http://builder.rubyforge.org/classes/Builder/XmlBase.html#M000017 on the builder instance. So these three wonderful lines gives you the possibility to do things like the following:
+
+{% highlight 'ruby' %}
+1.9.2 (main):0 > Post.all
++----+------------------------------------------+----------------------+-------+-------------------------+-------------------------+
+| id | title                                    | content              | views | created_at              | updated_at              |
++----+------------------------------------------+----------------------+-------+-------------------------+-------------------------+
+| 1  | Rails core_ext: arrays - conversions     | This post is awesome | 50    | 2011-09-07 21:39:44 UTC | 2011-09-07 21:39:44 UTC |
+| 2  | Rails core_ext: arrays - extract_options | coming soon          | 10    | 2011-09-07 21:43:15 UTC | 2011-09-07 21:43:15 UTC |
++----+------------------------------------------+----------------------+-------+-------------------------+-------------------------+
+2 rows in set
+1.9.2 (main):0 > Post.all.to_xml
+=> "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<posts type=\"array\">\n  <post>\n   <content>This post is awesome</content>\n    <created-at type=\"datetime\">2011-09-07T21:39:44Z</created-at>\n <id type=\"integer\">1</id>\n    <title>Rails core_ext: arrays - conversions</title>\n <updated-at type=\"datetime\">2011-09-07T21:39:44Z</updated-at>\n<views type=\"integer\">50</views>\n </post>\n  <post>\n    <content>coming soon</content>\n    <created-at type=\"datetime\">2011-09-07T21:43:15Z</created-at>\n <id type=\"integer\">2</id>\n    <title>Rails core_ext: arrays - extract_options</title>\n <updated-at type=\"datetime\">2011-09-07T21:43:15Z</updated-at>\n    <views type=\"integer\">10</views>\n  </post>\n </posts>\n"
+1.9.2 (main):0 > Post.all.to_xml do |xml|
+1.9.2 (main):0 * xml.extra_field("to_xml is awesome")
+1.9.2 (main):0 * end
+  Post Load (0.4ms)  SELECT "posts".* FROM "posts"
+=> "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<posts type=\"array\">\n  <post>\n    <content>This post is awesome</content>\n    <created-at type=\"datetime\">2011-09-07T21:39:44Z</created-at>\n    <id type=\"integer\">1</id>\n    <title>Rails core_ext: arrays - conversions</title>\n    <updated-at type=\"datetime\">2011-09-07T21:39:44Z</updated-at>\n    <views type=\"integer\">50</views>\n  </post>\n  <post>\n    <content>coming soon</content>\n    <created-at type=\"datetime\">2011-09-07T21:43:15Z</created-at>\n    <id type=\"integer\">2</id>\n    <title>Rails core_ext: arrays - extract_options</title>\n    <updated-at type=\"datetime\">2011-09-07T21:43:15Z</updated-at>\n    <views type=\"integer\">10</views>\n  </post>\n  <extra_field>to_xml is awesome</extra_field>\n</posts>\n"
+{% endhighlight %}
+
+The last thing I would like to say about this method is related to ActiveRecord. Actually, to_xml is very useful used in combination with "XMlSerializer":https://github.com/rails/rails/blob/master/activerecord/lib/active_record/serializers/xml_serializer.rb provided by the framework. If you re-read the method you'll notice that the hash options is passed in to the to_tag method. This is the reason why you can use XmlSerializer options in collections of ActiveRecord objects. Well, I'll show you an example just to give an idea of how much you can do with this method:
+
+{% highlight 'ruby' %}
+1.9.2 (main):0 > Post.all.to_xml(:include=>:comments, :only=>[:title, :content])
+=> "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<posts type=\"array\">\n  <post>\n    <title>Rails core_ext: arrays - conversions</title>\n    <content>This post is awesome</content>\n    <comments type=\"array\">\n      <comment>\n        <content>This post is not awesome but it's good</content>\n      </comment>\n      <comment>\n        <content>Good</content>\n      </comment>\n    </comments>\n  </post>\n  <post>\n    <title>Rails core_ext: arrays - extract_options</title>\n    <content>coming soon</content>\n    <comments type=\"array\"/>\n  </post>\n</posts>\n"
+{% endhighlight %}
+
+So, that's enough for now. Stay tuned!
