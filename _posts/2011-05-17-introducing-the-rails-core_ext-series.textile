@@ -160,3 +160,4 @@ I wrote the pattern down in the introduction post because I'd like to get some s
 
 * "Array: access":/rails/core_ext-array-access/
 * "Array: conversions":/rails/core_ext-array-conversions/
+* "Array: extract_options":/rails/core_ext-array-extract_options/
