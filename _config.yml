@@ -2,3 +2,4 @@ auto: true
 permalink: /:categories/:title 
 exclude:
 - README.textile
+- .rvmrc
