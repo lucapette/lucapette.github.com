@@ -55,14 +55,14 @@ and mount the uploader to the chosen field of the attachment model:
 {% highlight 'ruby' %}
 class Attachment < ActiveRecord::Base
    attr_accessible :description, :file
- 
+
    belongs_to :attachable, :polymorphic => true
 
    mount_uploader :file, FileUploader
 end
 {% endhighlight %}
 
-Pratically, a carrierwave uploader is a class that handles a certain type of uploading in your model. You just need to _mount_ the uploader of a string field of your model. This is a very good design decision because it gives you a lot of flexibility, for example, when you want to share the same uploading features between two models. 
+Pratically, a carrierwave uploader is a class that handles a certain type of uploading in your model. You just need to _mount_ the uploader of a string field of your model. This is a very good design decision because it gives you a lot of flexibility, for example, when you want to share the same uploading features between two models.
 
 Now, we are ready to add the nested feature to the article form. So let's proceed in the following order:
 
@@ -105,6 +105,6 @@ You have to pay attention to the attr_accessible for attacchments_attributes. It
  <% end %>
 {% endhighlight %}
 
-And we're done! 
+And we're done!
 
 I have created a "demo":https://github.com/lucapette/carrierwave-nested_form app just in case you want to play with it a bit.

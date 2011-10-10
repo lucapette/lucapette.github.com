@@ -1,5 +1,5 @@
 ---
-title: 'Rails core_ext and IRB' 
+title: 'Rails core_ext and IRB'
 description: using method_source with Rails core_ext and IRB
 keywords: rails, core_ext, irb
 category: irb
@@ -11,7 +11,7 @@ This method works in a very simple way:
 
 {% highlight 'ruby' %}
 001 > String.instance_method(:upcase).source_location
- => nil 
+ => nil
 002 > String.instance_method(:classify).source_location
  => ["/home/lucapette/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.7/lib/active_support/core_ext/string/inflections.rb", 140]
 {% endhighlight %}
@@ -30,11 +30,11 @@ Well, I reopened the class Class and added the core_ext method. This method does
 
 {% highlight 'ruby' %}
 001 > String.core_ext
-=> [:, :acts_like?, :acts_like_string?, :as_json, :at, :blank?, :breakpoint, :camelcase, :camelize, :class_eval, :classify, :constantize, :copy_instance_variables_from, :dasherize, :debugger, :demodulize, :duplicable?, :enable_warnings, :encode_json, :encoding_aware?, :exclude?, :first, :foreign_key, :from, :html_safe, :html_safe!, :html_safe?, :humanize, :instance_values, :instance_variable_names, :is_utf8?, :last, :load, :load_dependency, :mb_chars, :parameterize, :pluralize, :presence, :present?, :require, :require_association, :require_dependency, :require_library_or_gem, :require_or_load, :returning, :silence_stderr, :silence_stream, :silence_warnings, :singularize, :squish, :squish!, :strip_heredoc, :suppress, :tableize, :titlecase, :titleize, :to, :to_date, :to_datetime, :to_json, :to_param, :to_query, :to_time, :truncate, :underscore, :unloadable, :with_options, :with_warnings] 
+=> [:, :acts_like?, :acts_like_string?, :as_json, :at, :blank?, :breakpoint, :camelcase, :camelize, :class_eval, :classify, :constantize, :copy_instance_variables_from, :dasherize, :debugger, :demodulize, :duplicable?, :enable_warnings, :encode_json, :encoding_aware?, :exclude?, :first, :foreign_key, :from, :html_safe, :html_safe!, :html_safe?, :humanize, :instance_values, :instance_variable_names, :is_utf8?, :last, :load, :load_dependency, :mb_chars, :parameterize, :pluralize, :presence, :present?, :require, :require_association, :require_dependency, :require_library_or_gem, :require_or_load, :returning, :silence_stderr, :silence_stream, :silence_warnings, :singularize, :squish, :squish!, :strip_heredoc, :suppress, :tableize, :titlecase, :titleize, :to, :to_date, :to_datetime, :to_json, :to_param, :to_query, :to_time, :truncate, :underscore, :unloadable, :with_options, :with_warnings]
 002 > Array.core_ext
-=> [:, :acts_like?, :as_json, :breakpoint, :class_eval, :copy_instance_variables_from, :debugger, :duplicable?, :enable_warnings, :encode_json, :exclude?, :extract_options!, :fifth, :forty_two, :fourth, :from, :html_safe?, :in_groups, :in_groups_of, :index_by, :instance_values, :instance_variable_names, :load, :load_dependency, :many?, :presence, :present?, :require, :require_association, :require_dependency, :require_library_or_gem, :require_or_load, :returning, :second, :silence_stderr, :silence_stream, :silence_warnings, :split, :sum, :suppress, :third, :to, :to_formatted_s, :to_json, :to_param, :to_query, :to_s, :to_sentence, :to_xml, :uniq_by, :uniq_by!, :unloadable, :with_options, :with_warnings] 
+=> [:, :acts_like?, :as_json, :breakpoint, :class_eval, :copy_instance_variables_from, :debugger, :duplicable?, :enable_warnings, :encode_json, :exclude?, :extract_options!, :fifth, :forty_two, :fourth, :from, :html_safe?, :in_groups, :in_groups_of, :index_by, :instance_values, :instance_variable_names, :load, :load_dependency, :many?, :presence, :present?, :require, :require_association, :require_dependency, :require_library_or_gem, :require_or_load, :returning, :second, :silence_stderr, :silence_stream, :silence_warnings, :split, :sum, :suppress, :third, :to, :to_formatted_s, :to_json, :to_param, :to_query, :to_s, :to_sentence, :to_xml, :uniq_by, :uniq_by!, :unloadable, :with_options, :with_warnings]
 004 > Hash.core_ext
-=> [:, :acts_like?, :as_json, :assert_valid_keys, :breakpoint, :class_eval, :copy_instance_variables_from, :debugger, :deep_merge, :deep_merge!, :diff, :duplicable?, :enable_warnings, :encode_json, :except, :except!, :exclude?, :extract!, :extractable_options?, :html_safe?, :index_by, :instance_values, :instance_variable_names, :load, :load_dependency, :many?, :presence, :present?, :require, :require_association, :require_dependency, :require_library_or_gem, :require_or_load, :returning, :reverse_merge, :reverse_merge!, :reverse_update, :silence_stderr, :silence_stream, :silence_warnings, :slice, :slice!, :stringify_keys, :stringify_keys!, :sum, :suppress, :symbolize_keys, :symbolize_keys!, :to_json, :to_options, :to_options!, :to_param, :to_query, :to_xml, :unloadable, :with_indifferent_access, :with_options, :with_warnings] 
+=> [:, :acts_like?, :as_json, :assert_valid_keys, :breakpoint, :class_eval, :copy_instance_variables_from, :debugger, :deep_merge, :deep_merge!, :diff, :duplicable?, :enable_warnings, :encode_json, :except, :except!, :exclude?, :extract!, :extractable_options?, :html_safe?, :index_by, :instance_values, :instance_variable_names, :load, :load_dependency, :many?, :presence, :present?, :require, :require_association, :require_dependency, :require_library_or_gem, :require_or_load, :returning, :reverse_merge, :reverse_merge!, :reverse_update, :silence_stderr, :silence_stream, :silence_warnings, :slice, :slice!, :stringify_keys, :stringify_keys!, :sum, :suppress, :symbolize_keys, :symbolize_keys!, :to_json, :to_options, :to_options!, :to_param, :to_query, :to_xml, :unloadable, :with_indifferent_access, :with_options, :with_warnings]
 {% endhighlight %}
 
 So, nothing so special but I use it all the time now :)

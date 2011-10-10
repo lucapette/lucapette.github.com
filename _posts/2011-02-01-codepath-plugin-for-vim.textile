@@ -1,6 +1,6 @@
 ---
 title: codepath plugin for vim
-description: my first vim plugin
+description: A little vim plugin for dealing with project roots
 keywords: codepath, vim, plugin
 category: vim
 layout: blog

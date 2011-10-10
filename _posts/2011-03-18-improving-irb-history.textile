@@ -1,6 +1,6 @@
 ---
-title: Improving IRB history 
-description: Improving IRB history
+title: Improving IRB history
+description: Improving IRB history. Some ways to improve your interaction with IRB history
 keywords: ruby, irb, console
 category: irb
 layout: blog
@@ -45,11 +45,11 @@ def h!(start, stop=nil)
     code = history_a[start..stop]
     code.each_with_index { |e,i|
         irb_context.evaluate(e,i)
-    }   
+    }
     Readline::HISTORY.pop
-    code.each { |l| 
+    code.each { |l|
         Readline::HISTORY.push l
-    }   
+    }
     puts code
 end
 {% endhighlight %}
@@ -68,7 +68,7 @@ ruby-1.9.2-p0 > h
 206 hgrep "toy"
 207 h! 197
 208 h
- => 10 
+ => 10
 ruby-1.9.2-p0 > hgrep "toy"
 89 a=Arra.toy
 97 a=Array.toy
@@ -77,39 +77,39 @@ ruby-1.9.2-p0 > hgrep "toy"
 204 h "toy"
 206 hgrep "toy"
 209 hgrep "toy"
- => 7 
+ => 7
 ruby-1.9.2-p0 > h! 197
 a=Array.toy
- => nil 
+ => nil
 ruby-1.9.2-p0 > a=Array.toy
- => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+ => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 {% endhighlight %}
 
 I do know there are many posts around the web on this subject but I don’t like some aspects of the solutions I came across. I wanted a bash like history and none of the solutions I found has a real working re-execute command. I found some solutions but all of them use eval to execute code and don’t replace the re-executed command in the history. Actually the h! method I wrote uses irb_context to evaluate the input lines. The issue with the eval version is easy to explain with an example:
 
 {% highlight ruby %}
 ruby-1.9.2-p0 > eval("a=Array.toy")
- => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+ => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ruby-1.9.2-p0 > a
 NameError: undefined local variable or method `a' for main:Object
     from (irb):2
     from /home/lucapette/.rvm/rubies/ruby-1.9.2-p0/bin/irb:17:in `<main>'
 ruby-1.9.2-p0 > a=Array.toy
- => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+ => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ruby-1.9.2-p0 > a="l"
- => "l" 
+ => "l"
 ruby-1.9.2-p0 > h 5
 200 eval("a=Array.toy")
 201 a
 202 a=Array.toy
 203 a="l"
 204 h 5
- => 5 
+ => 5
 ruby-1.9.2-p0 > h! 202
 a=Array.toy
- => nil 
+ => nil
 ruby-1.9.2-p0 > a
- => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+ => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 {% endhighlight %}
 
 Not a very big deal but I really prefer my implementation of the re-execute command. However, I can’t really explain the difference between the two implementations. I think it could be a scope problem, please tell me if I’m wrong.
@@ -128,17 +128,17 @@ this of course means erasing your duplicates command lines. So I came up with th
 {% highlight ruby %}
 # don't save duplicates
 IRB.conf[:AT_EXIT].unshift Proc.new {
-    no_dups = [] 
+    no_dups = []
     Readline::HISTORY.each_with_index { |e,i|
         begin
             no_dups << e if Readline::HISTORY[i] != Readline::HISTORY[i+1]
         rescue IndexError
         end
-    }  
+    }
     Readline::HISTORY.clear
     no_dups.each { |e|
         Readline::HISTORY.push e
-    }  
+    }
 }
 {% endhighlight %}
 

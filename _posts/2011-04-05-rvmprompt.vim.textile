@@ -1,6 +1,6 @@
 ---
 title: "rvmprompt.vim"
-description: a vim status-line plugin based on rvm prompt command
+description: a little vim status-line plugin based on the rvm prompt command
 keywords: vim, rvm, plugin, rvmprompt.vim
 category: vim
 layout: blog

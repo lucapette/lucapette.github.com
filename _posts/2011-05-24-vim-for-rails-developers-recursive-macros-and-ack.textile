@@ -1,8 +1,8 @@
 ---
-title: 'Vim for Rails Developers: Recursive macros and Ack.vim' 
-description: 'Hot to use vim macros and ack.vim to get done repetitive tasks'
+title: 'Vim for Rails Developers: Recursive macros and Ack.vim'
+description: 'How to use vim macros and ack.vim to get done repetitive tasks'
 keywords: vim, rails, recursive macros, macro, ack, ack.vim
-categories: 
+categories:
 - vim
 - rails
 layout: blog
@@ -22,7 +22,7 @@ The q command stands for start to record and, as many other Vim commands, is reg
 That stands for stop recording.
 
 * *@{0-9a-zA-Z"}*
-That stands for execute the macro stored in the given register 
+That stands for execute the macro stored in the given register
 
 Actually there is a command to re-execute the last executed macro, i.e. *@@*. It's very useful and I recommend to map it, I've used _map Q @@_.
 
@@ -57,7 +57,7 @@ _start recording_
 * *^df=3ea!&lt;esc&gt;j*
 _record the command_
 * *q* stop recording
-* j 
+* j
 * *@q*
 _execute the macro recorded_
 * j
@@ -66,7 +66,7 @@ _re-execute the macro_
 
 OK, if you like Vim you'll like that. But we can do it better because Vim is so wonderful to offer you the opportunity to store a recursive macro. So, you can store a sequence of vim commands that includes the current macro like the following:
 
-* *qqq* 
+* *qqq*
 _clear the q register_
 * *qq*
 _start recording_
@@ -79,13 +79,13 @@ And you get a recursive macro. It's very simple to use it, just put it on the se
 
 A very important thing you have to care about is _end of recursion_. A recursive macro will end only if it reaches the end of file or runs into an error. So when you think about a recursive macro don't forget to write in a proper way. Thinking about our example I could have written the first part of the command in the following way:
 
-* *3dw* 
+* *3dw*
 
 but, because of recursion, I could have deleted things I didn't mean to. I used *df=* because it will end the recursion when Vim can't find a = in the current line.
 
 h2. Ack.vim
 
-"Ack":http://betterthangrep.com is grep for programmers. I won't stop repeating it. If you don't use it you should stop reading this post and go to install it. Well, Ack.vim is a very well-done interface plugin for ack, it gives you some commands to work with and it opens a quickfix window when you perform a search. Furthermore, I strongly suggest you map *:cn* and *:cp* in normal mode, I have mapped them to &lt;c-n&gt; and &lt;c-p&gt; respectively. 
+"Ack":http://betterthangrep.com is grep for programmers. I won't stop repeating it. If you don't use it you should stop reading this post and go to install it. Well, Ack.vim is a very well-done interface plugin for ack, it gives you some commands to work with and it opens a quickfix window when you perform a search. Furthermore, I strongly suggest you map *:cn* and *:cp* in normal mode, I have mapped them to &lt;c-n&gt; and &lt;c-p&gt; respectively.
 Personally, I use ack a lot. It's a perfect tool, while you dig into source code written by others. Another perfect use for ack is code maintenance.
 
 h2. Recursive macros and Ack.vim together

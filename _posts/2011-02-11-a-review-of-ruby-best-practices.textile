@@ -1,6 +1,6 @@
 ---
 title: A review of Ruby Best Practices
-description:  A review of Ruby Best Practices
+description:  A review of Ruby Best Practices by Gregory Brown. Published by O'Reilly in June 2009
 keywords: ruby best practices, book, review, Gregory Brown
 category: books
 layout: blog

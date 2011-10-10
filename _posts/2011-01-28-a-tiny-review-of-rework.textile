@@ -1,6 +1,6 @@
 ---
 title: A tiny review of rework
-description: a tiny review of rework
+description: a tiny review of rework. A book by Jason Fried and David Hansson of 37signals fame.
 keywords: rework, books, jason fried, david hansson
 category: books
 layout: blog
