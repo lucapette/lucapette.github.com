@@ -3,3 +3,5 @@ permalink: /:categories/:title
 exclude:
 - README.textile
 - .rvmrc
+- Gemfile
+- Gemfile.lock
