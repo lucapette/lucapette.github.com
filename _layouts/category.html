@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>{{ page.title }}</title>
-        {% include head.html %}
-        {% include meta.html %}
-    </head>
-    <body>
-        <div id=container>
-            {%  assign blog="current" %}
-            {% include navigation.html %}
-            <section id=main>
-                <div>
-                    <header>
-                        <h1>{{page.title}}</h1>
-                    </header>
-                    <div class=content>
-                        <div class=description>
-                            {{ page.description | textilize }}
-                        </div>
-                        {{ content }}
-                    </div>
-                </article>
+  <head>
+    <title>{{ page.title }}</title>
+    {% include head.html %}
+    {% include meta.html %}
+  </head>
+  <body>
+    <div class=container_12>
+      {%  assign blog="current" %}
+      {% include header.html %}
+      <div id=main>
+          <header>
+          <h2>{{page.title}}</h2>
+          </header>
+          <div class=content>
+            <div class=description>
+              {{ page.description | textilize }}
             </div>
-            {% include footer.html %}
+            {{ content }}
+          </div>
         </div>
+        {% include footer.html %}
+      </div>
+      {% include ribbon.html %}
     </body>
-</html>
+  </html>

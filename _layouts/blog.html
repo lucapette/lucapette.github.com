@@ -1,36 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>{{ page.title }}</title>
-        {% include head.html %}
-        {% include meta.html %}
-        {% include flattr.html %}
-    </head>
-    <body>
-        <div id=container>
-            {%  assign blog="current" %}
-            {% include navigation.html %}
-            <div id=main>
-                <article>
-                    <header>
-                        <h1>{{page.title}}</h1>
-                            <time pubdate class=published-date>{{ page.date | date:"%Y-%m-%d" }}</time>
-                            in
-                            {% for category in page.categories %}
-                            <a href="/{{ category }}.html"> {{ category }}</a>
-                            {% endfor %}
-                            <div class="share">{% include share.html %}</div>
-                    </header>
-                    <div class=content>
-                    {{ content }}
-                    </div>
-                    {% include share.html %}
-                    <div class=comment-section>
-                        {% include disqus.html %}
-                    </div>
-                </article>
-            </div>
-            {% include footer.html %}
-        </div>
-    </body>
+  <head>
+    <title>{{ page.title }}</title>
+    {% include head.html %}
+    {% include meta.html %}
+    {% include flattr.html %}
+  </head>
+  <body>
+    <div class=container_12>
+      {% include header.html %}
+      {% assign blog="current" %}
+      <div id=main>
+        <article>
+          <header>
+          <h2>{{page.title}}</h2>
+          <time pubdate class=published-date>{{ page.date | date:"%Y-%m-%d" }}</time>
+          in
+          {% for category in page.categories %}
+            <a href="/{{ category }}.html"> {{ category }}</a>
+          {% endfor %}
+          </header>
+          <div class=content>
+            {{ content }}
+          </div>
+          <div class=comment-section>
+            {% include disqus.html %}
+          </div>
+        </article>
+      </div>
+      {% include footer.html %}
+    </div>
+    {% include ribbon.html %}
+  </body>
 </html>

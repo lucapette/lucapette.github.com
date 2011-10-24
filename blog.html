@@ -1,17 +1,18 @@
 ---
 title: Blog
-description: blogs entries by lucapette
+description: Tech blog by Luca Pette about rails ruby and vim mostly.
 keywords: lucapette, posts, blog, ruby, rails, irb, pry, vim
 layout: default
 ---
-<h1>Blog</h1>
+<h2>Blog</h2>
+
 <p>
 Until now, I wrote about <a href="/books.html">books</a>, <a href="/irb.html">irb</a>,
 <a href="/myself.html">myself</a>, <a href="/pry.html">pry</a>, <a href="/ruby.html">ruby</a>, <a href="/rails.html">rails</a> and <a href="/vim.html">vim</a>.
 </p>
 
 <ul id=archive>
-    {% for post in site.posts %}
-      <li><span class=date>{{ post.date | date:"%Y-%m-%d"  }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
+  {% for post in site.posts %}
+    <li><span class=date>{{ post.date | date:"%Y-%m-%d"  }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
 </ul>

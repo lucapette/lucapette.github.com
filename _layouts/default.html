@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>{{ page.title }}</title>
-        {% include head.html %}
-        {% include meta.html %}
-    </head>
-    <body>
-        <div id=container>
-            {% include navigation.html %}
-            <div id=main>
-                {{ content }}
-            </div>
-            {% include footer.html %}
-        </div>
-    </body>
+  <head>
+    <title>{{ page.title }}</title>
+    {% include head.html %}
+    {% include meta.html %}
+  </head>
+  <body>
+    <div class=container_12>
+      {% include header.html %}
+      <div id=main>
+        {{ content }}
+      </div>
+      {% include footer.html %}
+    </div>
+    {% include ribbon.html %}
+  </body>
 </html>

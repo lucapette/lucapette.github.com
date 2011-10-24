@@ -1,7 +1,0 @@
----
-title: Luca Pette - Ruby and Rails freelance developer
-layout: default
-description: Ruby and Rails freelance developer with a Java background
-keywords: lucapette, rails, ruby, vim, freelance developer
----
-Hello, I am Luca Pette and this is my personal website. I write Ruby code with Vim and develop Rails applications on Linux. I'm freelancing and I'm *currently available for hiring*. Feel free to get in touch. "Email":lucapette@gmail.com is best.
