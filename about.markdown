@@ -2,9 +2,9 @@
 title: About me
 layout: default
 keywords: lucapette, about me
-description: "I'm 28 years old and I live and work in Naples, Italy. I'm a really curious person."
+description: "I'm 29 years old and I live and work in Naples, Italy. I'm a really curious person."
 ---
-I'm 29 years old and I live and work in Naples, Italy. I'm a really curious person. I have a nice [404](/404.html) page.
+I'm 29 years old and I live and work in Naples, Italy. I'm a really curious person. I'm crazy about carrots. I have a nice [404](/404.html) page.
 
 I love
 ------
