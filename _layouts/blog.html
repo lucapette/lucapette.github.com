@@ -15,14 +15,14 @@
           <header>
           <h2>{{page.title}}</h2>
           <div class=container_12>
-            <div class=grid_8>
+            <div class=grid_7>
               <time pubdate class=published-date>{{ page.date | date:"%Y-%m-%d" }}</time>
               in
               {% for category in page.categories %}
                 <a href="/{{ category }}.html"> {{ category }}</a>
               {% endfor %}
             </div>
-            <div class=grid_4>
+            <div class=grid_5>
               {% include share.html %}
             </div>
           </div>
