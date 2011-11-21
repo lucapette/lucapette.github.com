@@ -1,5 +1,5 @@
 ---
-title: 'Vim for Rails Developers: Recursive macros and Ack.vim'
+title: 'Vim for Rails developers: Recursive macros and Ack.vim'
 description: 'How to use vim macros and ack.vim to get done repetitive tasks'
 keywords: vim, rails, recursive macros, macro, ack, ack.vim
 categories:
