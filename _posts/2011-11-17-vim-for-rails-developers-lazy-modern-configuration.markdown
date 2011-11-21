@@ -7,6 +7,7 @@ categories:
 - rails
 layout: blog
 ---
+{% include vim_for_rails.html %}
 
 Vim is very customizable, it has thousands of plugins suitable for everyone's needs. Each of us uses some of them. Furthermore, it has a good number of files you can use to configure some aspects of the editor and it would be very nice to keep all this stuff under a version control system. But, before I try to do my best to explain what I mean with lazy modern configuration, I would like to say some words about Vim distro. In short: **Do not use a vim distro**. This is the most important thing to consider about configuring vim. So I'll repeat it: **Do not use a Vim distro**. I prefer to sound unpopular but it's not the Vim way. If you need an Editor that makes things for you, go look for something else. Vim is just the opposite, Vim is the perfect editor that leaves you the possibility of making things the way you prefer. With a Vim distro, you'll never master Vim or at least you'll reduce the chances to learn how Vim really works. I'm not totally against distro, they can inspire you. It's like code reading for configurations: know them, get inspired by them but choose your own way. I'm not saying you should start from scratch. If you're using a Vim distro at the moment you could do the following exercise. Think about what you really use all the time inside the Vim editor that is given by a plugin. The odds are you'll come up with three or four plugins at the moment and a number of mappings. So you could grab those plugins and start from there.
 

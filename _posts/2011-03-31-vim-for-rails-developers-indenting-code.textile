@@ -7,6 +7,8 @@ categories:
 - rails
 layout: blog
 ---
+{% include vim_for_rails.html %}
+
 I use Vim mainly to write code and, in order to maintain some sanity, I like my code indented. I like to have a mapping for indenting the entire file I'm editing. My first attempt to solve this simple problem was:
 
 {% highlight vim %}

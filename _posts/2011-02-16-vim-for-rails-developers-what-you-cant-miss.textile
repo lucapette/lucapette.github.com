@@ -7,6 +7,8 @@ categories:
 - rails
 layout: blog
 ---
+{% include vim_for_rails.html %}
+
 Vim is my editor of choice and Rails is my framework. I think many of us have the same taste and I want to share with you my experiences while using both. I'm going to write a series of posts regarding this topic. I start with _what you can't miss_ when you decide to use both rails and vim seriously.
 
 h2. Am I miss something?
