@@ -1,7 +1,8 @@
 auto: true
-permalink: /:categories/:title 
+permalink: /:categories/:title
 exclude:
-- README.textile
+- README.markdown
 - .rvmrc
 - Gemfile
 - Gemfile.lock
+- Rake
