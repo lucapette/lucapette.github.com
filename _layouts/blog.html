@@ -4,7 +4,6 @@
     <title>{{ page.title }}</title>
     {% include head.html %}
     {% include meta.html %}
-    {% include flattr.html %}
   </head>
   <body>
     <div class=container_12>
@@ -15,14 +14,14 @@
           <header>
           <h2>{{page.title}}</h2>
           <div class=container_12>
-            <div class=grid_7>
+            <div class=grid_9>
               <time pubdate class=published-date>{{ page.date | date:"%Y-%m-%d" }}</time>
               in
               {% for category in page.categories %}
                 <a href="/{{ category }}.html"> {{ category }}</a>
               {% endfor %}
             </div>
-            <div class=grid_5>
+            <div class=grid_3>
               {% include share.html %}
             </div>
           </div>
