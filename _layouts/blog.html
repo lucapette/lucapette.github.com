@@ -6,36 +6,42 @@
     {% include meta.html %}
   </head>
   <body>
-    <div class=container_12>
-      {% assign blog="current" %}
-      {% include header.html %}
-      <div id=main>
-        <article>
-          <header>
-          <h2>{{page.title}}</h2>
-          <div class=container_12>
-            <div class=grid_9>
-              <time pubdate class=published-date>{{ page.date | date:"%Y-%m-%d" }}</time>
-              in
-              {% for category in page.categories %}
-                <a href="/{{ category }}.html"> {{ category }}</a>
-              {% endfor %}
+    <div class=container>
+      <div class="row">
+        <div class="offset2 span12">
+          {% assign blog="current" %}
+          {% include header.html %}
+          <div id=main>
+            <article>
+            <h1>{{page.title}}</h1>
+            <div class=row>
+              <div class=span8>
+                <time pubdate>{{ page.date | date:"%Y-%m-%d" }}</time>
+                in
+                {% for category in page.categories %}
+                  <a href="/{{ category }}.html"> {{ category }}</a>
+                {% endfor %}
+              </div>
+              <div class=span4>
+                {% include share.html %}
+              </div>
             </div>
-            <div class=grid_3>
+            <div class=content>
+              <div class=row>
+                <div class=span12>
+                  {{ content }}
+                </div>
+              </div>
               {% include share.html %}
+              <div class=comment-section>
+                {% include disqus.html %}
+              </div>
+              </article>
             </div>
+            {% include footer.html %}
           </div>
-          </header>
-          <div class=content>
-            {{ content }}
-          </div>
-          {% include share.html %}
-          <div class=comment-section>
-            {% include disqus.html %}
-          </div>
-        </article>
+        </div>
       </div>
-      {% include footer.html %}
     </div>
     {% include ribbon.html %}
   </body>

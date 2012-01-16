@@ -6,12 +6,16 @@
     {% include meta.html %}
   </head>
   <body>
-    <div class=container_12>
-      {% include header.html %}
-      <div id=main>
-        {{ content }}
+    <div class=container>
+      <div class="row">
+        <div class="offset2 span12">
+          {% include header.html %}
+          <div id=main>
+            {{ content }}
+          </div>
+          {% include footer.html %}
+        </div>
       </div>
-      {% include footer.html %}
     </div>
     {% include ribbon.html %}
   </body>
