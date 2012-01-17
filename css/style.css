@@ -75,6 +75,9 @@ ul#menu li.current a {
   padding-left: 0;
   margin-left: 0;
 }
+#archive li {
+  margin-bottom: 5px;
+}
 .description {
   font-style: italic;
   margin-left: 0.5em;
