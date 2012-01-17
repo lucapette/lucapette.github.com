@@ -10,12 +10,18 @@ li {
 code {
   background-color: whiteSmoke !important;
 }
+h1 {
+  margin-bottom: 10px;
+}
 .container {
   margin-top: 1em;
 }
 .myself p {
   font-size: 1.2em;
   line-height: 1.7em;
+}
+.content {
+  margin-top: 10px;
 }
 .content p {
   line-height: 1.5;
@@ -103,4 +109,19 @@ ul#menu li.current a {
   text-align: center;
   text-decoration: none;
   text-shadow: 0 0 0.5em #444;
+}
+#follow-me {
+  position: fixed;
+  left: 20px;
+  top: 20%;
+  width: 200px;
+}
+.top {
+  position:fixed;
+  right: 15px;
+  bottom: 15px;
+  width: 100px;
+}
+.top.hidden {
+  display:none;
 }

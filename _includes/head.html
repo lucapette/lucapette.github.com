@@ -12,10 +12,17 @@
 </script>
 
 <script src="/js/jquery.timeago.js" type="text/javascript"></script>
+<script src="/js/waypoints.min.js" type="text/javascript"></script>
 
 <script type="text/javascript">
   $(function() {
       $('time.timeago').timeago();
+      $comment_section = $('.comment-section');
+      if ($comment_section.length) {
+        $comment_section.waypoint( function(e, direction) {
+            $('#follow-me').fadeToggle();
+          }, {offset: '100'});
+      }
   });
 </script>
 
