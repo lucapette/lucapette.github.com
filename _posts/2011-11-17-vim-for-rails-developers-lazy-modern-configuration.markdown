@@ -47,7 +47,6 @@ Now you could choose the plugin manager you prefer, there are many of them. But 
 - Put on the top of your .vimrc the following lines:
 {% highlight 'vim' %}
     runtime bundle/pathogen/autoload/pathogen.vim
-
     call pathogen#infect()
     call pathogen#helptags()
 {% endhighlight %}
