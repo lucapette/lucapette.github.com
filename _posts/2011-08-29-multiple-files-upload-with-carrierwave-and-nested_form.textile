@@ -9,13 +9,13 @@ I wrote this post just to show how it's possible to get a perfectly working form
 
 So let's create an example project (I used one of mine rails "templates":https://github.com/lucapette/rails-templates):
 
-{% highlight "sh" %}
+{% highlight sh %}
 rails new carrierwave-nested_form -d mysql -m rails-templates/jquery.rb
 {% endhighlight %}
 
 Then add the gems to Gemfile:
 
-{% highlight "ruby" %}
+{% highlight ruby %}
 gem 'carrierwave', '>= 0.5.3'
 
 gem 'nested_form'
@@ -25,7 +25,7 @@ The specified version for carrierwave is required because there is a small bug i
 
 In this example, I chose to use two simple models related with a polymorphic association. In order to do that, let's create the two model objects:
 
-{% highlight "sh" %}
+{% highlight sh %}
 rails generate model article title:string description:text
 rails generate model attachment description:text file:string attachable:references
 {% endhighlight %}
@@ -34,25 +34,25 @@ You have to add the polymorphic option to the migration for the attachments befo
 
 Now that we have the two model objects, we install the nested_form gem files in our project:
 
-{% highlight "sh" %}
+{% highlight sh %}
 rails g nested_form:install
 {% endhighlight %}
 
 This gem is very nice because it gives you the opportunity to create nested forms with nice javascript add/remove links with a minimum effort. Before proceeding with the nested form, please remember to add the javascript to your layout:
 
-{% highlight 'ruby' %}
+{% highlight ruby %}
 <%= javascript_include_tag :defaults,"nested_form" %>
 {% endhighlight %}
 
 So we are ready to create a carrierwave uploader:
 
-{% highlight 'ruby' %}
+{% highlight ruby %}
 rails generate uploader file
 {% endhighlight %}
 
 and mount the uploader to the chosen field of the attachment model:
 
-{% highlight 'ruby' %}
+{% highlight ruby %}
 class Attachment < ActiveRecord::Base
    attr_accessible :description, :file
 
@@ -66,7 +66,7 @@ Pratically, a carrierwave uploader is a class that handles a certain type of upl
 
 Now, we are ready to add the nested feature to the article form. So let's proceed in the following order:
 
-{% highlight 'ruby' %}
+{% highlight ruby %}
 class Article < ActiveRecord::Base
   attr_accessible :title, :description, :attachments_attributes
 
@@ -78,7 +78,7 @@ end
 
 You have to pay attention to the attr_accessible for attacchments_attributes. It won't work if you don't add that field to the list of accessible ones. And eventually we modify the form in the following way:
 
-{% highlight 'erb' %}
+{% highlight erb %}
 <%= nested_form_for @article, :html=>{:multipart => true } do |f| %>
   <%= f.error_messages %>
   <p>

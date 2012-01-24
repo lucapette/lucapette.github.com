@@ -9,7 +9,7 @@ As you may know, I'm writing a "series":/rails/introducing-the-rails-core_ext-se
 
 This method works in a very simple way:
 
-{% highlight 'ruby' %}
+{% highlight ruby %}
 001 > String.instance_method(:upcase).source_location
  => nil
 002 > String.instance_method(:classify).source_location
@@ -18,7 +18,7 @@ This method works in a very simple way:
 
 It returns nil for native methods and the file location with line number when available. It is just perfect for my purpose:
 
-{% highlight 'ruby' %}
+{% highlight ruby %}
 class Class
   def core_ext
     self.instance_methods.map {|m| [m, self.instance_method(m).source_location] }.select {|m| m[1] && m[1][0] =~/activesupport/}.map {|m| m[0]}.sort
@@ -28,7 +28,7 @@ end
 
 Well, I reopened the class Class and added the core_ext method. This method does exactly what I was after. It returns a collection of the methods that Rails added to the given class:
 
-{% highlight 'ruby' %}
+{% highlight ruby %}
 001 > String.core_ext
 => [:, :acts_like?, :acts_like_string?, :as_json, :at, :blank?, :breakpoint, :camelcase, :camelize, :class_eval, :classify, :constantize, :copy_instance_variables_from, :dasherize, :debugger, :demodulize, :duplicable?, :enable_warnings, :encode_json, :encoding_aware?, :exclude?, :first, :foreign_key, :from, :html_safe, :html_safe!, :html_safe?, :humanize, :instance_values, :instance_variable_names, :is_utf8?, :last, :load, :load_dependency, :mb_chars, :parameterize, :pluralize, :presence, :present?, :require, :require_association, :require_dependency, :require_library_or_gem, :require_or_load, :returning, :silence_stderr, :silence_stream, :silence_warnings, :singularize, :squish, :squish!, :strip_heredoc, :suppress, :tableize, :titlecase, :titleize, :to, :to_date, :to_datetime, :to_json, :to_param, :to_query, :to_time, :truncate, :underscore, :unloadable, :with_options, :with_warnings]
 002 > Array.core_ext

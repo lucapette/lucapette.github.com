@@ -8,7 +8,7 @@ layout: blog
 
 So, after the "introduction":http://lucapette.com/rails/introducing-the-rails-core_ext-series/ to the series, let's start with the Array extensions. The array.rb, located in rails/activesupport/lib/active_support/core_ext/, contains the following lines (consider that I have reordered the require statements):
 
-{% highlight 'ruby' %}
+{% highlight ruby %}
 require 'active_support/core_ext/array/access'
 require 'active_support/core_ext/array/conversions'
 require 'active_support/core_ext/array/extract_options'
@@ -22,7 +22,7 @@ Before I start with the access.rb file I want to underline once again the "organ
 
 Let’s go with access.rb then. The first method we meet is _*from*_:
 
-{% highlight 'ruby' %}
+{% highlight ruby %}
 # Returns the tail of the array from +position+.
 #
 #   %w( a b c d ).from(0)  # => %w( a b c d )
@@ -36,7 +36,7 @@ end
 
 This extension is very simple. It works in a very simple way. Here there is an example of how to use the method:
 
-{% highlight 'ruby' %}
+{% highlight ruby %}
 001 > Array.toy
  => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
 002 > Array.toy.from(1)
@@ -49,7 +49,7 @@ This extension is very simple. It works in a very simple way. Here there is an e
 
 Keeping to read the source, you run into the specular of from, that is _*to*_:
 
-{% highlight 'ruby' %}
+{% highlight ruby %}
 # Returns the beginning of the array up to +position+.
 #
 #   %w( a b c d ).to(0)  # => %w( a )
@@ -63,7 +63,7 @@ end
 
 Some examples:
 
-{% highlight 'ruby' %}
+{% highlight ruby %}
 001 > Array.toy
  => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
 002 > Array.toy.to(3)
@@ -82,7 +82,7 @@ Some examples:
 
 There is no much to say about this method. These two additions to the Array class are both extremely simple to read. A nice thing about these two addition is that I wasn't able to find any references in the source of Rails. I've tried something like:
 
-{% highlight 'sh' %}
+{% highlight sh %}
 ack "\.to\(" --no-group --ignore-dir=test
 {% endhighlight %}
 
@@ -90,7 +90,7 @@ But both this search and the one about the from method returned the rows in the 
 
 The access.rb contains other methods. I haven't covered them so far because there are not exactly suitable for code reading. But... actually they are very fun to read:
 
-{% highlight 'ruby' %}
+{% highlight ruby %}
 # Equal to self[1].
 def second
   self[1]

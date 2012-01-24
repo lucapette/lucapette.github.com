@@ -9,13 +9,13 @@ layout: blog
 
 This post will be short because in the extract_options.rb file there are a few lines of code to read but I preferred to publish it for the sake of completeness of the series. By the way, it's an important extension to the Array class because it's widely used in the rails code itself. Just for curiosity, I use a command like the following to search through the rails code:
 
-{% highlight 'sh' %}
+{% highlight sh %}
 ack "\.extract_options\!" --no-group --ignore-dir=test
 {% endhighlight %}
 
 I got 67 lines today so this one is really widely used. Well, first of all the code:
 
-{% highlight 'ruby' %}
+{% highlight ruby %}
 class Hash
   # By default, only instances of Hash itself are extractable.
   # Subclasses of Hash may implement this method and return

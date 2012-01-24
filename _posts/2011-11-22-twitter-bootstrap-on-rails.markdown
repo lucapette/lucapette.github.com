@@ -10,7 +10,7 @@ In the past weeks I saw a lot of interest for the [twitter bootstrap](http://twi
 
 First of all, I focused a little on a simple layout that I've used as the base of some projects. I've just adopted an [example](http://twitter.github.com/bootstrap/examples/container-app.html) from the site and modified the application layout of a fresh new rails 3.1.1 app in the following way:
 
-{% highlight 'erb' %}
+{% highlight erb %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -51,7 +51,7 @@ First of all, I focused a little on a simple layout that I've used as the base o
 
 The partials contain just a paragraph to say what they are but the flashes one is interesting:
 
-{% highlight 'erb' %}
+{% highlight erb %}
 <% unless flash[:notice].blank? %>
   <div class="alert-message info">
     <%= content_tag :div, flash[:notice] %>
@@ -105,7 +105,7 @@ To wrap up the work done, here's the list of crucial commits:
 
 Furthermore, if you use the twitter [tabs](http://twitter.github.com/bootstrap/javascript.html#tabs) in a form, you would like to open the tab with fields with errors when the model you're trying to save is not valid. Well, I wrote a little chunk of CoffeeScript (with jQuery) to solve this problem:
 
-{% highlight 'javascript' %}
+{% highlight javascript %}
 $ ->
   if $('.help-inline, .field_with_errors').length
     $id=$('.help-inline, .field_with_errors').first().closest('.tab-pane').attr('id')

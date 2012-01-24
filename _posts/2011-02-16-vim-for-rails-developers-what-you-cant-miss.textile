@@ -27,13 +27,13 @@ h2. FuzzyFinderTextMate
 So you have just solved your problem with directories without leaving vim. Now you have to face other tiny problems that occur while editing Rails projects. Fairly often I run into a small problem that really annoys me: I don’t remember the exact name of the file I need to read/edit or where exactly it is stored. This situation can be a problem, imagine the use case: _"How on earth did I call that lib?" "Where the hell is that *wtf.rb*?"_ - you could waist a minute or two every time you run into this problem. Obviously, there are a lot of solutions to this problem and the best one, in my opinion, is the "FuzzyFinder":http://www.vim.org/scripts/script.php?script_id=1984 with the improvements of "FuzzyFileFinderTextMate":http://weblog.jamisbuck.org/2009/1/28/the-future-of-fuzzyfinder-textmate by another true hero "Jamis Buck":http://weblog.jamisbuck.org/. I am also a Java Developer (don’t give me away) and the only thing I miss (I swear it’s the only one)  is the ctrl-shift-r that you can find either in Eclipse or in Netbeans. Practically, the Find-Resource is a very nice feature you can use when you want to find a file “project scoped”. This functionality is fairly famous in the Rails eco-system because of TextMate “cmd-T” feature, and the fame is well-deserved. I mean once you start using it you will never stop.
 However this plugin has a tiny but annoying problem. By default, FuzzyFileFinder use the current directory _*"."*_ as root directory for performing searches. When you want to open a file being in a sub-directory of your Rails project, say ‘app/model/’, you start searching for it but FuzzyFileFinder won’t be able to find it if your file is not placed in ‘app/model’. In such a situation you lose all the power of FuzzyFileFinder. You have at least two ways to solve this problem. The first one uses a function made available by rails.vim:
 
-{% highlight 'vim' %}
+{% highlight vim %}
 autocmd User Rails let  g:fuzzy_roots = [RailsRoot()]
 {% endhighlight %}
 
 Adding that line to your .vimrc solves the problem for you. In fact, when you open user.rb being in ‘app/model’ and perform a search, FuzzyFinderTextMate will use your project root as a its root directory. Just to clarify the things said consider this example:
 
-{% highlight 'bash' %}
+{% highlight bash %}
 [lucapette@hal9000 code ]$rails new demo -m rails-templates/basic.rb && cd demo
 [lucapette@hal9000 code ]$cd app/controller
 [lucapette@hal9000 code ]$vi application_controller.rb

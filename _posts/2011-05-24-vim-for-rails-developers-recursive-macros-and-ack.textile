@@ -29,7 +29,7 @@ Actually there is a command to re-execute the last executed macro, i.e. *@@*. It
 
 Well, just to make things as clear as possible:
 
-{% highlight 'ruby' %}
+{% highlight ruby %}
 @collection=@collection.map { |e| e.a_method }
 @collection=@collection.map { |e| e.another_method }
 @collection=@collection.map { |e| e.yep_another_again }
@@ -37,7 +37,7 @@ Well, just to make things as clear as possible:
 
 and you want to get
 
-{% highlight 'ruby' %}
+{% highlight ruby %}
 @collection.map! { |e| e.a_method }
 @collection.map! { |e| e.another_method }
 @collection.map! { |e| e.yep_another_again }

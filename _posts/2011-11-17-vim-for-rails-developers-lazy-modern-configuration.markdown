@@ -45,7 +45,7 @@ Now you could choose the plugin manager you prefer, there are many of them. But 
 - Create the .vim/bundle directory
 - Put pathogen.vim there
 - Put on the top of your .vimrc the following lines:
-{% highlight 'vim' %}
+{% highlight vim %}
     runtime bundle/pathogen/autoload/pathogen.vim
     call pathogen#infect()
     call pathogen#helptags()
@@ -53,13 +53,13 @@ Now you could choose the plugin manager you prefer, there are many of them. But 
 
 Now, you could move all your plugins in the bundle directory. They should keep working fine. This is a good starting point to make your configuration modern and clean but it still lacks the lazy part. You can't update your plugins easily. And in my point of view, *easily* should mean maximum one command to update plugins. So, once again, you can achieve such a result in many ways, but you should go straight with git. Git is widely used in our (as a note: our means rails+vim users) world and the odds are you will find the plugin you want to add on github. Actually, there is even a [http://vim-scripts.org/](http://vim-scripts.org/) project. It's *sweet*. Another great reason to adopt pathogen.vim is the natural integration with [git submodules](http://book.git-scm.com/5_submodules.html). With submodules and pathogen.vim you can get a lazy modern vim configuration. Now, I want to say just a couple of words about my way of using this stuff to make more clear what I mean with *easily*. I added to the pile of tools just another one. I'm a Rubyist, not a Ruby Hero but an ordinary Rubyist. So, for me, solving a boring task with files and the shell means *Use Rake*. So I used Rake but you could use a bash script or whatever else. The real point is focusing on the two above mentioned steps. When I want to update my vim configuration directory I type:
 
-{% highlight 'sh' %}
+{% highlight sh %}
 rake
 {% endhighlight %}
 
 and when I want to update my plugins I type:
 
-{% highlight 'sh' %}
+{% highlight sh %}
 rake update_bundles
 {% endhighlight %}
 
