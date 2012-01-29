@@ -93,6 +93,7 @@ ul#menu li.current a {
   color: #BBB;
   font-style: italic;
   font-size: 0.9em;
+  margin-bottom: 10px;
 }
 #follow-me {
   position: fixed;
