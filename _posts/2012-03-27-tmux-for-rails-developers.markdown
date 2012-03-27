@@ -7,7 +7,7 @@ layout: blog
 ---
 
 There has been a lot of buzz about [tmux](http://tmux.sourceforge.net/)
-recently. The fine folks pragmatic programmers folks published a very good
+recently. The fine pragmatic programmers folks published a very good
 [book](http://pragprog.com/book/bhtmux/tmux) about it and on twitter, at least
 on my stream, there are a lot people in love with it. Actually, I run into it
 for a *real word* need (I'll explain this later) and I found it incredible
