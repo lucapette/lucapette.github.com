@@ -6,9 +6,9 @@ category: rails
 layout: blog
 ---
 
-I'm pretty satisfied with how you can achieve common tasks with Rails. I'm
-thinking about Rails routing, validations, internationalization and etc. But
-there is just one thing I didn't really like. And it's, of course, grouping
+I'm pretty satisfied about how you can achieve common tasks with Rails. I'm
+thinking about routing, validations, internationalization and etc. But there
+is just one thing I didn't really like. And it's, of course, grouping
 validations. I'm talking about the simple situations where you have a model
 that needs to group validations per steps. Something that the awesome
 [DataMapper](http://datamapper.org/) guys call contextual validations.
