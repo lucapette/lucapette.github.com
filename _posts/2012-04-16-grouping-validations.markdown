@@ -350,3 +350,5 @@ can create the `next` and the `previous` events to handle the transitions.
 Regarding the controllers and the view, you can simplify your job if you use
 the steps as the name of views. Actually, if you're interested I can write
 about that too.
+
+There is a [demo](https://github.com/lucapette/grouping-validations-demo) project if you want to play with it.
