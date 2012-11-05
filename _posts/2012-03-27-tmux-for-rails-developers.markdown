@@ -78,8 +78,8 @@ Guard. When a I need to read the log or to open a console I open a new window
 and I read it there.  It a simple setup but it's like a dream for me because I
 can do all I need to do while developing within the same visual space. I
 [configured](https://github.com/lucapette/dotfiles/blob/master/tmux.conf) tmux
-in a manner it's more similar to the Vim. So I don't even have to remember new
-stuff. And I'm pretty happy with its appreance too now:
+in a manner it's more similar to Vim. So I don't even have to remember new
+stuff. And I'm pretty happy with its appearance too now:
 
 <a href="/img/tmux-and-rails.png" target='_blank'>
   <img src="/img/tmux-and-rails.png" width="700" height="394" alt="tmux and rails" />
