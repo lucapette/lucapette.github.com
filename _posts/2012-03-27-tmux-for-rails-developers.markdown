@@ -70,7 +70,7 @@ terminal multiplexer but it's not that obvious to have this opportunity with
 another software if you really think about it.
 
 To help you getting a picture of how panes can be used I'll talk about how is
-my worflow with Rails projects: I have two panes with horizontal layout (nice
+my workflow with Rails projects: I have two panes with horizontal layout (nice
 tmux feature here, it has various pane layouts and you can switch through them
 with a single keystroke). In the top pane (that is the bigger one) I usually
 have Vim with a spec open and in the bottom pane I run the spec, usually with
