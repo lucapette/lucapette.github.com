@@ -139,7 +139,7 @@ the opportunity to run just a single command in order to create a complex tmux
 session, with panes and windows. tmuxinator uses a simple configuration file
 that is really is self-explanatory:
 
-{% highlight yml %}
+{% highlight ruby %}
 project\_name: awesome-project
 project\_root: ~/code/awesome-project
 socket\_name: awesome-project

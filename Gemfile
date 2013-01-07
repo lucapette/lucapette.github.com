@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '0.12'
 gem 'rake'
 gem 'RedCloth'
-gem 'liquid','2.2.2'
+gem 'liquid'
 gem 'stringex'
