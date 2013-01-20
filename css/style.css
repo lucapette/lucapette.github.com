@@ -1,5 +1,5 @@
 body, p {
-  background: #FFFFFA;
+  background: #FFFFFF;
   font-family: Palatino,"Palatino Linotype", serif;
   font-size: 18px;
   text-align: justify;
@@ -57,7 +57,7 @@ ul#menu li.current {
   background-color: #FFFFFF;
 }
 ul#menu li.current a {
-  color: #0069D6;
+  color: #08c;
 }
 #menu a {
   color: #444;
