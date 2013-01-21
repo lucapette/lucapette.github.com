@@ -16,7 +16,7 @@ if you're writing non trivial applications with Rails you generally end up
 asking yourself why everything looks so messed-up and is hard to maintain. The
 first question I ask myself when I consider reading a technical book is: *is
 this book worth my reading time?* Well, I think ["Practical Object-Oriented
-Design In Ruby"](http://http://www.poodr.info/) finally fills the gap for a
+Design In Ruby"](http://www.poodr.info/) finally fills the gap for a
 need that was pretty clear to me: explaining simple OOD that feels like Ruby
 using proper examples. So yes, the answer is yes. The book is worth reading,
 definitely. And I think the community will benefit from it a lot since there
