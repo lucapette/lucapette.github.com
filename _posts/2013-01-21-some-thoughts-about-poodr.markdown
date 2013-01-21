@@ -58,7 +58,7 @@ technical *Ruby* book in which I was actually highlighting sentences.
 
 ## Feels like Ruby
 
-The techniques she presents throught the book will always feel like Ruby code
+The techniques she presents throughout the book will always feel like Ruby code
 and not something ported from a different language. I don't want to show you
 any example because it would probably be out of context and won't make any
 difference. But what I can tell you is the feeling I had while reading the code
