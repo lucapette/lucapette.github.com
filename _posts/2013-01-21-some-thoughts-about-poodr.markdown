@@ -11,15 +11,16 @@ in the latest couple of years. People are writing blog posts, giving talks at
 conferences and writing books on the subject. OOD is nothing new, let's say
 it, but I think the status of many Rails projects is the reason why there is
 all this attention to the topic in the Ruby community. Be careful I'm not
-blaming the framework, I'm making a living by using it. I'm just saying that if
-you're writing non trivial applications with Rails you generally end up asking
-yourself why everything looks so messed-up and is hard to maintain. The first
-question I ask myself when I consider reading a technical book is: *is this
-book worth my reading time?* Well, I think this book finally fills the gap for
-a need that was pretty clear to me: explaining simple OOD that feels like Ruby
+blaming the framework, I'm making a living by using it. I'm just saying that
+if you're writing non trivial applications with Rails you generally end up
+asking yourself why everything looks so messed-up and is hard to maintain. The
+first question I ask myself when I consider reading a technical book is: *is
+this book worth my reading time?* Well, I think ["Practical Object-Oriented
+Design In Ruby"](http://http://www.poodr.info/) finally fills the gap for a
+need that was pretty clear to me: explaining simple OOD that feels like Ruby
 using proper examples. So yes, the answer is yes. The book is worth reading,
-definitely. And I think the community will benefit from it a lot since
-there are still a lot of doubts about OOD.
+definitely. And I think the community will benefit from it a lot since there
+are still a lot of doubts about OOD.
 
 # The book
 
