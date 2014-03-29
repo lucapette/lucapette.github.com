@@ -1,7 +1,6 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
-gem 'jekyll', '0.12'
+gem 'jekyll'
 gem 'rake'
-gem 'RedCloth'
 gem 'liquid'
 gem 'stringex'

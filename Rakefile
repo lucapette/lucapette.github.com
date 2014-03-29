@@ -1,15 +1,16 @@
 require 'bundler/setup'
 require 'stringex'
+require 'fileutils'
 
 def ask(message)
   print message
   STDIN.gets.chomp
 end
 
-desc 'Create a new post in _posts'
-task :post do
+desc 'Create a new post in _draft'
+task :draft do
   title = ask("Title: ")
-  filename = "_posts/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.markdown"
+  filename = "_drafts/#{title.to_url}.markdown"
 
   abort("File already exists!") if File.exist?(filename)
 
@@ -28,4 +29,14 @@ task :post do
   end
 end
 
-task default: :post
+desc 'Publish posts in _draft'
+task :publish do
+  title = ask("Title: ")
+  Dir.glob("_drafts/*") do |post|
+    if post =~ /#{title}/ && ask("Publish #{post}? ") =~ /Y(es)?/i
+      FileUtils.mv(post, "_posts/#{Time.now.strftime('%Y-%m-%d')}-#{File.basename post}")
+    end
+  end
+end
+
+task default: :draft
