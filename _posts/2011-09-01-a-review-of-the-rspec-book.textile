@@ -1,14 +1,11 @@
 ---
 title: A review of The RSpec Book
-description:  A review of The RSpec Book byt Dadiv Chelimsky. Published by The Pragmatic Programmer in Dicember 2010
+description:  A review of The RSpec Book by David Chelimsky. Published by The Pragmatic Programmer in Dicember 2010
 keywords: the rspec book, ruby, book review, David Chelimsky, tdd, bdd, cucumber
 category: books
 layout: blog
 ---
 h2. Introduction
-
-<a href="http://www.amazon.com/gp/product/1934356379/ref=as_li_tf_il?ie=UTF8&tag=lucapette-20&linkCode=as2&camp=217145&creative=399377&creativeASIN=1934356379"><img border="0" src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=1934356379&MarketPlace=US&ID=AsinImage&WS=1&tag=lucapette-20&ServiceVersion=20070822"
-style="display:inline; float:left; margin: 4px 8px 0 0"></a> I have already said it in an another post: "RSpec":http://rspec.info/ is a wonderful framework. It has a great, sexy and simple syntax. For these reasons I had to read something about it. I read The RSpec book without even throwing a first glance at the table of contents. My point was: if I like a framework, chances are I will like a book written by its maintainer.
 
 <div style="clear:both"></div>
 
@@ -76,5 +73,3 @@ This book covers topics I like very much, so it would be strange if I disliked i
 h2. What I disliked most
 
 Nothing in particular. The book covers many other things apart from RSpec and, ironically, this could be considered a flaw because you would prefer to stay focused on the framework. However, the other topics are quite interesting to read so I don't consider it to be a problem.
-
-{% include amazon.html %}

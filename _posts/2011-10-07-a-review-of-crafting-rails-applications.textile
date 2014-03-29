@@ -7,8 +7,6 @@ layout: blog
 ---
 h2. Introduction
 
-<a href="http://www.amazon.com/gp/product/1934356735/ref=as_li_tf_il?ie=UTF8&tag=lucapette-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=1934356735"><img border="0" src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=1934356735&MarketPlace=US&ID=AsinImage&WS=1&tag=lucapette-20&ServiceVersion=20070822" style="display:inline; float:left; margin: 4px 8px 0 0"></a> "José Valim":http://twitter.com/#!/josevalim is a true "Ruby hero":http://rubyheroes.com/heroes, we all know. He is so awesome that "tenderlove":http://twitter.com/#!/tenderlove tried to kiss him at the last RailsConf. For these and other reasons, I was very excited to read his book. Reading the feedback this book received I understood it should be an advanced book. And it is. It's not a simple book despite his brevity, it's difficult read. For the first time in my life I have read a technical book almost two times in a row. The topics covered are complicated and immensely interesting.
-
 <div style="clear:both"></div>
 
 So, as usual, my considerations grouped by chapter:
@@ -35,5 +33,3 @@ Generally speaking, when a book is difficult to read it isn't a good sign. But t
 h2. What I disliked most
 
 I can't dislike a book like this one. But I have to confess that there are a lot of "let's". Well, I'm not a native speaker so I can't suggest a better way to make that kind of sentences. But, you know, I'm just saying a stupid thing. *This book is just awesome*.
-
-{% include amazon.html %}

@@ -7,9 +7,6 @@ layout: blog
 ---
 h2. Introduction
 
-
-<a href="http://www.amazon.com/gp/product/0596523009/ref=as_li_tf_il?ie=UTF8&tag=lucapette-20&linkCode=as2&camp=217145&creative=399377&creativeASIN=0596523009"><img border="0" src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=0596523009&MarketPlace=US&ID=AsinImage&WS=1&tag=lucapette-20&ServiceVersion=20070822" style="display: inline; float: left; margin: 4px 8px 0 0"></a>
-
 "Ruby Best Practices":http://rubybestpractices.com/ is the latest book of a Ruby-related series I have read in the past weeks. In this period, I'm focusing myself on learning real Ruby, I mean there is a big difference between _using Ruby to write code_ and _coding in Ruby to solve problems_. I think I'm on the right path to master Ruby and a big part of my recent improvements derives from reading books. In the following weeks I'm going to review all the Ruby-related books I have recently read as a way to give back to the community and as a way to wrap-up what I learnt.
 
 <div class="clearfix"></div>
@@ -45,5 +42,3 @@ I have a general good opinion of this book. It has several good aspects and abov
 h2. What I disliked most
 
 There are a few aspects I disliked in the book. If I have to be critic about it I would say it covers aspects of programming that I consider neither Ruby-related nor "Best Practices" but, obviously, it is just an opinion. However, you *should read* it if you care about Ruby.
-
-{% include amazon.html %}

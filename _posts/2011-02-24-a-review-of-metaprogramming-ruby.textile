@@ -7,8 +7,7 @@ layout: blog
 ---
 h2. Introduction
 
-<a href="http://www.amazon.com/gp/product/1934356476/ref=as_li_tf_il?ie=UTF8&tag=lucapette-20&linkCode=as2&camp=217145&creative=399377&creativeASIN=1934356476"><img border="0" src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=1934356476&MarketPlace=US&ID=AsinImage&WS=1&tag=lucapette-20&ServiceVersion=20070822"
-style="display:inline; float:left; margin: 4px 8px 0 0>;"></a> I want to say it straight away: you should read this book if you haven’t done it yet. I’m reading a bunch of Ruby-related books and this is one of the best available on the market. So, in this review, I’ll try to give an overview of the book still I guess I won’t be good enough to explain how good this book is.
+I want to say it straight away: you should read this book if you haven’t done it yet. I’m reading a bunch of Ruby-related books and this is one of the best available on the market. So, in this review, I’ll try to give an overview of the book still I guess I won’t be good enough to explain how good this book is.
 
 <div style="clear:both"></div>
 
@@ -44,5 +43,3 @@ Generally speaking, I prefer description oriented books rather than example orie
 h2. What I disliked most
 
 As soon as all my reviews contain this paragraph I won’t leave it out this time, even thought *there is absolutely nothing I disliked* in this book.
-
-{% include amazon.html %}

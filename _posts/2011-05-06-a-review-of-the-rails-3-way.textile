@@ -7,9 +7,7 @@ layout: blog
 ---
 h2. Introduction
 
-
-<a href="http://www.amazon.com/gp/product/0321601661/ref=as_li_tf_il?ie=UTF8&tag=lucapette-20&linkCode=as2&camp=217145&creative=399377&creativeASIN=0321601661"><img border="0" src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=0321601661&MarketPlace=US&ID=AsinImage&WS=1&tag=lucapette-20&ServiceVersion=20070822"
-style="display: inline; float: left; margin: 4px 8px 0 0"></a> This book doesn't need an introduction. "Obie Fernandez":http://obiefernandez.com/ has done an incredibly awesome work with this book, many of us already knew it. Generally, my reviews start with a tiny description of the reviewed book, then go on with considerations grouped by chapter and finish with a general consideration about what I liked and disliked most in the book. But... "The Rails 3 way":http://tr3w.com/ deserves an exception. This book should live on your desktop if you're a Rails developer. Indeed, I could stop the review with the previous sentence. Really. I mean, only if you are Obie Fernandez or "put a name of a Rails core team member here" you can escape that rule. So if you are impatient, you could even not read this review. Buy the book and you'll be happy :)
+This book doesn't need an introduction. "Obie Fernandez":http://obiefernandez.com/ has done an incredibly awesome work with this book, many of us already knew it. Generally, my reviews start with a tiny description of the reviewed book, then go on with considerations grouped by chapter and finish with a general consideration about what I liked and disliked most in the book. But... "The Rails 3 way":http://tr3w.com/ deserves an exception. This book should live on your desktop if you're a Rails developer. Indeed, I could stop the review with the previous sentence. Really. I mean, only if you are Obie Fernandez or "put a name of a Rails core team member here" you can escape that rule. So if you are impatient, you could even not read this review. Buy the book and you'll be happy :)
 
 <div class="clearfix"></div>
 
@@ -68,5 +66,3 @@ If you have read the introduction to this review you already know what I think a
 h2. What I disliked most
 
 This is nearly a perfect book in my opinion. If I have to be overcritical about it I'd say that, although I really liked the choice of haml, I would have preferred to read some sort of introduction to it. But... *I'm not that critical, this book is wonderful. Buy it, do yourself a favour*.
-
-{% include amazon.html %}
