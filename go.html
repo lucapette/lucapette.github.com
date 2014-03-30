@@ -1,0 +1,11 @@
+---
+title: go
+description: My posts about "go":http://golang.org programming language
+keywords: lucapette, go, golang
+layout: category
+---
+<ul id=archive>
+    {% for post in site.categories.go %}
+      <li><span class=date>{{ post.date | date:"%Y-%m-%d"  }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
