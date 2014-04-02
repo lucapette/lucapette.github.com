@@ -177,12 +177,16 @@ command I'm running:
   command.
 
 When I push to master, gitlab-ci will run the script that is running a docker
-command that runs my tests. I find it **awesome** that I can **really** run my
+command that runs my tests. 
+
+After crafting all this process, I find it **awesome** that I'm ***really** able to run my
 tests on the CI server without having to install anything related to the code
-I'm testing, not *even* the programming language I'm using for the project. My
-only dependency on the server is docker itself and I think this is a very good
-trade-off. I'm currently in the process of making the test suite more
-robust, that will result in having more dependencies like a real influxdb
-server. And I can already foresee how funny it will be to
+I'm testing, not *even* the programming language I'm using for the project, since my
+only dependency on the server is docker itself. I think this is a very good
+trade-off.
+
+The next step, which I'm currently working in, is making the test suite more
+robust. That will result in having more dependencies like a real influxdb
+server. Moreover, I can already foresee how funny it will be to
 [link](http://docs.docker.io/en/latest/use/working_with_links_names/) my
 containers for running the tests.
