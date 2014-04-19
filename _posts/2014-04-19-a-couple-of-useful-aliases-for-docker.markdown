@@ -19,7 +19,7 @@ aliases other people were using to solve the same problem (being lazy also
 means you don't want to re-invent the wheel). I think I found something that
 really fits my needs and it is done the way I would do it.  However,  I
 couldn't find the reference anymore so I finished re-implementing the aliases
-on my own (that felt like re-inventing the wheel someone) and I can't give
+on my own (that felt like re-inventing the wheel somehow) and I can't give
 credit to the person that originated this idea.
 
 The basic idea is adding aliases to docker in a way they feel like *native*
