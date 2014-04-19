@@ -1,25 +1,28 @@
 ---
 title: "A couple of useful aliases for docker"
-description: A couple of useful aliases for docker that use everyday
+description: A couple of useful aliases for docker that I use everyday
 keywords: docker, bash, zsh
 category: docker
 layout: blog
 ---
 
-Writing [Dockerfiles](http://docs.docker.io/reference/builder/) is a pretty
+Writing [Dockerfiles](http://docs.docker.io/reference/builder/) is pretty
 funny experience. I like the idea of writing the minimum amount of
-instructions that will make possible to run kafka, redis, influxdb or whatever
-thing is suitable for containers. While making my first steps developing a
-Dockerfile I noticed there were a couple of commands I was typing all the
-time. And they were a bit tedious to write. Since I'm a bit lazy I started
-looking into aliases other people were using to solve the same problem (being
-lazy means you don't want to re-invent the wheel too). I think I found
-something that really fit my needs and how I would have done it but the thing
-is that I couldn't find the reference anymore so I finished re-implementing
-the aliases on my own (that felt like re-inventing the wheel someone) and I
-can't give credit to the person that originated this idea.
+instructions that will make it possible to run
+[kafka](http://wurstmeister.github.io/kafka-docker/),
+[redis](http://docs.docker.io/examples/running_redis_service/),
+[influxdb](https://index.docker.io/u/lucapette/influxdb/) or whatever thing is
+suitable for containers. While making my first steps in developing a
+Dockerfile I noticed there were a few commands I was typing all the time. And
+they were a bit tedious to write. Since I'm a bit lazy I started looking into
+aliases other people were using to solve the same problem (being lazy also
+means you don't want to re-invent the wheel). I think I found something that
+really fits my needs and it is done the way I would do it.  However,  I
+couldn't find the reference anymore so I finished re-implementing the aliases
+on my own (that felt like re-inventing the wheel someone) and I can't give
+credit to the person that originated this idea.
 
-The basic idea is adding aliases to docker in a way the feel like *native*
+The basic idea is adding aliases to docker in a way they feel like *native*
 commands. They look like:
 
 {% highlight sh %}
@@ -43,16 +46,16 @@ docker() {
 {% endhighlight %}
 
 The function is using its first argument to check if there is a command on the
-system that matches the argument itself using a convention that I saw already
-used in git (there is a nice stackoverflow dicussion about how to check a
+system that matches the argument itself using a convention that I have already
+seen in git (there is a nice stackoverflow dicussion about how to check if a
 command exists
 [here](http://stackoverflow.com/questions/592620/how-to-check-if-a-program-exists-from-a-bash-script)).
-Basically, if you want to add a `docker clean` command, you need to make
-available in your path an executable names `docker-clean`. If this command
-exists it gets executed otherwise the function delegates to the docker
-executable the execution of the given command. Pretty simple and pretty neat.
-So far I added two aliases for commands I'm executing all the time. I have a
-`docker clean` that looks like this:
+Basically, if you want to add a `docker clean` command, you need to make an
+executable named `docker-clean` available in your path. If this command
+exists, it gets executed. Otherwise the function delegates the execution of
+the given command to docker. Pretty simple and pretty neat.  So far I added
+two aliases for commands I'm executing all the time. I have a `docker clean`
+that looks like this:
 
 {% highlight sh %}
 #/bin/bash
@@ -71,4 +74,5 @@ docker run -i -t --entrypoint=/bin/bash $1 --
 Very helpful to look around in a container while building it.
 
 Now the only thing I miss is auto-completion for my custom commands but I may
-add it soon.
+add it soon. I hope this helps to simply your workflows while building
+Dockerfiles.
