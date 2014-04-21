@@ -14,7 +14,7 @@ instructions that will make it possible to run
 [influxdb](https://index.docker.io/u/lucapette/influxdb/) or whatever thing is
 suitable for containers. While making my first steps in developing a
 Dockerfile I noticed there were a few commands I was typing all the time. And
-they were a bit tedious to write. Since I'm a bit lazy I started looking into
+they were tedious to write. Since I'm a bit lazy I started looking into
 aliases other people were using to solve the same problem (being lazy also
 means you don't want to re-invent the wheel). I think I found something that
 really fits my needs and it is done the way I would do it.  However,  I
@@ -42,7 +42,6 @@ docker() {
     /usr/local/bin/docker $@
   fi
 }
-```
 {% endhighlight %}
 
 The function is using its first argument to check if there is a command on the
