@@ -71,9 +71,10 @@ true. And that's what I'm trying to do in the next sparse sentences:
 
 - I've left SponsorPay (now Fyber) after almost 2 fantastic years. It was a love
 story basically. I liked the people more than how much I dislike advertising.
-And I really don't like advertising. As all love stories the end is bitter but
-I feel a much better programmer now and I feel lucky I had such an
-opportunity.
+And I really don't like
+[advertising](https://www.youtube.com/watch?v=E_F5GxCwizc). As all love
+stories the end is bitter but I feel a much better programmer now and I feel
+lucky I had such an opportunity.
 
 - I've joined a just born company. Very exciting times ahead and the positive
 fear that I can get everything wrong.
