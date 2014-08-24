@@ -15,7 +15,7 @@ But let's start from the very beginning.
 In April 2012 Olia and I rented an apartment for two weeks in Kreuzberg,
 Berlin. We had absolutely no idea what to expect from the city. We came here
 just to understand if we would like the city to the point of moving here.
-Well, we did Berlin. It was a whole new world compared to the place
+Well, we did like Berlin. It was a whole new world compared to the place
 where I come from. Basically, in Napoli (and mostly in Italy) we have good
 weather and great food. Here it's almost the opposite. I say almost because
 the food is not that bad, the weather is though, but I think it's not a big piece of news. Our next step was renting another apartment for three months with the goal of finding a good job for me. I applied for a few positions and I had a very
@@ -72,9 +72,9 @@ fear that I can get everything wrong.
 
 - Olia changed her job already once - compared to three very hard Italian-style years, this is a great feeling.
 
-- I feel hooked to Berlin. It feels like home, it feels like a "the place" sometimes.
+- I feel hooked to Berlin. It feels like home, it even feels like a cage sometimes.
 It's such a good fit for me that I'm afraid I would't be able to live anywhere else. It
-feels like Ruby in this sense. I hardly chose anything else than Ruby unless
+feels like Ruby in this sense. I hardly choose anything else than Ruby unless
 I can't use Ruby. Same for Berlin.
 
 Now I guess it's time for some conclusions. But I'm going to disappoint you a
