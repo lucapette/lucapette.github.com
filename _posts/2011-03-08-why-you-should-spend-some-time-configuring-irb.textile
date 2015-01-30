@@ -2,8 +2,7 @@
 title: Why you should spend some time configuring irb
 description:  Why you should spend some time configuring IRB.
 keywords: ruby, irb, console
-category: irb
-layout: blog
+layout: articles
 ---
 Many of us have fallen in love with Ruby playing with irb. I’m such a person. Ruby is a wonderful and powerful language, and you have to play with its features many times to really understand what you can achieve with it. So I think we all agree on the importance of irb. The interactive console is not only a way to familiarize with the language but, in many cases, is a great tool to improve one’s productivity. Indeed, it happens many times a day that you run irb just to solve a doubt or to try an API.
 

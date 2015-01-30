@@ -2,8 +2,7 @@
 title: 'Grouping validations'
 description: 'Grouping validations'
 keywords: rails, state_machine, with_options, validations
-category: rails
-layout: blog
+layout: articles
 ---
 
 I'm pretty satisfied about how you can achieve common tasks with Rails. I'm

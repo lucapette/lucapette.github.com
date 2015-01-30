@@ -9,18 +9,14 @@
     <div class=container>
       <div class="row">
         <div class="offset2 span8">
-          {% assign blog="current" %}
+          {% assign articles="current" %}
           {% include header.html %}
           <div id=main>
             <article>
             <h1>{{page.title}}</h1>
             <div class=row>
               <div class=span5>
-                <time pubdate class="timeago" datetime="{{page.date | date:"%FT%TZ"}}">{{ page.date | date_to_string }}</time>
-                in
-                {% for category in page.categories %}
-                  <a href="/{{ category }}.html"> {{ category }}</a>
-                {% endfor %}
+                Written <time pubdate class="timeago" datetime="{{page.date | date:"%FT%TZ"}}">{{ page.date | date_to_string }}</time>
               </div>
             </div>
             <div class=content>
@@ -41,6 +37,5 @@
         </div>
       </div>
     </div>
-    {% include ribbon.html %}
   </body>
 </html>

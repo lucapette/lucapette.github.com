@@ -2,13 +2,8 @@
 title: 'Vim for Rails developers: browse Ruby, RSpec and Rails docs quickly'
 description: 'Install vim-ruby-doc and vim-jquery-doc for better API docs browsing'
 keywords: vim, ruby, rails, rspec, jquery, API doc, apidock.com
-categories:
-- vim
-- rails
-layout: blog
+layout: articles
 ---
-{% include vim_for_rails.html %}
-
 In this post I just want to bring to your attention a little plugin I extracted
 from my [vimfiles](http://github.com/lucapette/vimfiles). We all need to read
 some API docs during our work day. And I dislike a lot the idea of opening the

@@ -2,8 +2,7 @@
 title: Getting nice bash aliases with Ruby
 description: Getting some bash cd aliases with Ruby
 keywords: ruby, bash, alias, aliases
-category: ruby
-layout: blog
+layout: articles
 ---
 I like shortcuts a lot. I like aliases and I like all the stuff that makes me
 more productive. Even if we are talking about a couple of characters to change

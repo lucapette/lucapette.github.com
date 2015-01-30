@@ -2,8 +2,7 @@
 title: Introducing the Rails core_ext series
 description: Introducing the rails core_ext series, the index article of the series
 keywords: core_ext, activesupport
-category: rails
-layout: blog
+layout: articles
 ---
 I think code reading matters. And I'm not the "only":http://www.joelonsoftware.com/articles/fog0000000053.html "one":http://c2.com/cgi/wiki?ReadGreatPrograms "who":http://theadmin.org/articles/2010/05/23/code-reading-new-ideas-and-new-solutions/ "thinks":http://www.skorks.com/2010/05/why-i-love-reading-other-peoples-code-and-you-should-too/ "so":http://blogs.msdn.com/b/ericlippert/archive/2004/06/14/reading-code-is-hard.aspx. Recently, I've been thinking about giving myself a goal regarding code reading. And I was thinking to set this goal to something related to Rails because I really want to dig into Rails code. So, while reading the appendixes of the rails three way, I realized that the Rails extensions to Ruby core are cool and, above all, there are many things I didn't know. So wrapping up these thoughts I've set the following goal: I'll try to cover all the Rails core_ext with some posts. I'll try to understand how to use the stuff and how it actually works. I hope that writing some posts will help me to complete this goal and to do it quickly. Furthermore, this series could be useful mainly for the beginners that want to dig into Rails. Code reading matters, you know.
 

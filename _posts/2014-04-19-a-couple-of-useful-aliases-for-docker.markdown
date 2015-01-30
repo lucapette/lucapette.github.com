@@ -2,8 +2,7 @@
 title: "A couple of useful aliases for docker"
 description: A couple of useful aliases for docker that I use everyday
 keywords: docker, bash, zsh
-category: docker
-layout: blog
+layout: articles
 ---
 
 Writing [Dockerfiles](http://docs.docker.io/reference/builder/) is pretty

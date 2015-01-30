@@ -2,8 +2,7 @@
 title: New site
 description: Why I chose to design and deploy a new website with jekyll on github
 keywords: lucapette, site, github, jekyll
-category: myself
-layout: blog
+layout: articles
 ---
 Hi everyone,
 

@@ -2,12 +2,8 @@
 title: 'Vim for Rails developers: Recursive macros and Ack.vim'
 description: 'How to use vim macros and ack.vim to get done repetitive tasks'
 keywords: vim, rails, recursive macros, macro, ack, ack.vim
-categories:
-- vim
-- rails
-layout: blog
+layout: articles
 ---
-{% include vim_for_rails.html %}
 Programmers are "lazy":http://c2.com/cgi/wiki?LazinessImpatienceHubris. We all are. I think Rails programmers are lazier than others. I mean, Rails is an opinionated software, that's why we all love it. It has made many choices for us, so we can think about our problems. Now, if you're reading this article there are chances you use Vim AND Rails. Well, you are my favourite kind of programmers. You love simple ways to get things done but it's not enough to go home on time. You want the "pleasure":http://twitter.com/#!/lucapette/status/70826861772550144 too. And one of the things I hate more is doing repetitive tasks. So, for example, imagine the situation: you are refactoring some code and realize you don't like a name of a method anymore because it doesn't express its intent in a good manner. So, you think, OK if I rename this method I will have to change it in many files: WTF. I know you could say "Hey, I can do that with the xxx tool!". Yep, I know but I love Vim. And I think I'll use recursive macros combined with ack.vim.
 
 So, for those of us who are not familiar with this stuff I wrote down an introduction to both topics:

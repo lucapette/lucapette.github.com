@@ -2,11 +2,8 @@
 title: 'Rails core_ext: Array - conversions'
 description: 'Rails core_ext: array - conversions'
 keywords: core_ext, activesupport, array, conversions
-category: rails
-layout: blog
+layout: articles
 ---
-{% include core_ext.html %}
-
 The file conversions.rb contains three interesting extensions to the Array class. Furthermore, it requires other core_ext extensions. I will mention what these methods do.
 
 The first method you meet when you read this file is the following:

@@ -95,12 +95,6 @@ ul#menu li.current a {
   font-size: 0.9em;
   margin-bottom: 10px;
 }
-#follow-me {
-  position: fixed;
-  left: 20px;
-  top: 20%;
-  width: 200px;
-}
 .top {
   position:fixed;
   right: 15px;

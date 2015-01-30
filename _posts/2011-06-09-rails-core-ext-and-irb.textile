@@ -2,8 +2,7 @@
 title: 'Rails core_ext and IRB'
 description: using method_source with Rails core_ext and IRB
 keywords: rails, core_ext, irb
-category: irb
-layout: blog
+layout: articles
 ---
 As you may know, I'm writing a "series":/rails/introducing-the-rails-core_ext-series/ of posts about Rails core_ext. I have some drafts but these are being very busy days and I thought I could write just a tiny post about an addition I have done to my irbrc. The idea is pretty simple: I wanted to get a collection of methods added by active_support to a given class. So, I thought it was time to use a very nice feature of Ruby 1.9: source_location.
 

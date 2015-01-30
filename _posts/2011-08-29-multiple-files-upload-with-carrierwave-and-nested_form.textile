@@ -2,8 +2,7 @@
 title: Multiple files upload with carrierwave and nested_form
 description: Multiple Attachments with carrierwave and nested_form
 keywords: rails, carrierwave, nested_form, attachments
-category: rails
-layout: blog
+layout: articles
 ---
 I wrote this post just to show how it's possible to get a perfectly working form with multiple files upload within a few minutes. If you need to implement multiple file attachments to a given object with only one form quickly, this example could help you.
 

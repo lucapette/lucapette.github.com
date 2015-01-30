@@ -2,8 +2,7 @@
 title: Pry Everywhere
 description: "Pry is an IRB alternative. I'll show here a quick way to replace pry everywhere"
 keywords: pry, rails, irb, ruby
-category: pry
-layout: blog
+layout: articles
 ---
 I have to confess that I'm generally skeptical about alternatives for tools that work so fine like IRB. And I really like IRB. So why Pry? And why everywhere? Because *Pry features blew my mind*.
 When I wrote "about IRB customization":/irb/why-you-should-spend-some-time-configuring-irb, I was doing what I always do when I like a tool: customize it in order to feel the tools more familiar with my way of thinking. So, when I run into "Pry":http://pry.github.com/, some of its features blew my mind because they were exactly what I really would like to have in IRB.

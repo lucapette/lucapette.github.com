@@ -2,11 +2,8 @@
 title: 'Rails core_ext: Array - extract_options'
 description: 'Rails core_ext: array - extract_options'
 keywords: core_ext, activesupport, array, extract_options
-category: rails
-layout: blog
+layout: articles
 ---
-{% include core_ext.html %}
-
 This post will be short because in the extract_options.rb file there are a few lines of code to read but I preferred to publish it for the sake of completeness of the series. By the way, it's an important extension to the Array class because it's widely used in the rails code itself. Just for curiosity, I use a command like the following to search through the rails code:
 
 {% highlight sh %}

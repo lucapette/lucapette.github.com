@@ -1,15 +1,15 @@
 {% case page.url %}
 {% when '/index.html' %}
 {% assign home = "current" %}
-{% assign blog = " " %}
+{% assign articles = " " %}
 {% assign about = " " %}
-{% when '/blog.html' %}
+{% when '/articles.html' %}
 {% assign home = " " %}
-{% assign blog = "current" %}
+{% assign articles = "current" %}
 {% assign about = " " %}
 {% when '/about.html' %}
 {% assign home = " " %}
-{% assign blog = " " %}
+{% assign articles = " " %}
 {% assign about = "current" %}
 {% endcase %}
 
@@ -21,7 +21,7 @@
     <nav class=span3>
     <ul id=menu>
       <li class="{{ home }}"><a href="/">Home</a></li>
-      <li class="{{ blog }}"><a href="/blog.html">Blog</a></li>
+      <li class="{{ articles }}"><a href="/articles.html">Articles</a></li>
       <li class="{{ about }}"><a href="/about.html">About</a></li>
     </ul>
     </nav>

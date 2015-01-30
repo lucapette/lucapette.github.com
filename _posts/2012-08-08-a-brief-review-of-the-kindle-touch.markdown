@@ -2,8 +2,7 @@
 title: A brief review of the kindle touch
 description: a brief review of the kindle touch
 keywords: kindle, kindle touch, amazon, review, reading
-category: myself
-layout: blog
+layout: articles
 ---
 
 I generally write about Vim or Rails but this will be a small exception.

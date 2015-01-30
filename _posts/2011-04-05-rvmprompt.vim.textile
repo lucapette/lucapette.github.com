@@ -2,8 +2,7 @@
 title: "rvmprompt.vim"
 description: a little vim status-line plugin based on the rvm prompt command
 keywords: vim, rvm, plugin, rvmprompt.vim
-category: vim
-layout: blog
+layout: articles
 ---
 If you’re a ruby developer the odds are you use rvm. But if you’re a ruby developer and you don’t use rvm then don’t waist your time reading this post. Stop and go straight to learn about it.
 Now let’s get back to our topic. I use rvm on all my machines and sometimes I get confused when I write code in Vim because I don’t remember the current ruby version I’m running. I searched for a plugin in order to get some information about rvm in the statusline and I found rvm.vim. It is nice and works fine but it doesn’t fit with my needs. I use rvm-prompt for my bash prompt and it works really well for me, so I wrote a little function to use it in my vimrc:

@@ -2,13 +2,8 @@
 title: "Vim for rails developers: indenting code"
 description: How you can indent your code preserving the cursor position with a Vim mapping
 keywords: vim, rails, indenting code, tip, map, mapping
-categories:
-- vim
-- rails
-layout: blog
+layout: articles
 ---
-{% include vim_for_rails.html %}
-
 I use Vim mainly to write code and, in order to maintain some sanity, I like my code indented. I like to have a mapping for indenting the entire file I'm editing. My first attempt to solve this simple problem was:
 
 {% highlight vim %}

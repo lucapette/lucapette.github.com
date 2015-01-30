@@ -2,8 +2,7 @@
 title: "Go, docker and a CI server"
 description: A short tale about my first steps with go and docker
 keywords: go, golang, docker, gitlab, gitlab-ci
-category: go
-layout: blog
+layout: articles
 ---
 
 Lately I've been playing with [go](http://golang.org) and

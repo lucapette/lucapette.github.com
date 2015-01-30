@@ -2,8 +2,7 @@
 title: 'Rails core_ext: Array - access'
 description: 'Rails core_ext: array - access'
 keywords: core_ext, activesupport, array, access
-category: rails
-layout: blog
+layout: articles
 ---
 
 So, after the "introduction":http://lucapette.com/rails/introducing-the-rails-core_ext-series/ to the series, let's start with the Array extensions. The array.rb, located in rails/activesupport/lib/active_support/core_ext/, contains the following lines (consider that I have reordered the require statements):

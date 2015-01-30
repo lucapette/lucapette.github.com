@@ -2,8 +2,7 @@
 title: Twitter Bootstrap on Rails
 description: How you can easily integrate the twitter bootstrap framework and Ruby on Rails
 keywords: rails, twitter bootstrap, simple_form, show_for
-category: rails
-layout: blog
+layout: articles
 ---
 
 In the past weeks I saw a lot of interest for the [twitter bootstrap](http://twitter.github.com/bootstrap/) framework, and for good reasons. If you're not familiar with it, go straight to the site. I guess you'll like it. As for me I'm very enthusiastic about it because I'm neither a design guru nor a good one. So having a framework that gives nice results in such a little time is like watching a small dream come true. Now, as I said, I witnessed a lot of interest for the framework in Rails community, I also read a couple of good articles about how to play with the framework and the shiny new asset pipeline we recently got. But I have found little information on the aspect I find most interesting about this framework and the Rails community. It works great with the Rails ecosystem. So here I am to write down a couple of things I learnt while integrating twitter bootstrap into my recent projects.

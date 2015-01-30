@@ -2,8 +2,7 @@
 title: A few thoughts about Practical Object-Oriented Design In Ruby
 description:  A few thoughts about Practical Object-Oriented Design In Ruby by Sandi Metz. Published by Addison-Wesley in 2012
 keywords: object-oriented programming, ruby, book, review, poodr, Sandi Metz
-category: books
-layout: blog
+layout: articles
 ---
 
 Object-Oriented Design is a big part of the debate the Ruby community has had

@@ -2,8 +2,7 @@
 title: 'Tmux for rails developers'
 description: 'tmux for rails developers'
 keywords: tmux, rails, vim, pair programming
-category: rails
-layout: blog
+layout: articles
 ---
 
 There has been a lot of buzz about [tmux](http://tmux.sourceforge.net/)

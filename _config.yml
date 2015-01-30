@@ -1,8 +1,7 @@
 markdown: kramdown
-permalink: /:categories/:title
+permalink: /:title
 exclude:
 - README.markdown
-- .rvmrc
 - Gemfile
 - Gemfile.lock
 - Rake

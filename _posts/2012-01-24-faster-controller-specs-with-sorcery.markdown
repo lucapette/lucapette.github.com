@@ -2,8 +2,7 @@
 title: Faster controller specs with sorcery
 description: How you can speed up your controller specs if you're using sorcery
 keywords: rails, rspec, factory_girl, sorcery
-category: rails
-layout: blog
+layout: articles
 ---
 
 It looks like the entire Rails community is paying attention on the *testing-is-not-enough-your-tests-should-be-fast* mantra. And I have to say I agree with the topic on the whole. It's good to focus on speeding up your tests because, as [Corey Haines](http://coreyhaines.com/) keeps saying, it will help you to focus on the design of your project. But still I'm convinced you have to concentrate on the design and business logic first. When your project grows enough and you get a slow test suite, you should focus on test speed. Practically, I'm just focusing on the good advice "premature optimization is evil". Always, even when talking about tests.

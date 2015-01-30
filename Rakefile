@@ -14,7 +14,6 @@ task :draft do
 
   abort("File already exists!") if File.exist?(filename)
 
-  category    = ask('Category: ')
   description = ask('Description: ')
   keywords    = ask('Keywords: ')
 
@@ -23,8 +22,7 @@ task :draft do
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
     post.puts "description: #{description}"
     post.puts "keywords: #{keywords}"
-    post.puts "category: #{category}"
-    post.puts 'layout: blog'
+    post.puts 'layout: articles'
     post.puts '---'
   end
 end
