@@ -6,7 +6,7 @@ layout: articles
 ---
 
 A few months ago I started writing a journal and I'd like to share some
-thoughs about journaling and why I'm still doing it. I think it's something
+thoughts about journaling and why I'm still doing it. I think it's something
 worth giving a try.
 
 ## I'm not sure why I started journaling
@@ -37,13 +37,13 @@ following:
 - I have a `j` alias which opens a journaling file with the current date.
 - I use [goyo](https://github.com/junegunn/goyo.vim), a plugin that makes it
   very easy for me to focus on the current paragraph.
-- I use a specialised colourscheme since colours do help my contextual memory.
+- I use a specialised colorscheme since colours do help my contextual memory.
 
 That's mostly it. It's probably worth mentioning I use _tags_ to give some
 context to my entries. I ended up using only `@personal` and `@work` which
 have obvious usage.
 
-## I don't really review things yet and I think it's ok
+## I don't really review things yet and I think it's OK
 
 After a couple of months of writing entries almost every day I started asking
 myself what to do with the content produced. I wanted a way to get a sense of
@@ -66,17 +66,17 @@ entries and I feel good about it anyway.
 
 ## English? Italian? Both?
 
-If you've ever heard me speking you know pretty well I'm not a native speaker -
+If you've ever heard me speaking you know pretty well I'm not a native speaker -
 it feels like I'm one of the characters of Donnie Brasco or the
 Godfather. That brings up a discussion about what language I should
-use while writing. Now the interesting thing is, this discussion I had
+use while writing. Now the interesting thing is: this discussion I had
 with myself started a couple of months after I had already been writing all my
 entries in English. It felt natural as I do have more entries tagged
 `@work` and I speak only English at work. So not paying the price for the linguistic
 context switch was a natural decision. Infact, it wasn't a decision at all. At
 some point though, the number of `@personal` entries increased so I started
 missing my native language, the only language I can use when I'm in a very deep
-discussion with myself. This peek in `@personal` entries made me think about
+conversation with myself. This peek in `@personal` entries made me think about
 mixing languages. I even asked around about this specific topic. I tried
 using Italian for `@personal` entries and English for `@work` which I thought
 to be a crazy idea and it actually was. It didn't really work so in the end I
