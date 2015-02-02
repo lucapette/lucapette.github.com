@@ -50,7 +50,7 @@ myself what to do with the content produced. I wanted a way to get a sense of
 what I was writing. I like numbers, stats and graphs so I thought it would be
 good to have some visualization of my activity. I wrote a
 [sinatra](http://sinatrarb.com) application that serves a page that renders a
-calendar using a nice JQuery plugin (see http://fullcalendar.io/). Now I can
+calendar using a nice JQuery [plugin](http://fullcalendar.io). Now I can
 see how many entries I have per day (grouped by tag) and a trivial word count
 to get a sense of how intense my activity in the given day was.
 Now I have a fancy way of reviewing what I write and I actually never do. I
