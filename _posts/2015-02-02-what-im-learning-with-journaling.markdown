@@ -11,7 +11,7 @@ worth giving a try.
 
 ## I'm not sure why I started journaling
 
-Let's start with why I started. I find this one particurarly funny. I don't
+Let's start with why I started. I find this one particularly funny. I don't
 really know. I didn't have an actual reason to try journaling.
 I've seen people around the internet talking about it and started pondering if
 doing it would be positive for my mind and my life in general. What I
