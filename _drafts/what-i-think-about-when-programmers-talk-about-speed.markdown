@@ -77,10 +77,7 @@ time". I suggest patience. That's all I suggest, look at her code one month
 after it's there. Wait for bugs to come back, wait for other programmers to
 have to change her code.
 In the end, what I'm trying to say is that we focus on the wrong metrics and
-we have to pay more attention to the whole process. I call it artifact. I have
-no clue if that actually works in English and what I use artifact to stress
-the point I'll try to make in the next topic.
-
+we have to pay more attention to the whole process.
 
 # Forget the code, no one cares about that.
 
