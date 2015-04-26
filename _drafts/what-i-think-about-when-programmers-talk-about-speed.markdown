@@ -7,7 +7,7 @@ layout: articles
 
 A couple of weeks ago I had an interesting conversations with one of my team
 members. She confessed me she felt slow. I was pretty surprised but before
-moving on let me make a small premise. I hate the word performances. I'm not
+moving on let me make a small premise. I hate the word performance. I'm not
 sure how this word feels to native speakers or to people that didn't work for
 Accenture. But to me, it sounds like "oh the gigantic pile of bullshit coming
 from the manager that has no clue, again." That's my usual reaction to the
@@ -16,7 +16,7 @@ I tried to find a better word for a long time and ended up settling down for
 programmers performances when it comes about measuring our job.
 
 With this premise in mind, I told her I was surprised and then she asked me to
-tell me more. And that conversation lead me to write this. Our conversation
+tell her more. And that conversation lead me to write this. Our conversation
 had two main topics:
 
 - Three steps from the idea to the feature.
