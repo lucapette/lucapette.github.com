@@ -72,9 +72,9 @@ do the programmers managed by them. My opinion is: none of them count as long
 as they're all there and the result is actually helping. It's important to see
 this: what matters is the end result. And most managers I've met don't get
 they have to be patient. To actually see the results you have to wait for
-days. Don't stop at "oh I love this programmers, she finishes stories in no
-time". I suggest patient. That's all I suggest, look at the one month after
-her code is there. Wait for bugs to come back, wait for other programmers to
+days. Don't stop at "oh I love this programmer, she finishes stories in no
+time". I suggest patience. That's all I suggest, look at her code one month
+after it's there. Wait for bugs to come back, wait for other programmers to
 have to change her code.
 In the end, what I'm trying to say is that we focus on the wrong metrics and
 we have to pay more attention to the whole process. I call it artifact. I have
