@@ -113,7 +113,7 @@ Focusing too much on the "ship this shit" will produce too much debt and
 focusing too much on "let's make it perfect" won't produce enough. A few
 paragraphs before I said we focus on the wrong metrics. And I really believe
 so. Seeing this balance I'm talking about here it meant forgetting to measure
-how many features a dev ships in a week or how fast she goes from starting the
+how many features a developer ships in a week or how fast she goes from starting the
 feature to open the pull request. Writing the code is the fun part, writing
 the code is the easy part. And no one cares but you about the code. I'm not
 sure I can propose metrics that work better for your team, in the end metrics
@@ -128,8 +128,8 @@ feature on your website so your customers can enjoy more your product is very
 important. It kills a lot of discussions around technology. It keeps
 priorities focused on what matters for your company and your product. This
 discussion plays a major role in "developers' speed".  I'm not looking at
-their code, I'm looking at features they write. And that's what I told to the
-developer who left slow. She does the first two steps kinda "slow" but we
+their code, I'm looking at the features they write. And that's what I told to
+the developer who felt slow. She does the first two steps kinda "slow" but we
 don't need to do almost anything in the third step. I like that and while
 explaining to her I feel she's pretty fast I figure out I could share those
 ideas I have as other people may benefit and figure out they're not as slow as
