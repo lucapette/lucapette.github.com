@@ -68,7 +68,7 @@ with those steps. I met a lot of people that changes the order (like in: let's
 write the code who cares about the details of step one), people that
 skips/don't understand/don't care about step 3. And that's interesting,
 especially because most IT managers focus too much on one of the steps and so
-do the programmers managed my them. My opinion is: none of them count as long
+do the programmers managed by them. My opinion is: none of them count as long
 as they're all there and the result is actually helping. It's important to see
 this: what matters is the end result. And most managers I've met don't get
 they have to be patient. To actually see the results you have to wait for
