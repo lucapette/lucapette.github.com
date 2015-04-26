@@ -25,7 +25,7 @@ had two main topics:
 # Three steps from the idea to the feature
 
 I'm trying to abstract how programmers think and what are the steps that make
-them write the code the write. Of course, this is going to be a complete
+them write the code they write. Of course, this is going to be a complete
 failure if you expect me to get it right and come up with a general solution.
 There are so many other ways of looking at this that I don't even try to be
 right, furthermore everyone has an opinion anyway. I'm just trying to abstract
