@@ -16,8 +16,8 @@ confess I tried to find a better word for a long time but I ended up settling
 down for programmers' performance when it comes about measuring our job.
 
 With this premise in mind, I told her I was surprised and then she asked me to
-tell her more. And that conversation lead me to write this article. Our
-conversation had two main topics:
+tell her more. And that conversation lead me to write this article, it had two
+main topics:
 
 - Three steps from an idea to the feature.
 - Forget about the code, no one cares about it.
