@@ -6,7 +6,7 @@
     {% include meta.html %}
   </head>
   <body>
-  {% include analytics.html %}
+    {% include analytics.html %}
     <div class=container>
       <div class="row">
         <div class="offset2 span8">
@@ -14,22 +14,19 @@
           {% include header.html %}
           <div id=main>
             <article>
-            <h1>{{page.title}}</h1>
-            <div class=row>
-              <div class=span5>
-                Written <time pubdate class="timeago" datetime="{{page.date | date:"%FT%TZ"}}">{{ page.date | date_to_string }}</time>
-              </div>
-            </div>
-            <div class=content>
+              <h1>{{page.title}}</h1>
               <div class=row>
-                <div class=span8>
-                  {{ content }}
+                <div class=span5>
+                  Written <time pubdate class="timeago" datetime="{{page.date | date:"%FT%TZ"}}">{{ page.date | date_to_string }}</time>
                 </div>
               </div>
-              {% include share.html %}
-              <div class=comment-section>
-                {% include disqus.html %}
-              </div>
+              <div class=content>
+                <div class=row>
+                  <div class=span8>
+                    {{ content }}
+                  </div>
+                </div>
+                {% include share.html %}
               </article>
             </div>
             {% include top.html %}
