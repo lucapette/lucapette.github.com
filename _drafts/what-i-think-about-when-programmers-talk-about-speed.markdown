@@ -12,7 +12,7 @@ not sure how this word feels to native speakers or to people who didn't work
 for Accenture. But to me, it sounds like "oh the gigantic pile of bullshit
 coming from the manager that has no clue, again." That's my usual reaction to
 the word and I don't like to use it at all because of this reason. I must
-confess I tried to find a better word for a long time and I ended up settling
+confess I tried to find a better word for a long time but I ended up settling
 down for programmers' performance when it comes about measuring our job.
 
 With this premise in mind, I told her I was surprised and then she asked me to
