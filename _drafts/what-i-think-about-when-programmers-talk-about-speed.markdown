@@ -1,6 +1,6 @@
 ---
 title: "What I think about when programmers talk about speed"
-description: Some random thoughts about development and its relationship with speed
+description: Some random thoughts about development and its relation to speed
 keywords: developers, speed, career
 layout: articles
 ---
