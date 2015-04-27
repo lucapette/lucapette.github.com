@@ -27,7 +27,7 @@ main topics:
 I'm trying to abstract from how programmers think and what the steps that make
 them write the code they write are. Of course, this is going to be a complete
 failure if you expect me to get it right and come up with a general solution.
-There are so many other ways of looking at this that I don't even try to be
+There are so many other ways of looking at it that I don't even try to be
 right, furthermore everyone has an opinion anyway. I'm just trying to abstract
 a bit from the actual programming process to talk about speed and performance.
 So here we go:
