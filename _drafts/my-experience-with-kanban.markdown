@@ -237,4 +237,14 @@ and I would not be able to explain the reasoning on my own, for my own teams.
 Graphs help people understand why you want to change something and help them
 seeing things that are not obvious.
 
-# Our current implementation
+# Kanban does not matter
+
+This process is serving us very well but I do prefer to warn people once again
+this is not a silver bullet. And I do not even think it is the main reason for
+the success of a team. In the end, every technique you end up using to
+organise your day is a set of tradeoffs, a specific set of limitations you
+give yourself in order not to completely loose control. They all work this
+way and Kanban is not special. As of today I am fully convinced the key of
+good management is communcation. It is the hard part, the challending one. And
+probably the starting point of my next article. Thank you very much for
+reading!
