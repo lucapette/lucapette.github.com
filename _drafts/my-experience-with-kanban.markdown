@@ -29,7 +29,7 @@ Well, this is a good question. I have no idea what "we use Kanban" means for
 other people. I know what it means for me and all I can do is sharing my "we
 use Kanban" key definition points:
 
-### Everone owns everything, everyone does everything at every stage
+### Everyone owns everything, everyone does everything at every stage
 
 I consider every version of Kanban is a variation of the sequential stages:
 todo, doing, done. As we are talking specifically about development is likely
@@ -67,7 +67,7 @@ write the code for can be moved further in the process (testing, review,
 deployment or whatever, it does not really matter). This rule "forces" people
 to think about the process itself. Starting working on something new is
 exciting, writing code to solve a problem as well. No one cares about that
-until it is realeased though. And that is what matters for the focus. I have
+until it is released though. And that is what matters for the focus. I have
 to admin this is not always easy state to be in. Everything comes with
 trade-offs and the downside of being always about to run out of work is
 managers have to work more than usual. This process requires constant
