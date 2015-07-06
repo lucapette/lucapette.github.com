@@ -80,7 +80,7 @@ product managers have to really understand the benefits of forgetting to plan
 in batches. It is pretty hard and I am lucky enough to be able to work this
 way at the moment. No batching means no recurrent meetings about what we are
 going to work on the next week (two weeks or whatever). Batching is typical of
-SCRUM (at least in my experience) and it has two things I do not like:
+Scrum (at least in my experience) and it has two things I do not like:
 
 - It lets your managers relax as it is easier for them to manage teams in
   strict cycles so they end up not helping to improve processes for the people
@@ -98,7 +98,7 @@ case, requires product help.
 
 ### Kaizen is not just a fancy word
 
-[https://en.wikipedia.org/wiki/Kaizen](Kaizen) sounds like a fancy word to me
+[Kaizen](https://en.wikipedia.org/wiki/Kaizen) sounds like a fancy word to me
 so I generally do not even mention it in discussions about Kanban. I do prefer
 the simple "continuous improvement". There is no need to have read a Kanban
 book to know what you mean with it. I think this point is vastly
