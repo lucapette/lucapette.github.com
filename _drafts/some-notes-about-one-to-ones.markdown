@@ -19,7 +19,7 @@ First of all two premises:
 Keeping those two points in mind I think there are a lot of questions to
 reply about one to ones. The frequency, the outcomes, how to plan them.
 Before I get to those points there's one thing to say which I think is the
-most important aspects about one to ones. Those meetings are not for you, the
+most important aspect about one to ones. Those meetings are not for you, the
 manager. They are very powerful tools as long as the people you're having one
 to ones with use the meeting for their own needs. This is absolutely crucial,
 the rest of the discussion makes no sense at all otherwise.
@@ -29,7 +29,7 @@ Now the details:
   - How to plan them
 
     I personally don't really plan them. As I said, I consider them a tool for the
-    person "on the other side" of the meeting. So I ask them how they want to us
+    person "on the other side" of the meeting. So I ask them how they want to use
     the meeting as long as we are on the same page. We consider it a tool to make
     us happier. To clarify doubts, misunderstandings. We talk about things that
     aren't related to work if we feel like.
@@ -55,8 +55,8 @@ Now the details:
     improve", "let's work with X on Y  because you both can benefit from the
     experience. Again, it can be whatever.
 
-Generally, I explain those things I've just explained here during the first
-one to one I have with people that join my team. And then I take it from
+Generally, I explain those things I have just explained here during the
+first one to one I have with people that join my team. And then I take it from
 there. If you keep it as free form as possible you'll start seeing a very
 interesting phenomenon: each person will use the meeting in a different way.
 You'll see some themes being developed more than others depending on the
@@ -69,11 +69,11 @@ meeting, let them choose what to do with it.
 When I sent a first draft of this article to a friend via email his first
 reaction was: "the way you just described them, it looks just like 2 people
 grabbing a coffee and having a chat, which I seriously believe is good! But
-how can you not lose the "meetingness". I think it's actually a good point.
-The idea you may get here is: I think those meetings should be very informal.
+how can you not lose the "meetingness"?". That is actually a good point.  The
+idea you may get here is: I think those meetings should be very informal.
 But, somehow, that tells me I'm not doing a good job then trying to explain
-how I intend one to ones: the point is still the same: you shouldn't be
+how I intend one to ones. The point is still the same: you shouldn't be
 driving it. It will be more formal with some people and "exactly like going
 for a coffee" for other people. Making it serious and official makes it boring
-too. You have to let the other person going where she wants to go. You'll love
-the results.
+too like most meetings. You have to let the other person go where she wants to
+go. You'll love the results.
