@@ -196,7 +196,7 @@ on the context:
 - What's your opinion about automated tests?
 - Do you care more about a specific way of testing things? (Like unit vs
   integration tests)
-- Why/When would you TDD? Why would you?
+- Why/When would you TDD?
 - When do you think it's a good idea to rewrite a piece of software?
 - What do you like/dislike about technology X?
 
