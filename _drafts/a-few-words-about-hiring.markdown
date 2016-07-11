@@ -168,7 +168,41 @@ are the employee you want them to be. Do not try to match your wishes with
 their profile. It never works like that. You know, they're human beings, so
 they evolve constantly. They have different needs, they come from different
 countries.
-Then ask about the past experiences if they have some.
+Then ask about the past experiences if they have some. And here I may get
+technical if needed. I do not ask questions like:
+
+- What's 2^16?
+- What are you favourite data structures?
+- What version of Ruby do you use?
+- What's the difference between ArrayList and Vector?
+
+Two things here: those are all questions people asked me. Believe it or not
+there are companies asking such ridicolous questions. Are you really asking
+questions like those too? Why? Honest question. Please let me know. Because
+it's out of my understanding.
+
+I ask what I call vertical questions about technologies. I'm no native speaker
+so maybe "vertical questions" makes no sense for you. This is what I mean:
+vertical questions are those kind of questions that are vertical to your
+experience level. Your answer will change over the years because your
+perception of the topic, your understanding of it will change over the years.
+I encourage you to think over this. You will find a lot of technical questions
+you can ask that won't sound like the bullshit above-mentioned. And they are
+going to be more inclusive questions too: they're not aggressive. They do not
+focus on the small details but rather on the actual understanding people have
+of this or that technology. Here is a quick list of things I may ask depending
+on the context:
+
+- What's your opinion about automated tests?
+- Do you care more about a specific way of testing things? (Like unit vs
+  integration tests)
+- Why/When would you TDD? Why would you?
+- When do you think it's a good idea to rewrite a piece of software?
+- What do you like/dislike about technology X?
+
+You see, those questions look easy but I urge you to think about them. Don't
+they tell you more than a piece of code about how much the person you have in
+front of you knows about what they're talking about?
 
 ## Hiring or rejecting people
 
@@ -187,23 +221,26 @@ lot of thinking to accept I did need canned answers from time to time. So I
 split my anwers in two categories:
 
 - If both parts invested time in interviews and meeting (no code challenges
-  here!) then I do write personal emails
-- If I know there's not going to be any time investement (like when you reject
+  here!) then I do write personal emails.
+- If I know there's not going to be any time investment (like when you reject
   someone upfront because you do not believe in bringing this person to the
   interviews stage) then I use a canned answer. Fast canned answer is better
   than slow "kind of canned answer" when there's no point in moving forward.
 
 Now just a few words about hiring people:
 
-- Be fast, talent goes away fast. Make people an offer, try to get them onbard
-  as fast as you can.
-- Try to make their first day as cool as possible. Build a process with your
+- Be fast, talent goes away fast. Make people an offer, try to get them
+  on-board as fast as you can.
+- Try to make their first days as cool as possible. Build a process with your
   teams to make it so. Generally, if you already have "the right people"
   they'll be very happy to create a process to ensure quality of the
   on-boarding process.
 
 ## Some more few words
 
-Shoot as high as you can for diversity. Do not fall into the "cultural fit"
-trap. People do not have to fit "into your teams". They have to fit "with your
-team".
+A few random thoughts about things that I find very hard but I still try as
+hard as I can to achieve:
+
+- Diversity is key for success. Make it obvious in your hiring process.
+- Do not fall into the "cultural fit" trap. People do not have to fit "into
+  your teams". They have to fit "within your team".
