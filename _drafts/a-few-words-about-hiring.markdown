@@ -5,14 +5,14 @@ keywords: hiring, development, juniors
 layout: articles
 ---
 
-I talk to people about hiring all the time. The reason is pretty obvious: we
-need more people to help us reach the goals we want to reach. More talents. It takes a
-collective effort to ship 99% of things we build and that makes hiring a
-central problem when it comes about building, scaling, running a business. But
-do not get me wrong: the actual reason I am writing about hiring is not
-the fact that it is so central to the development of our teams and our businesses.
-The actual reason is that despite hiring is a core subject, most people approach it in
-a way that I barely understand.
+I find myself in conversations about hiring all the time. The reason is pretty
+obvious: we need more people to help us reach the goals we want to reach. More
+talent. It takes a collective effort to ship 99% of things we build and that
+makes hiring a central problem when it comes about building, scaling, running
+a business.  But do not get me wrong: the actual reason I am writing about
+hiring is not the fact that it is so central to the development of our teams
+and our businesses. The actual reason is that despite hiring is a core
+subject, most people approach it in a way that I barely understand.
 
 There are so many things I do not understand about how we interview people,
 how we write ads we post on job boards, how we treat candidates,
@@ -41,7 +41,7 @@ behind this culture and to be honest I do not want to find out. I learned
 to look at the bright side of this aspect of job ads: I avoid companies like
 that. It is a good side effect that I enjoy a lot.
 
-Now, let's move on to the actual content of the ad. 
+Now, let's move on to the actual content of the ad.
 There are a couple of content patterns I see all the time:
 
 - Buzzword, business talk with no actual meaning
@@ -72,16 +72,15 @@ requirements:
 
 - Degree or equivalent
 
-  Honestly, who cares if you studied or not? Yes, it can be a requirement
-  when you work on specific projects. For example, I once had to
-  hire a lot of developers with a degree while leading a project for
-  the Italian government (yeah we do have some form of "government", there's no
-  proof it is helpful though), because it was one of their non-sense requirements. 
-  If you must hire people with a degree please give a proper
-  explanation about it in your ad. The only significant difference I found
-  while working with people that have a degree is that they sometimes start a
-  sentence with ["I've read in this book". Well, I would hardly consider that a
-  plus].
+  Honestly, who cares if you studied or not? Yes, it can be a requirement when
+  you work on specific projects. For example, I once had to hire a lot of
+  developers with a degree while leading a project for the Italian government
+  (yeah we do have some form of "government", there's no proof it is helpful
+  though), because it was one of their non-sense requirements.  If you must
+  hire people with a degree please give a proper explanation about it in your
+  ad. The only significant difference I found while working with people that
+  have a degree is that they sometimes start a sentence with "I've read in
+  this book that...". Well, I would hardly consider that a plus.
 
 - Use of design patterns
 
@@ -93,22 +92,21 @@ requirements:
   hardly justify this requirement in a job ad.
 
 Last but not least, I want to underline that it is very likely for candidates
-to read about your company for the first time while reading your job ad. It is the
-first point of contact in most cases and you do not want to give people the usual
-impression you are just another company out there using the same ad as
-everyone else. [Even from a very cynical point of view as the conversion rate
-of leads into actual new team members you should really care about your ads].
+to read about your company for the first time while reading your job ad. It is
+the first point of contact in most cases and you do not want to give people
+the impression you are just another company out there using the same ad as
+everyone else.
 
 ## Screening people
 
 This is harder than it looks, as with everything else when it comes to
 hiring. I do not think it is a good idea to leave the screening to one
-person in your team - and I see this happen often unfortunately. 
+person in your team - and I see this happen often unfortunately.
 If you have more than one team, you can play a small game,
 you can try to figure out with the teams if people would fit in their team.
 There is less chance of getting it wrong and reject someone based on the
 fact your team member did not have a good coffee in the morning. Obviously,
-this process may turn to be very expensive and I have already had this argument. 
+this process may turn to be very expensive and I have already had this argument.
 But if you are not willing to spend time on getting people, you
 probably should not be working with people.
 
@@ -123,15 +121,15 @@ argument:
 
 - How many times have you fired someone because of their hard skills?
 
-  I never have, for example. The problem has never been the code. I had to fire
-  people [(which by the way sucks so hard you should work to just not get there
-  and hire "the right people")] because they misbehaved with co-workers,
-  because they couldn't find their place in ther team, because they didn't
-  like us (of course that's fine too, do not take it personal if it happens to
-  you). The problem has never been the code, and you know why? Because that's
-  the easy part of working with a team of developers. Understanding the
-  requirements, interacting with other people with a different background,
-  culture, skillset, experience. That's the hard part.
+  I never have, for example. The problem has never been the code. I had to
+  fire people (which by the way sucks so you should work not to get there and
+  hire the right people) because they misbehaved with co-workers, because they
+  couldn't find their place in their team, because they didn't like us (of
+  course that's fine too, do not take it personal if it happens to you). The
+  problem has never been the code, and you know why? Because that's the easy
+  part of working with a team of developers. Understanding the requirements,
+  interacting with other people with a different background, culture,
+  skillset, experience. That's the hard part.
 
 - Do you really need a code challenge to understand people's hard skills?
 
@@ -152,7 +150,7 @@ argument:
   honest, I believe the more experienced you are, the less you try to actually
   solve a problem with code.
 
-As you can imagine, I've never used a code challenge in my career, I've successfully 
+As you can imagine, I've never used a code challenge in my career, I've successfully
 hired a lot of people without it. And look, they all knew how to write the code
 you care so much about.
 
@@ -176,10 +174,10 @@ technical if needed. I do not ask questions like:
 - What version of Ruby do you use?
 - What's the difference between ArrayList and Vector?
 
-Two things here: those are questions people asked me at interviews. Believe it or not,
-there are companies asking such ridicolous questions. Are you really asking
-questions like those too? Why? An honest question. Please let me know. Because
-it's beyond my understanding.
+Two things here: those are questions people asked me at interviews. Believe it
+or not, there are companies asking such ridiculous questions. Are you really
+asking questions like those too? Why? A honest question. Please let me know.
+Because it's beyond my understanding.
 
 I ask what I call vertical questions about technologies. I'm not a native speaker
 so maybe "vertical questions" makes no sense for you. This is what I mean:
@@ -201,24 +199,22 @@ on the context:
 - What do you like/dislike about technology X?
 
 You see, those questions look easy but I encourage you to reflect. Don't
-the answers to them represent the person you have in front of you more than 
-a piace of code?
+the answers to them represent the person you have in front of you more than
+a piece of code?
 
 ## Hiring or rejecting people
 
-Please be fast. This is one of the things I have learned. I have been
-slow, sometimes I did not even notify people and that is something I am
-ashamed of. It is wrong. We need to respect the people that we interview as
-much as we can. [So being fast is very important and I do fail it when I do not
-have a good process in place].
-Moreover, I try to be as thorough as possible in the actual
-feedback I share with people: I hate canned answers. So I do tell them things
-along the lines of "Sorry I just liked someone else more than you. You were
-fine". And I get quite some good feedback about that. And I know why. People
-hate when you lie to them in their face without shame.
-Please note that I do use canned answers in some cases. And this cost me a
-lot of thinking to accept I do need canned answers from time to time. So I
-split my anwers in two categories:
+Please be fast. This is one of the things I have learned. I have been slow,
+sometimes I did not even notify people and that is something I am ashamed of.
+It is wrong. We need to respect the people that we interview as much as we
+can.
+Moreover, I try to be as thorough as possible in the actual feedback I share
+with people: I hate canned answers. So I do tell them things along the lines
+of "Sorry I just liked someone else more than you. You were fine". And I get
+quite some good feedback about that. And I know why. People hate when you lie
+to them in their face without shame.  Please note that I do use canned answers
+in some cases. And this cost me a lot of thinking to accept I do need canned
+answers from time to time. So I split my answers in two categories:
 
 - If both parts invested time in interviews and meeting (no code challenges
   here!) then I do write personal emails.
@@ -243,3 +239,5 @@ I find these very difficult, but I still try as hard as I can to achieve them:
 - Diversity is the key for success. Make it obvious in your hiring process.
 - Do not fall into the "cultural fit" trap. People do not have to fit "into
   your teams". They have to fit "within your team".
+
+Probably those points deserve their own article.
