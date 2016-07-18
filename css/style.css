@@ -10,50 +10,6 @@ footer {
   font-size: 0.9em;
   font-style: italic;
 }
-#main {
-  margin-top: 0.5em;
-}
-ul#menu {
-  list-style-type: none;
-  text-align: center;
-}
-ul#menu li {
-  display: block;
-  float: left;
-  height: 26px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-ul#menu li.current {
-  background-color: #FFFFFF;
-}
-ul#menu li.current a {
-  color: #08c;
-}
-#menu a {
-  color: #444;
-  display: block;
-  float: left;
-  padding: 0px 4px;
-  text-decoration: none;
-}
-#menu a:hover {
-  background: #FFFFFF;
-  color: #0069D6;
-}
-#archive, .posts {
-  list-style-type: none;
-  padding-left: 0;
-  margin-left: 0;
-}
-#archive li {
-  margin-bottom: 5px;
-}
-.description {
-  font-style: italic;
-  margin-left: 0.5em;
-}
 .highlight {
   overflow: auto;
   margin-bottom: 20px;
