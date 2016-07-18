@@ -2,20 +2,18 @@
 title: About me
 layout: default
 keywords: lucapette, about me
-description: "I'm 32 years old and I live and work in Berlin, Germany. I'm a really curious person."
+description: "I'm 33 years old and I live and work in Berlin, Germany. I'm a really curious person."
 ---
 
-I'm 32 years old and I live and work in Berlin, Germany. I'm a really curious person. I'm crazy about carrots. I have a nice [404](/404.html) page.
+I'm 33 years old and I live and work in Berlin, Germany. I'm a really curious person. I'm crazy about carrots. I have a nice [404](/404.html) page.
 
 I love
 ------
 
 - All well performed music
 - Books
-- Git
 - Guitars and playing the guitar
 - Photography
-- Rails
 - Ruby
 - Vim
 
@@ -25,9 +23,8 @@ I hate
 ------
 
 - Dance music
-- Internet Explorer
 - Racism
 - Timesheets
-- Windows OS (all flavours, especially *all flavours*)
+- Internet Explorer
 
 Surely there are a lot more things that I hate, but I don't want to share them with the world.

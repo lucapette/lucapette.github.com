@@ -1,29 +1,26 @@
 {% case page.url %}
 {% when '/index.html' %}
-{% assign home = "current" %}
+{% assign home = "active" %}
 {% assign articles = " " %}
 {% assign about = " " %}
 {% when '/articles.html' %}
 {% assign home = " " %}
-{% assign articles = "current" %}
+{% assign articles = "active" %}
 {% assign about = " " %}
 {% when '/about.html' %}
 {% assign home = " " %}
 {% assign articles = " " %}
-{% assign about = "current" %}
+{% assign about = "active" %}
 {% endcase %}
 
 <header>
-  <div class=row>
-    <div id=logo class=span5>
-      <a href="/">luca pette</a>
-    </div>
-    <nav class=span3>
-    <ul id=menu>
-      <li class="{{ home }}"><a href="/">Home</a></li>
-      <li class="{{ articles }}"><a href="/articles.html">Articles</a></li>
-      <li class="{{ about }}"><a href="/about.html">About</a></li>
-    </ul>
+<div class="blog-masthead">
+  <div class="container">
+    <nav class="blog-nav">
+      <a class="blog-nav-item {{ home }}" href="/">Home</a>
+      <a class="blog-nav-item {{ articles }}" href="/articles.html">Articles</a>
+      <a class="blog-nav-item {{ about }}" href="/about.html">About</a>
     </nav>
   </div>
+</div>
 </header>
