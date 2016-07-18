@@ -1,5 +1,5 @@
 ---
-title: "Two or three things about hiring"
+title: "A few words about hiring"
 description: I literally hate the way our industry does the hiring. It's time to talk about it.
 keywords: hiring, development, juniors
 layout: articles
