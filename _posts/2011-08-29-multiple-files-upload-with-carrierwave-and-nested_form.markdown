@@ -4,9 +4,14 @@ description: Multiple Attachments with carrierwave and nested_form
 keywords: rails, carrierwave, nested_form, attachments
 layout: articles
 ---
-I wrote this post just to show how it's possible to get a perfectly working form with multiple files upload within a few minutes. If you need to implement multiple file attachments to a given object with only one form quickly, this example could help you.
 
-So let's create an example project (I used one of mine rails "templates":https://github.com/lucapette/rails-templates):
+I wrote this post just to show how it's possible to get a perfectly working
+form with multiple files upload within a few minutes. If you need to implement
+multiple file attachments to a given object with only one form quickly, this
+example could help you.
+
+So let's create an example project (I used one of mine rails
+[templates](https://github.com/lucapette/rails-templates)_:
 
 {% highlight sh %}
 rails new carrierwave-nested_form -d mysql -m rails-templates/jquery.rb
@@ -20,7 +25,9 @@ gem 'carrierwave', '>= 0.5.3'
 gem 'nested_form'
 {% endhighlight %}
 
-The specified version for carrierwave is required because there is a small bug in the previous versions of carrierwave that creates some problems with nested forms.
+The specified version for carrierwave is required because there is a small bug
+in the previous versions of carrierwave that creates some problems with nested
+forms.
 
 In this example, I chose to use two simple models related with a polymorphic association. In order to do that, let's create the two model objects:
 
@@ -29,15 +36,20 @@ rails generate model article title:string description:text
 rails generate model attachment description:text file:string attachable:references
 {% endhighlight %}
 
-You have to add the polymorphic option to the migration for the attachments before executing it.
+You have to add the polymorphic option to the migration for the attachments
+before executing it.
 
-Now that we have the two model objects, we install the nested_form gem files in our project:
+Now that we have the two model objects, we install the nested_form gem files
+in our project:
 
 {% highlight sh %}
 rails g nested_form:install
 {% endhighlight %}
 
-This gem is very nice because it gives you the opportunity to create nested forms with nice javascript add/remove links with a minimum effort. Before proceeding with the nested form, please remember to add the javascript to your layout:
+This gem is very nice because it gives you the opportunity to create nested
+forms with nice javascript add/remove links with a minimum effort. Before
+proceeding with the nested form, please remember to add the javascript to your
+layout:
 
 {% highlight ruby %}
 <%= javascript_include_tag :defaults,"nested_form" %>
@@ -61,9 +73,14 @@ class Attachment < ActiveRecord::Base
 end
 {% endhighlight %}
 
-Pratically, a carrierwave uploader is a class that handles a certain type of uploading in your model. You just need to _mount_ the uploader of a string field of your model. This is a very good design decision because it gives you a lot of flexibility, for example, when you want to share the same uploading features between two models.
+Pratically, a carrierwave uploader is a class that handles a certain type of
+uploading in your model. You just need to _mount_ the uploader of a string
+field of your model. This is a very good design decision because it gives you
+a lot of flexibility, for example, when you want to share the same uploading
+features between two models.
 
-Now, we are ready to add the nested feature to the article form. So let's proceed in the following order:
+Now, we are ready to add the nested feature to the article form. So let's
+proceed in the following order:
 
 {% highlight ruby %}
 class Article < ActiveRecord::Base
@@ -75,7 +92,9 @@ class Article < ActiveRecord::Base
 end
 {% endhighlight %}
 
-You have to pay attention to the attr_accessible for attacchments_attributes. It won't work if you don't add that field to the list of accessible ones. And eventually we modify the form in the following way:
+You have to pay attention to the attr_accessible for attacchments_attributes.
+It won't work if you don't add that field to the list of accessible ones. And
+eventually we modify the form in the following way:
 
 {% highlight erb %}
 <%= nested_form_for @article, :html=>{:multipart => true } do |f| %>
@@ -106,4 +125,5 @@ You have to pay attention to the attr_accessible for attacchments_attributes. It
 
 And we're done!
 
-I have created a "demo":https://github.com/lucapette/carrierwave-nested_form app just in case you want to play with it a bit.
+I have created a [demo](https://github.com/lucapette/carrierwave-nested_form)
+app just in case you want to play with it a bit.

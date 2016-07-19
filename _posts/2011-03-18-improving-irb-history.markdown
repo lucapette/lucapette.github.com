@@ -4,17 +4,24 @@ description: Improving IRB history. Some ways to improve your interaction with I
 keywords: ruby, irb, console
 layout: articles
 ---
-I’ve started to consider irb "configurations":http://lucapette.com/irb/why-you-should-spend-some-time-configuring-irb/ as a way to improve my productivity. Following this path I’ve got some nice stuff in my "irbrc":https://github.com/lucapette/dotfiles/blob/master/irbrc. In the last days I was thinking about how to make irb history more similar to the bash one. So, I thought there was a need for the following features:
 
-History command
-History execute
-History grep
+I’ve started to consider irb
+[configurations](http://lucapette.com/irb/why-you-should-spend-some-time-configuring-irb/)
+as a way to improve my productivity. Following this path I’ve got some nice
+stuff in my [irbrc](https://github.com/lucapette/dotfiles/blob/master/irbrc).
+In the last days I was thinking about how to make irb history more similar to
+the bash one. So, I thought there was a need for the following features:
+
+- History command
+- History execute
+- History grep
 
 Also, ignoring duplicated lines on irb exit would be great.
 
-h2. The methods
+##. The methods
 
-That’s why the best thing I can do now is to show you the code I wrote to achieve the above mentioned features:
+That’s why the best thing I can do now is to show you the code I wrote to
+achieve the above mentioned features:
 
 {% highlight ruby %}
 def history_a(n=Readline::HISTORY.size)
@@ -53,7 +60,8 @@ def h!(start, stop=nil)
 end
 {% endhighlight %}
 
-Let me confess I don’t like a lot the naming of some methods :) By the way, these methods make the following output possibile:
+Let me confess I don’t like a lot the naming of some methods :) By the way,
+these methods make the following output possibile:
 
 {% highlight ruby %}
 ruby-1.9.2-p0 > h
@@ -84,7 +92,13 @@ ruby-1.9.2-p0 > a=Array.toy
  => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 {% endhighlight %}
 
-I do know there are many posts around the web on this subject but I don’t like some aspects of the solutions I came across. I wanted a bash like history and none of the solutions I found has a real working re-execute command. I found some solutions but all of them use eval to execute code and don’t replace the re-executed command in the history. Actually the h! method I wrote uses irb_context to evaluate the input lines. The issue with the eval version is easy to explain with an example:
+I do know there are many posts around the web on this subject but I do not like
+some aspects of the solutions I came across. I wanted a bash like history and
+none of the solutions I found has a real working re-execute command. I found
+some solutions but all of them use eval to execute code and don’t replace the
+re-executed command in the history. Actually the h! method I wrote uses
+irb_context to evaluate the input lines. The issue with the eval version is
+easy to explain with an example:
 
 {% highlight ruby %}
 ruby-1.9.2-p0 > eval("a=Array.toy")
@@ -111,10 +125,12 @@ ruby-1.9.2-p0 > a
  => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 {% endhighlight %}
 
-Not a very big deal but I really prefer my implementation of the re-execute command. However, I can’t really explain the difference between the two implementations. I think it could be a scope problem, please tell me if I’m wrong.
+Not a very big deal but I really prefer my implementation of the re-execute
+command. However, I can’t really explain the difference between the two
+implementations. I think it could be a scope problem, please tell me if I’m
+wrong.
 
-
-h2. Erasing duplicates
+## Erasing duplicates
 
 The last feature I wanted to have in my irb history is an equivalent to bash:
 
@@ -141,14 +157,24 @@ IRB.conf[:AT_EXIT].unshift Proc.new {
 }
 {% endhighlight %}
 
-I confess I don’t like a lot the final implementation of the algorithm I wrote. But it does his job: IRB.conf[:AT_EXIT] is an array of proc that irb would call when you leave it. Thus, I simply added a proc that willy rewrite your irb history with uniq lines. Please tell me if you can do the same using a more elegant solution.
+I confess I do not like a lot the final implementation of the algorithm I
+wrote. But it does his job: IRB.conf[:AT_EXIT] is an array of proc that irb
+would call when you leave it. Thus, I simply added a proc that willy rewrite
+your irb history with uniq lines. Please tell me if you can do the same using
+a more elegant solution.
 
-h2. yaih
+## yaih
 
-Well, the history commands we talked about could be a nice improvement in your irbrc too. I published a gem to share these methods with you. Install it with:
+Well, the history commands we talked about could be a nice improvement in your
+irbrc too. I published a gem to share these methods with you. Install it with:
 
 {% highlight ruby %}
 gem install yaih
 {% endhighlight %}
 
-and then require it in your irbrc. I published "yaih":https://github.com/lucapette/yaih just a couple of days ago and it has some lacks. I would like to write some tests for it but I need some suggestion because I don’t know how I can write effective tests in this kind of situation. Then I’d like to add some options, especially if someone will kindly suggest me some :)
+and then require it in your irbrc. I published
+[yaih](https://github.com/lucapette/yaih) just a couple of days ago and it has
+some lacks. I would like to write some tests for it but I need some suggestion
+because I don’t know how I can write effective tests in this kind of
+situation. Then I’d like to add some options, especially if someone will
+kindly suggest me some :)
