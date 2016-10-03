@@ -1,0 +1,46 @@
+---
+title: "The real power of journaling"
+description: Some time ago I wrote about my first experiences with journaling. Now, it's more than one year I'm doing it and it changed everything
+keywords: journaling, day one, writing
+layout: articles
+---
+
+I wrote about journaling a [while ago](/what-im-learning-with-journaling). At
+the time, I did it because I wanted to go back to writing and share something.
+It was a way of unblocking myself. I did not know yet where journaling would
+take me, I think I did not even know if I really wanted to keep doing it.
+
+It turns our I keep doing it daily for more than a year and now I'm enjoying
+aspects of it I did not even think about when I started. But let's proceed
+with order. The first time I wrote about journaling I used a handmade solution
+with vim and some scripting. It worked fine, I wanted to write journaling out
+and I did not feel it was right to commit to any application, neither I felt
+an actual need to do it. But then I was preparing myself for a long holiday
+and I decided it was time to try something new. I bought [day
+one](http://dayoneapp.com/) and never looked back. I loved the app from the
+very first day and kept using it since then.
+
+Now, day one has a feature I did not understand back when I started using it.
+The feature is incredibly simple and probably even obvious. The app reminds
+you of having a look at what you wrote exactly one year before the current
+day. When the app started notifying me I could now use the feature, I actually
+did not do it. I did not think it was such a big deal. Something changed when
+I started paying attention to my weight again.
+Before I explain the consequences I feel you need some background to truly
+understand the power of the mechanics behind the feature day one has. After
+starting university studies, I always had problems keeping my weight to an
+acceptable level of self comfort. And things got much worse on August of 2010:
+I quit smoking after 14 years. As a consequence of that, I found looking at
+myself and hating how much out of shape I was. So I started looking into
+diets, tried different sports. After a long search, I settled for a
+combination of calories counting and swimming. When I can do both at the same
+time, the effect on my body is great. I got very close to an shape I'm
+comfortable with multiple times. And you can already see the problem, right? I
+did do that multiple times because I always give up on one of the two. Or
+both. I understood my problem was I was failing and creating a habit for those two
+very vital activities in my life. I need both, they are no big deal as I can
+do both. I was never able to keep them though.
+Keeping this in mind, this year I got back to swimming after my summer
+holidays. I started recoding the experiences of swimming outdoor (fantastic
+opportunity you get every summer in Berlin) and read what I was doing exactly
+one year ago. Here is what was so incredibly powerful
