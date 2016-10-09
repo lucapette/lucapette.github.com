@@ -43,4 +43,20 @@ do both. I was never able to keep them though.
 Keeping this in mind, this year I got back to swimming after my summer
 holidays. I started recoding the experiences of swimming outdoor (fantastic
 opportunity you get every summer in Berlin) and read what I was doing exactly
-one year ago. Here is what was so incredibly powerful
+one year ago. A few days in this process and I started noticing something
+interesting. Actually, I remember thinking "oh, that's funny. I'm writing
+about the same things I was writing about one year ago. Such a weird
+coincidence!".
+Obviously, this was no coincidence. I tried solving this problem multiple
+times over the last years. I have accumulated lots of data in my head and I
+never thought I would have the chance to retrospect over the data. Now, I can
+already see the improvements. Because I read what I wrote one year ago. I can
+figure out when I stopped swimming or how I felt about some particular aspect
+of my life. This is truly powerful. Years go by like days when you become an
+adult but they are still 365 days long each. It is a long time for my mind, I
+was never able to figure out patterns with my own behaviour. Now I can and I
+can correct what I do not like. At least, I can try.
+I feel I will never give up on journaling anymore. Being able to retrospect,
+reading my past self is so much more interesting that I ever thought it would
+be that I cannot imagine giving up. I hope this short writing gives you the
+opportunity to try journaling out!
