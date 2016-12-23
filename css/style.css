@@ -17,12 +17,6 @@ footer {
 .highlight pre {
   margin: 0;
 }
-.grey {
-  color: #BBB;
-  font-style: italic;
-  font-size: 0.9em;
-  margin-bottom: 10px;
-}
 .top {
   position:fixed;
   right: 15px;
@@ -99,4 +93,11 @@ footer {
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+.article-list li a {
+  display: block;
+}
+
+.article-list li span.description {
+  font-style: italic;
 }
