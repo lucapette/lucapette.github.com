@@ -14,7 +14,7 @@ of their booklets. But there was something missing. I felt the music I
 listened to was the kind of collective experience I am not fond of. I was
 looking for the introspective feeling you get out of more solitary activities.
 Reading, writing. They have been nurturing my brain since for ever. A couple
-of years later, I got into metal. And,to me, it was all about the presence of
+of years later, I got into metal. And, to me, it was all about the presence of
 lead guitars. I started studying the guitar a bit and tried to learn how to
 read music. This process got me closed to classical music. I started listening
 to some famous composers. Then, I saw what I missed in my previous experiences
@@ -42,7 +42,7 @@ had a lot of questions:
 - What are all those numbers?
 - What's a symphony? A fugue? A quartet?
 
-And so on. The list is much longer but you get the idea. In order to help you
+And so on. The list is much longer but you get the idea. To help you
 finding your way, I am going to share all the learnings I wish I knew about
 when I started this long journey.
 
@@ -57,39 +57,38 @@ know what is easy and what is not. But there is a way out:
 > What's the instrument that attracts your ear the most?
 
 There are tons of compositions for one instrument out there and I consider
-those compositions a very good start. By definition, there cannot be that much
+those compositions a good start. By definition, there cannot be that much
 going on. Let's assume for the sake of the discussion that the instrument that
 attracts you the most is the piano.
 
 > OK, my favourite instrument is the piano. Now what?
 
 Well, you play it safe. Betting on the most famous composers. They are so
-famous for good reasons. Start with Mozart, Beethoven. Use youtube. It's a
-good source. My first query got me
-[this](https://www.youtube.com/watch?v=8hgaxI3JRgg) result. It's a "piano
-concerto". There is something wrong though. There are a lot of instruments and
-the piano comes after a while. And that's because a [piano
-concerto](https://en.wikipedia.org/wiki/Piano_concerto). Those compositions
-are focused on a piano but almost always accompanied by a large esemble,
-typically an entire orchestra. This is good. We have just learned something.
-Classical music compositions with the word "concerto" in it are not easy
-stuff. You can skip them until you feel the urge the explore them. Whenever
-that happens.
-Let's try a different query: "mozart piano solo". The first result I have got
-is a [stunning recording](https://www.youtube.com/watch?v=SmXn9rNWyu4) by
-[Claudio Arrau](https://en.wikipedia.org/wiki/Claudio_Arrau), an incredible
-Chilean pianist. We will talk about performers too but at the right time. We
-have learned something else too, we know [piano
-sonatas](https://en.wikipedia.org/wiki/Piano_sonata) are compositions for a
-single piano. This is a key learning as this works well for a lot on
-instruments:
+famous for good reasons. Start with Mozart, Beethoven. YouTube is good source.
+My first query got me [this](https://www.youtube.com/watch?v=8hgaxI3JRgg)
+result. It's a "piano concerto". There is something wrong though. There are a
+lot of instruments and the piano comes after a while. And that's because it is
+a [piano concerto](https://en.wikipedia.org/wiki/Piano_concerto). Those
+compositions focus on the piano but almost always accompanied by a large
+ensemble, typically an entire orchestra.
+
+This is good. We have learned something.  Classical music compositions
+with the word "concerto" in it are not easy stuff. You can skip them until you
+feel the urge the explore them. Whenever that happens.  Let's try a different
+query: "mozart piano solo". The first result I have got is a [stunning
+recording](https://www.youtube.com/watch?v=SmXn9rNWyu4) by [Claudio
+Arrau](https://en.wikipedia.org/wiki/Claudio_Arrau), an incredible Chilean
+pianist. We will talk about performers too but at the right time. We have
+learned something else too, we now know [piano
+sonatas](https://en.wikipedia.org/wiki/Piano_sonata) are compositions for
+piano solo. This is a key learning as this works well for other instruments:
 
 - [Violin](https://en.wikipedia.org/wiki/Violin_sonata)
 - [Cello](https://en.wikipedia.org/wiki/Cello_sonata)
 - [Clarinet](https://en.wikipedia.org/wiki/Clarinet_sonata)
 
 And so on. If you have a look at the wikipedia pages I have linked so far, you
-will notice something very useful. Pure gold. I wish I had a list of [noted
+will notice something very useful. Pure gold! I wish I had a list of [noted
 piano sonatas] twenty years ago. I would have found out about [Sonata
 Pathétique](https://en.wikipedia.org/wiki/Piano_Sonata_No._8_(Beethoven)) by
 Beethoven a long time ago. It is the most beautiful composition I have run
@@ -111,7 +110,7 @@ with one instrument.
 It is time to move out of the solo composition.
 [Here](https://en.wikipedia.org/wiki/List_of_musical_forms_by_era) is a list
 of all the musical forms, grouped by era. Of course, there are way too many
-forms. My suggestion is trying trying with "some instruments":
+forms. My suggestion is trying with "some instruments":
 
 - [Piano trio](https://en.wikipedia.org/wiki/Piano_trio)
 - [String quartets](https://en.wikipedia.org/wiki/String_quartet)
@@ -148,8 +147,10 @@ quartet" composer.
 
 This one comes with time. Some performers are really famous. And, as for
 composers, there is probably a very good reason why they are so famous. One
-general rule to take into account is that most performers are especially good
-at something.
+general rule:
+
+> Most performers are especially good at one composer
+
 For example, a piano performer may be very good at Bach and not so good at
 Chopin. This is pretty normal: it is a matter of their taste, focus,
 sensibility and many other factors. Performers are going to have very similar
