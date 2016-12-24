@@ -185,4 +185,38 @@ produce very good albums.
 
 ## Find your ensemble
 
+This is what took me the longest. And to be fair, it changes over time too.
+[Here](https://en.wikipedia.org/wiki/Musical_ensemble#Classical_chamber_music)
+you can see a good list of group types. The thing with ensembles is that they
+come with specific constraints. And those constraints give composers each time
+a different framework to express their ideas. You will find yourself liking a
+specific kind of ensemble more than others. And I suggest you try to explore
+your taste as much as possible. I can provide an example based on my
+experience. In 2009, I run int a very beautiful [string
+quartet]([https://en.wikipedia.org/wiki/String_quarte
+) on Radio. I remember being in my car and feeling the need to pull over to
+focus on the music. It was a [melting
+quartet](https://www.youtube.com/watch?v=cm6aglFGNHM) by Mozart. It took me
+over a year to figure out the name of the composition. I was obsessed by the
+main them and really wanted to know which composition it was. This experience
+made me explore string quartets a lot. Mozart, Beethoven and Mendelssohn
+produced incredible string quartets compositions and I love all of them now.
+In my case, I think the reason I love string quartets so much is:
+
+> There is a lot going on but not enough for me to get lost
+
+The learning here is there are some chances some kind of ensemble will fit
+your taste better and it is really worth figuring out so you can explore the
+ensemble by composer, performers, labels and so on.
+
+
 ## How can I help
+
+OK, if you made it here I am very happy. It was a long article and it made me
+realise how much I like sharing my experience with classical music. Now, I
+would like to keep sharing what I am learning. It is a never stopping learning
+process so I am sure I will find out new things we can talk about. I would
+like to keep some sort of database of recommendations, maybe grouped by the
+dimensions we have just discussed. But I am not sure what is the best format
+yet. Please do write to me on twitter or email me with suggestions if you
+would like me to maintain such a database.
