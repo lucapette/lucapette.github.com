@@ -140,14 +140,37 @@ Example: search for "complete piano sonata Mozart". And then listen to all of
 them in sequence. It took me a while to figure out this was a good way of
 exploring a composer. But when I did it gave me great joy. Your relationship
 with the composer becomes more intimate. It will create a special bond to some
-composers. And, at some point, the connection will become magical. You will
+composers. Then, at some point, the connection will become magical. You will
 have your favourite "piano sonata" composer. And your favourite "string
 quartet" composer.
 
 ### Performer
 
 This one comes with time. Some performers are really famous. And, as for
-composers, there is probably a very good reason why they are so famous.
+composers, there is probably a very good reason why they are so famous. One
+general rule to take into account is that most performers are especially good
+at something.
+For example, a piano performer may be very good at Bach and not so good at
+Chopin. This is pretty normal: it is a matter of their taste, focus,
+sensibility and many other factors. Performers are going to have very similar
+properties to composers. You are going to have your favourite Bach piano
+sonatas performer (mine is [Glen
+Gould](https://en.wikipedia.org/wiki/Glenn_Gould)). Or a favourite Bach cello
+sonatas performer (mine is [Mischa
+Maisky](https://en.wikipedia.org/wiki/Mischa_Maisky).
+It is not rare for me to listen to the very same composition from different
+performers. It took me some time to start doing so but now I am very happy and
+methodical about it. The main reason is performers have a huge influence on
+the way you are going to perceive a composition. And it happened to me a few
+times to start liking a composition only after I run into a version I really
+enjoyed. My best example is the overture of [La gazza
+ladra](https://en.wikipedia.org/wiki/La_gazza_ladra) a very famous composition
+by Rossini. I was never impressed by it but I can still recall exactly how I
+felt the first time I run into an [incredible
+version](https://www.youtube.com/watch?v=qdm8IfInaJg) directed by [Claudio
+Abbado](https://en.wikipedia.org/wiki/Claudio_Abbado). An important thing to
+notice: when it comes about orchestras, directors act as performers in a solo
+composition. It is the reason why being a director is such a big deal.
 
 ### Label
 
