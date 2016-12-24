@@ -32,7 +32,7 @@ on this train. If I have done it with no education, no help, everyone can!
 
 The thing about classical music is that it looks intimidating. There's so much
 of it. All the tracks have those strange and super long names. There are a lot
-of Italian words. 
+of Italian words.
 To be honest, I'm with you. It's confusing. When I got into classical music I
 had a lot of questions:
 
@@ -172,7 +172,16 @@ Abbado](https://en.wikipedia.org/wiki/Claudio_Abbado). An important thing to
 notice: when it comes about orchestras, directors act as performers in a solo
 composition. It is the reason why being a director is such a big deal.
 
-### Label
+### Record labels
+
+I still think about [Rdio](https://en.wikipedia.org/wiki/Rdio) every day
+because of labels. It was very easy to browse music by companies. And when it
+comes about classical music this is a very relevant feature. I found a lot of
+interesting compositions or performances on Rdio because I could follow the
+trail of the producing company. Now, I use Apple music and it is much harder
+to do. But still something to take into account in my opinion. Good record
+labels work like good newspaper. They have some sort of editorial line and
+produce very good albums.
 
 ## Find your ensemble
 
