@@ -159,7 +159,7 @@ properties to composers. You are going to have your favourite Bach piano
 sonatas performer (mine is [Glen
 Gould](https://en.wikipedia.org/wiki/Glenn_Gould)). Or a favourite Bach cello
 sonatas performer (mine is [Mischa
-Maisky](https://en.wikipedia.org/wiki/Mischa_Maisky).
+Maisky](https://en.wikipedia.org/wiki/Mischa_Maisky)).
 It is not rare for me to listen to the very same composition by different
 performers. It took me some time to start doing so but now I am very happy and
 methodical about it. The main reason is: performers have a huge influence on
