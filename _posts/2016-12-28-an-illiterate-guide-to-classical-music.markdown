@@ -1,7 +1,7 @@
 ---
 title: "An illiterate guide to classical music"
 description: How I found my way into the beauty of classical music without any formal education
-keywords: music, classical music
+keywords: music, classical music, learning, guide
 layout: articles
 ---
 
