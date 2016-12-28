@@ -13,13 +13,13 @@ media. I was always afraid of scratching their surface. I was an avid reader
 of their booklets. But there was something missing. I felt the music I
 was listening to was the kind of collective experience I was not fond of. I was
 looking for the introspective feeling you get out of more solitary activities.
-Reading, writing. They have been nurturing my brain since I remember myself. 
+Reading, writing. They have been nurturing my brain since I remember myself.
 A couple of years later, I got into metal. And, to me, it was all about the presence of
 lead guitars. I started studying the guitar a bit and tried to learn how to
 read music. This process brought me closer to classical music again. I started listening
 to some famous composers. Then, I relised what I missed in my previous experience
 with music. Classical music had something I had never felt with any other
-kind of music. I felt this was the **real** thing. And I started a long journey 
+kind of music. I felt this was the **real** thing. And I started a long journey
 in the land of classical music that's been lasting ever since.
 
 I know how to read music even though I am a slow reader. I can play the
@@ -27,8 +27,8 @@ guitar at amateur level, but I have no formal music education. I have no
 map for this fantastic land. I am a classical music illiterate. Despite that,
 I enjoy classical music more than any other kind of music. I am aiming at
 making classical music less intimidating. People often asked me how to get
-started with it or which composer is "easy". I aim to make it easier for you 
-to jump on this train. If I have managed to do so formal without music education, 
+started with it or which composer is "easy". I aim to make it easier for you
+to jump on this train. If I have managed to do so formal without music education,
 without any help, everyone can do it!
 
 The thing about classical music is that it looks intimidating. There's so much
@@ -70,7 +70,7 @@ My first query got me [this](https://www.youtube.com/watch?v=8hgaxI3JRgg)
 result. It's a "piano concerto". There is something wrong though. There are a
 lot of instruments and the piano comes after a while. And that's because it is
 a [piano concerto](https://en.wikipedia.org/wiki/Piano_concerto). Those
-compositions do focus on the piano, however, they are almost always 
+compositions do focus on the piano, however, they are almost always
 accompanied by a large ensemble, typically an entire orchestra.
 
 This is good. We have learned something. Classical music compositions
@@ -125,7 +125,7 @@ too.
 So far, as you probably already noticed, we have explored only one dimension:
 the musical form. And I think this is enough to get you started with classical
 music. If you really like what you are listening to, chances are the
-following dimensions are going to help you find new pieces too. It took me a while 
+following dimensions are going to help you find new pieces too. It took me a while
 to come up with this list, so I hope it will help you as much as it helps me now.
 
 ### Composer
@@ -176,12 +176,12 @@ composition. This is the reason why being a director is such a big deal.
 
 ### Record labels
 
-Because of labels, I still think about [Rdio](https://en.wikipedia.org/wiki/Rdio) 
+Because of labels, I still think about [Rdio](https://en.wikipedia.org/wiki/Rdio)
 every day. It was very easy to browse music by companies there. And when it
 comes to classical music, this is a very relevant feature. I found a lot of
 interesting compositions or performances on Rdio because I could follow the
 trail of the publishing company. I use Apple music now and it is much harder
-to search this way. Still, this is something to take into account in my opinion. 
+to search this way. Still, this is something to take into account in my opinion.
 Good record labels work like a good newspaper. They have some sort of editorial line and
 produce very good albums.
 
@@ -199,15 +199,15 @@ quartet]([https://en.wikipedia.org/wiki/String_quarte
 ) on Rdio. I remember being in my car and feeling the need to pull over to
 focus on the music. It was a [melting
 quartet](https://www.youtube.com/watch?v=cm6aglFGNHM) by Mozart. It took me
-over a year to figure out the name of the composition. [[I was obsessed by the
-main them]] and really wanted to know which composition it was. This experience
+over a year to figure out the name of the composition. I was obsessed by the
+main theme and really wanted to know which composition it was. This experience
 made me explore string quartets a lot. Mozart, Beethoven and Mendelssohn
 produced incredible string quartet compositions and I love all of them now.
 In my case, I think the reason I love string quartets so much is:
 
 > There is a lot going on but not too much for me to get lost
 
-Chances are some kind of ensemble will fit your taste better and it is 
+Chances are some kind of ensemble will fit your taste better and it is
 really worth figuring it out, so you can explore the
 ensemble by composer, performers, labels and so on.
 
