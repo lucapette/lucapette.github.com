@@ -17,7 +17,7 @@ Reading, writing. They have been nurturing my brain since I remember myself.
 A couple of years later, I got into metal. And, to me, it was all about the presence of
 lead guitars. I started studying the guitar a bit and tried to learn how to
 read music. This process brought me closer to classical music again. I started listening
-to some famous composers. Then, I relised what I missed in my previous experience
+to some famous composers. Then, I realised what I missed in my previous experience
 with music. Classical music had something I had never felt with any other
 kind of music. I felt this was the **real** thing. And I started a long journey
 in the land of classical music that's been lasting ever since.
