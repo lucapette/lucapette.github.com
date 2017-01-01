@@ -34,9 +34,9 @@ have learned in the past two years revealed to be really important.
 ## Data is nothing. Information is key
 
 Quite recently, we have introduced [blazer](https://github.com/ankane/blazer)
-at work. It is a tiny little tool and I wanted to add it to our toolkit for
-a long time. The reaction from other departments' folk was incredible.
-Everyone was very happy about the tool. This gave me quite some food for
+at work,  a little tool I wanted to add it to our toolkit for
+a long time. The reaction from other departments' folk was great.
+Everyone was happy about the tool. This gave me some food for
 thoughts. I started asking myself what it is the real difference between
 a product development team providing data for the rest of the company and
 everyone being able to ask questions on their own. My assumption is that
