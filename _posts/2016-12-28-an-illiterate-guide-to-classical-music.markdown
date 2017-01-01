@@ -195,15 +195,15 @@ a different framework to express their ideas. You will find yourself liking a
 specific kind of ensemble more than others. And I suggest you try to explore
 your taste as much as possible. I can provide an example based on my
 experience. In 2009, I came across a very beautiful [string
-quartet]([https://en.wikipedia.org/wiki/String_quarte
-) on Rdio. I remember being in my car and feeling the need to pull over to
-focus on the music. It was a [melting
-quartet](https://www.youtube.com/watch?v=cm6aglFGNHM) by Mozart. It took me
-over a year to figure out the name of the composition. I was obsessed by the
-main theme and really wanted to know which composition it was. This experience
-made me explore string quartets a lot. Mozart, Beethoven and Mendelssohn
-produced incredible string quartet compositions and I love all of them now.
-In my case, I think the reason I love string quartets so much is:
+quartet](https://en.wikipedia.org/wiki/String_quartet) on Rdio. I remember
+being in my car and feeling the need to pull over to focus on the music. It
+was a [melting quartet](https://www.youtube.com/watch?v=cm6aglFGNHM) by
+Mozart. It took me over a year to figure out the name of the composition.
+I was obsessed by the main theme and really wanted to know which composition
+it was. This experience made me explore string quartets a lot. Mozart,
+Beethoven and Mendelssohn produced incredible string quartet compositions and
+I love all of them now. In my case, I think the reason I love string quartets
+so much is:
 
 > There is a lot going on but not too much for me to get lost
 
