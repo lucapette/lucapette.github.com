@@ -3,11 +3,11 @@ layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Luca Pette</title>
- <link href="http://lucapette.com/atom.xml" rel="self"/>
- <link href="http://lucapette.com/"/>
+ <title>Luca Pette's Blog</title>
+ <link href="http://lucapette.me/atom.xml" rel="self"/>
+ <link href="http://lucapette.me/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://lucapette.com</id>
+ <id>http://lucapette.me</id>
  <author>
    <name>Luca Pette</name>
    <email>lucapette@gmail.com</email>
@@ -15,9 +15,9 @@ layout: nil
  {% for post in site.posts limit:10 %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://lucapette.com{{ post.url }}"/>
+   <link href="http://lucapette.me{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://lucapette.com{{ post.id }}</id>
+   <id>http://lucapette.me{{ post.id }}</id>
    <content type="html">{{ post.description | xml_escape }}</content>
  </entry>
  {% endfor %}
