@@ -9,14 +9,14 @@ pages:
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for page in page.pages %}
     <url>
-        <loc>http://lucapette.com{{page}}</loc>
+        <loc>http://lucapette.me{{page}}</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
         <changefreq>hourly</changefreq>
     </url>
     {% endfor %}
     {% for post in site.posts %}
     <url>
-        <loc>http://lucapette.com{{ post.url }}</loc>
+        <loc>http://lucapette.me{{ post.url }}</loc>
         <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
         <changefreq>hourly</changefreq>
     </url>
