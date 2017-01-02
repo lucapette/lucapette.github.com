@@ -1,7 +1,7 @@
 ---
 title: "All I have done wrong running a product team"
 description: The first time you do something, you learn a lot. Time to share that.
-keywords: lucapette, product management, product teams, product development, management
+keywords: product management, product teams, product development, management
 layout: articles
 ---
 
