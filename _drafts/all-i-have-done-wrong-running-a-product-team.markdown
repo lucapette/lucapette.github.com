@@ -55,9 +55,14 @@ a market is key info. Finding the answer there will improve your marketing
 strategy.
 
 Now, as you are probably thinking, this is literally common sense. Without
-information, people cannot do a good job.
+information, people cannot do a good job. And I would agree to that too. I
+find very interesting though that the distinction between data and information
+was not so clear to us. As this was my first time running a product team, I
+cannot say it was specific to our team or a general problem.
 
 ## Say no to CEO features
+
+I bet you have heard of this one already
 
 ## Do not ship what you can't measure
 
