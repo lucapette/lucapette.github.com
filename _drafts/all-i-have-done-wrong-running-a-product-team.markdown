@@ -149,6 +149,12 @@ realise you can do better you are immediately a better professional.
 
 ## Do not ship what you can't measure
 
+I must confess I felt guilty while reading about [feature
+factories](https://hackernoon.com/12-signs-youre-working-in-a-feature-factory-44a5b938d6a2#.wkyer1gmt).
+We showed clear signs when it came about impact analysis. What I have done
+wrong here is realising way too late how important it is to design a process
+around impact.
+
 ## Get rid of features no one uses
 
 ## Mobile first design is an opportunity not a constraint
