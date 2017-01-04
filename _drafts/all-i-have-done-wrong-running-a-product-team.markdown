@@ -108,6 +108,45 @@ yet".
 
 ## Say no with reason
 
+[Saying no](https://duckduckgo.com/?q=saying+no+product+managment&ia=web)
+seems to be a required feature for good product management. I can agree to
+that sentiment but I think it statement is incomplete. When I started running
+my first product team we did not have enough people and experience to say no.
+I struggled with it as I felt a bit alone doing that. It had bad consequences:
+
+- Irrelevant features were creeping into out roadmap
+- We would often build the wrong thing and only realise after roll-out
+- We would build more than we needed
+
+It was not the nicest situation and it was that rare case in which hiring was
+the answer (hint: use hiring as a last resource solution, it brings the best
+out of you and the people around you). We hired more people and brought it the
+necessary skills. Finally, my team was saying no to features. Oh it felt good,
+I was not alone any more. But it had consequence of the rest of the company.
+People started feeling frustrated with the new attitude. I did expect it but
+I still got something wrong. I thought it was a temporary phenomenon. We just
+needed some time to adapt and people would understand why saying no to most
+requests was the right thing to do for everyone. Here we go: it's just common
+sense again. Why would people understand a no without context?
+
+We were only saying no, we were not telling anyone what is the benefit of
+saying no. It turns out this issue is easy to fix: You say no to people and
+always give them context about what you are going to do *instead* of what
+requested. It's as easy as that. Now, this comes with benefits that go from
+your product team to the company and the other way around:
+
+- The rest of the company understands better how you prioritize product work.
+  It's vital for them to get it.
+- You have to convince people that your prioritisation is the right one. Great
+  side-effects:
+  - You learn how to express things clearly and in plain English. No jargon,
+    no acronyms. It makes your communication more inclusive.
+  - You can catch errors in your own prioritisation. They may be right and
+    that is a great outcome.
+
+I enjoyed I was doing it wrong. As it is one of those things that once you
+realise you can do better you are immediately a better professional.
+
 ## Do not ship what you can't measure
 
 ## Get rid of features no one uses
