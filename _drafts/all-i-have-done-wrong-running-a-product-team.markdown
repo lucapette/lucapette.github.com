@@ -5,20 +5,20 @@ keywords: product management, product teams, product development, management
 layout: articles
 ---
 
-In the last two year, I had the opportunity to shift my career toward product
+In the last two years, I had the opportunity to shift my career toward product
 management. It took me a while to accept the job, it was no easy decision.
 I needed to be ready for leading a team of people doing a job I never did
 before. While I felt ready on the leadership part, I was afraid of not being
-able to get up to speed fast enough with the job.
+able to get up to speed fast enough with the product part.
 
 Two years passed and I have learned a lot. On they way, I made a few crucial
-mistakes. Of course, making mistakes is part of the game but I want to focus
-my attention toward those four or five things that I consider central to
-product management. Sometimes, I rethink my personal list of failures in
-product management and I come to the conclusion most product people have this
-figured out very well and it seems just like "common sense" to me by now. If
-I would have to pick just one thing out of those mistakes I am going to share
-with you, it would be this:
+mistakes. Making mistakes is part of the game but I want to focus my attention
+toward those four or five things that I consider central to product
+management. Sometimes I rethink my personal list of failures in product
+management and I come to the conclusion most product people have this figured
+out very well. It looks like "common sense" to me by now. And if I would have
+to pick just one thing out of those mistakes I am going to share with you, it
+would be this:
 
 > Common sense is not so common
 
@@ -74,14 +74,15 @@ we have just discussed. Probably a good topic for another article.
 
 ## Say no to CEO features
 
-I define as "CEO features" those a product team build because someone says so
-or just because it sounded cool. We fast tracked features without the
-necessary scrutiny (here you need a "definition of ready", something I should
-have done better too). It was very tricky for me to figure how to handle
-those. Here is the problem:
+I define as "CEO features" those a product team builds because someone says so
+or just because it sounded cool building them. We fast tracked features
+without the necessary scrutiny (here you need a "definition of ready",
+something I should have done better too). It was very tricky for me to figure
+how to handle those. Here is the problem:
 
 - Your CEO sets up the vision of the company
-- You execute that vision translating it into a product roadmap
+- You execute that vision translating it into a product vision
+- You translate that vision into a product roadmap
 - You build things from the roadmap
 
 Now the problem lies in the tiny border between vision and roadmap. I think
