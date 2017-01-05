@@ -11,14 +11,14 @@ I needed to be ready for leading a team of people doing a job I never did
 before. While I felt ready on the leadership part, I was afraid of not being
 able to get up to speed fast enough with the product part.
 
-Two years passed and I have learned a lot. On they way, I made a few crucial
+Almost two years passed and I learned a lot. On the way, I made a few crucial
 mistakes. Making mistakes is part of the game but I want to focus my attention
 toward those four or five things that I consider central to product
-management. Sometimes I rethink my personal list of failures in product
-management and I come to the conclusion most product people have this figured
-out very well. It looks like "common sense" to me by now. And if I would have
-to pick just one thing out of those mistakes I am going to share with you, it
-would be this:
+management. Sometimes I go over my list of failures in product management and
+I come to the conclusion most product people have this figured out very well.
+It looks like "common sense" to me by now. And if I would have to pick just
+one thing out of those mistakes I am going to share with you, it would be
+this:
 
 > Common sense is not so common
 
@@ -193,5 +193,3 @@ consisting of changes that only improve the code but have no other effects.
 Applying this approach to product management can translate loosely into
 "simplify your product with every features". Give more to your customers by
 having *only* the features they *really* use.
-
-## Mobile first design is an opportunity not a constraint
