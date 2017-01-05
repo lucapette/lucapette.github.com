@@ -191,6 +191,6 @@ set of changes (developers tend to call it "pull requests" these days)
 consisting of changes that only improve the code but have no other effects.
 Applying this approach to product management can translate loosely into
 "simplify your product with every features". Give more to your customers by
-having only the features they *really* use.
+having *only* the features they *really* use.
 
 ## Mobile first design is an opportunity not a constraint
