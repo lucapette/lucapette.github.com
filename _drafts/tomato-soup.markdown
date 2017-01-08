@@ -54,9 +54,6 @@ The recipe is for *4* servings.
 - Put some oregano and estragon on the top of the soup
 - Drop a tablespoon of creme in the centre of the soup
 
-It should look like this:
-
-
 Enjoy it!
 
 ## Notes
