@@ -3,11 +3,11 @@
 {% assign about = " " %}
 
 {% case page.url %}
-{% when '/index.html' %}
+{% when '/' %}
 {% assign home = "active" %}
-{% when '/articles.html', '/archive.html' %}
+{% when '/articles', '/archive' %}
 {% assign articles = "active" %}
-{% when '/about.html' %}
+{% when '/about' %}
 {% assign about = "active" %}
 {% endcase %}
 
