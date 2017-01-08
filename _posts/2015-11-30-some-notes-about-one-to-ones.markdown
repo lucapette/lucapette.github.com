@@ -21,7 +21,7 @@ With those two points in mind, I think there are a lot of questions to
 answer about one-on-ones. The frequency, the outcomes, how to plan the meeting.
 Before I get to those points, I would like to highlight what I think is the
 most important aspect of one-on-ones: this meeting is not for you, the
-manager. It is a very powerful tool as long as the people you're having one-on-ones 
+manager. It is a very powerful tool as long as the people you're having one-on-ones
 with use the meeting for their own needs. This is absolutely crucial,
 the rest of the discussion makes no sense at all otherwise.
 
@@ -38,7 +38,7 @@ Now the details:
   - The frequency
 
     I know some people need reminders to set up one-on-ones. I think this already
-    explains very well people miss the point. Once again, these meetings are not for you, 
+    explains very well people miss the point. Once again, these meetings are not for you,
     the manager. You don't get to choose the frequency. My only rule is an upper
     bound: not less than once per month. Now, it can be once per month, once per week,
     every day or whatever. It does not really matter; what does matter is that I am
@@ -68,7 +68,7 @@ others on soft skills. And that's the very core of my point. It's their
 meeting, let them choose what to do with it.
 
 When I sent the first draft of this article to a friend via email, his first
-reaction was: "From what you've jsut described, your idea of one-on-ones looks like 
+reaction was: "From what you've jsut described, your idea of one-on-ones looks like
 2 people grabbing a coffee and having a chat, which I seriously believe is good! But
 how can you not lose the "meetingness"?". That is actually a good point. The
 idea you may get here is: I think these meetings should be very informal.

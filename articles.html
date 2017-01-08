@@ -1,7 +1,7 @@
 ---
 title: Articles
-description: The archive of all the articles written by lucapette
-keywords: technology, developers, managament, writing, reading, cooking
+description: Luca Pette's writing organised by topics
+keywords: technology, developers, managament, writing, reading
 layout: default
 ---
 <div class="blog-header">
@@ -16,6 +16,7 @@ layout: default
   <ul>
     <li><a href="#writing">Writing</a></li>
     <li><a href="#reading">Reading</a></li>
+    <li><a href="#leading">Leading developers</a></li>
     <li><a href="#vim">Vim</a></li>
     <li><a href="#ruby">Ruby</a></li>
     <li><a href="#rails">Rails</a></li>
@@ -24,6 +25,24 @@ layout: default
   <h2 id="writing">Writing</h2>
   <ul>
     {% for post in site.categories.writing %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <h2 id="reading">Reading</h2>
+  <ul>
+    {% for post in site.categories.reading %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <h2 id="leading">Leading developers</h2>
+  <ul>
+    {% for post in site.categories.leading %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <h2>Vim</h2>
+  <ul>
+    {% for post in site.categories.vim %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
@@ -36,12 +55,6 @@ layout: default
   <h2>Rails</h2>
   <ul>
     {% for post in site.categories.rails %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-  <h2>Vim</h2>
-  <ul>
-    {% for post in site.categories.vim %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
