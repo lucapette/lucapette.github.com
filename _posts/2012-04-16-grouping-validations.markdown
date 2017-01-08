@@ -2,6 +2,7 @@
 title: 'Grouping validations'
 description: 'Grouping validations'
 keywords: rails, state_machine, with_options, validations
+category: rails
 layout: articles
 ---
 

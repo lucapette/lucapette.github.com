@@ -2,6 +2,7 @@
 title: Multiple files upload with carrierwave and nested_form
 description: Multiple Attachments with carrierwave and nested_form
 keywords: rails, carrierwave, nested_form, attachments
+category: rails
 layout: articles
 ---
 

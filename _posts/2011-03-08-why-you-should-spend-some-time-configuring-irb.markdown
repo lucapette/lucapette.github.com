@@ -2,6 +2,7 @@
 title: Why you should spend some time configuring irb
 description:  Why you should spend some time configuring IRB.
 keywords: ruby, irb, console
+category: ruby
 layout: articles
 ---
 

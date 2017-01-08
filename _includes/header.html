@@ -1,15 +1,13 @@
+{% assign home = " " %}
+{% assign articles = " " %}
+{% assign about = " " %}
+
 {% case page.url %}
-{% when '/' %}
+{% when '/index.html' %}
 {% assign home = "active" %}
-{% assign articles = " " %}
-{% assign about = " " %}
-{% when '/articles' %}
-{% assign home = " " %}
+{% when '/articles.html', '/archive.html' %}
 {% assign articles = "active" %}
-{% assign about = " " %}
-{% when '/about' %}
-{% assign home = " " %}
-{% assign articles = " " %}
+{% when '/about.html' %}
 {% assign about = "active" %}
 {% endcase %}
 

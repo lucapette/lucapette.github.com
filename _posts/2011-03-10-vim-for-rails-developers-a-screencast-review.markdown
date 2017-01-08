@@ -2,11 +2,12 @@
 title: "Vim for rails developers: a screencast review"
 description: a review of a screencast by Ben Orenstein
 keywords: vim, rails, screencast
+category: vim
 layout: articles
 ---
 
 I have recently published my first
-[article](http://lucapette.com/vim/rails/vim-for-rails-developers-what-you-cant-miss/)
+[article](/vim-for-rails-developers-what-you-cant-miss/)
 of this series. It got a very nice feedback and I am very glad about that, it
 encourages me to keep it on. As part of the feedback I got a very nice email
 from [Ben Orenstein](http://codeulate.com/). He was so kind to send me a copy
@@ -20,11 +21,11 @@ work is definitely worth spreading.
 ## The screencast
 
 The screencast has a good recording quality and Ben speak a very clear
-language (it does count for non-native speakers you know :)). So I think you
+English (it does count for non-native speakers you know :)). So I think you
 should be able to follow all the part of it without problems. Furthermore, the
 screencast is neither long nor short, the length is just perfect.
 
-###  Introduction
+### Introduction
 
 The screencast starts with a short and nice introduction. It shows you how
 to improve your typing skills, Ben gives you nice suggestions on resources

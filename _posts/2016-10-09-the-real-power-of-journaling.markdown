@@ -2,6 +2,7 @@
 title: "The real power of journaling"
 description: Some time ago I wrote about my first experiences with journaling. Now, it's more than one year I'm doing it and it changed everything
 keywords: journaling, day one, writing
+category: writing
 layout: articles
 ---
 I wrote about journaling a [while ago](/what-im-learning-with-journaling). At

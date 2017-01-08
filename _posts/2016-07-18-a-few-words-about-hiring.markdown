@@ -2,6 +2,7 @@
 title: "A few words about hiring"
 description: I literally hate the way our industry does the hiring. It's time to talk about it.
 keywords: hiring, development, juniors
+category: leading
 layout: articles
 ---
 

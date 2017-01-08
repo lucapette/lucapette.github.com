@@ -2,40 +2,41 @@
 title: "An illiterate guide to classical music"
 description: How I found my way into the beauty of classical music without any formal education
 keywords: music, classical music, learning, guide
+category: music
 layout: articles
 ---
 
 Music has always been a big part of my life. I remember my first attempts to
-listen to music in the apartment of my mother's best friend. I
-was a confused boy, ten or eleven years old. And I have vivid memories of the
-first times I ran into some of my favourite pieces. Those CDs were a new shiny
-media. I was always afraid of scratching their surface. I was an avid reader
-of their booklets. But there was something missing. I felt the music I
-was listening to was the kind of collective experience I was not fond of. I was
-looking for the introspective feeling you get out of more solitary activities.
-Reading, writing. They have been nurturing my brain since I remember myself.
-A couple of years later, I got into metal. And, to me, it was all about the presence of
+listen to music in the apartment of my mother's best friend. I was a confused
+boy, ten or eleven years old. And I have vivid memories of the first times I
+ran into some of my favourite pieces. Those CDs were a new shiny media. I was
+always afraid of scratching their surface. I was an avid reader of their
+booklets. But there was something missing. I felt the music I was listening to
+was the kind of collective experience I was not fond of. I was looking for the
+introspective feeling you get out of more solitary activities.  Reading,
+writing. They have been nurturing my brain since I remember myself.  A couple
+of years later, I got into metal. And, to me, it was all about the presence of
 lead guitars. I started studying the guitar a bit and tried to learn how to
-read music. This process brought me closer to classical music again. I started listening
-to some famous composers. Then, I realised what I missed in my previous experience
-with music. Classical music had something I had never felt with any other
-kind of music. I felt this was the **real** thing. And I started a long journey
-in the land of classical music that's been lasting ever since.
+read music. This process brought me closer to classical music again. I started
+listening to some famous composers. Then, I realised what I missed in my
+previous experience with music. Classical music had something I had never felt
+with any other kind of music. I felt this was the **real** thing. And I
+started a long journey in the land of classical music that's been lasting ever
+since.
 
-I know how to read music even though I am a slow reader. I can play the
-guitar at amateur level, but I have no formal music education. I have no
-map for this fantastic land. I am a classical music illiterate. Despite that,
-I enjoy classical music more than any other kind of music. I am aiming at
-making classical music less intimidating. People often asked me how to get
-started with it or which composer is "easy". I aim to make it easier for you
-to jump on this train. If I have managed to do so formal without music education,
+I know how to read music even though I am a slow reader. I can play the guitar
+at amateur level, but I have no formal music education. I have no map for this
+fantastic land. I am a classical music illiterate. Despite that, I enjoy
+classical music more than any other kind of music. I am aiming at making
+classical music less intimidating. People often asked me how to get started
+with it or which composer is "easy". I aim to make it easier for you to jump
+on this train. If I have managed to do so formal without music education,
 without any help, everyone can do it!
 
 The thing about classical music is that it looks intimidating. There's so much
 of it. All the tracks have those strange and super long names. There are a lot
-of Italian words.
-To be honest, I'm with you. It's confusing. When I got into classical music, I
-had a lot of questions:
+of Italian words. To be honest, I'm with you. It's confusing. When I got into
+classical music, I had a lot of questions:
 
 - Do you listen to specific composers?
 - What about performers?

@@ -2,6 +2,7 @@
 title: "My experience with Kanban"
 description: How I think Kanban works and what I like about it
 keywords: kanban, management, productivity, team, development
+category: leading
 layout: articles
 ---
 

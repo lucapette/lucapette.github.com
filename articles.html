@@ -1,17 +1,49 @@
 ---
 title: Articles
 description: The archive of all the articles written by lucapette
-keywords: posts, blog, ruby, rails, irb, pry, vim, go, golang, docker
+keywords: technology, developers, managament, writing, reading, cooking
 layout: default
 ---
 <div class="blog-header">
-<h1>Articles</h1>
-  <p class="blog-description">A collection of articles I wrote over the
-  years.</p>
+  <p>This page is a timid attempt at organising my writing by topic. As I
+  write about topics very different from each other, I find this to be a
+  valuable exercise for myself</p>
 </div>
 
-<ul>
-  {% for post in site.posts %}
-    <li><span class=date>{{ post.date | date:"%d-%m-%Y"  }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+<article>
+  <p>
+  I wrote the most about:
+  <ul>
+    <li><a href="#writing">Writing</a></li>
+    <li><a href="#reading">Reading</a></li>
+    <li><a href="#vim">Vim</a></li>
+    <li><a href="#ruby">Ruby</a></li>
+    <li><a href="#rails">Rails</a></li>
+  </ul>
+  </p>
+  <h2 id="writing">Writing</h2>
+  <ul>
+    {% for post in site.categories.writing %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <h2 id="ruby">Ruby</h2>
+  <ul>
+    {% for post in site.categories.ruby %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <h2>Rails</h2>
+  <ul>
+    {% for post in site.categories.rails %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <h2>Vim</h2>
+  <ul>
+    {% for post in site.categories.vim %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+</article>

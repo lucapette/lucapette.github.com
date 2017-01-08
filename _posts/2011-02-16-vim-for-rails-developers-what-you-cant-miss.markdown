@@ -2,8 +2,10 @@
 title: "Vim for rails developers: what you can't miss"
 description: my first article of the series "vim for rails developer". I will use the article as an index for the series
 keywords: vim, rails,rails.vim, NERDTree, FuzzyFinderTextMate, codepath
+category: vim
 layout: articles
 ---
+
 Vim is my editor of choice and Rails is my framework. I think many of us have
 the same taste and I want to share with you my experiences while using both.
 I'm going to write a series of posts regarding this topic. I start with _what

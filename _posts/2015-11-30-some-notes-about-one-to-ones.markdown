@@ -2,6 +2,7 @@
 title: "Some notes about one-on-ones"
 description: I had a nice conversation about one-on-ones with a friend via email and this article wraps it up.
 keywords: one-on-ones
+category: leading
 layout: articles
 ---
 

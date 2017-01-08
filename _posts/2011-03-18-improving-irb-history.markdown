@@ -2,11 +2,12 @@
 title: Improving IRB history
 description: Improving IRB history. Some ways to improve your interaction with IRB history
 keywords: ruby, irb, console
+category: ruby
 layout: articles
 ---
 
 I’ve started to consider irb
-[configurations](http://lucapette.com/irb/why-you-should-spend-some-time-configuring-irb/)
+[configurations](/why-you-should-spend-some-time-configuring-irb/)
 as a way to improve my productivity. Following this path I’ve got some nice
 stuff in my [irbrc](https://github.com/lucapette/dotfiles/blob/master/irbrc).
 In the last days I was thinking about how to make irb history more similar to

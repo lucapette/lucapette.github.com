@@ -2,6 +2,7 @@
 title: A review of Crafting Rails Applications
 description: A review of Crafting Rails Applications by José Valim. Published by The Pragmatic Programmer in March 2011
 keywords: a review of Crafting Rails Applications, ruby, book review, rails, enginex, José Valim
+category: reading
 layout: articles
 ---
 As usual, my considerations grouped by chapter:

@@ -2,6 +2,7 @@
 title: "Two Years Abroad"
 description: Just some thoughts on how it feels to live abroad
 keywords: lucapette, expat, abroad, germany, berlin
+category: writing
 layout: articles
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: A review of The RSpec Book
-description:  A review of The RSpec Book by David Chelimsky. Published by The Pragmatic Programmer in Dicember 2010
+description: Published by The Pragmatic Programmer in Dicember 2010
 keywords: the rspec book, ruby, book review, David Chelimsky, tdd, bdd, cucumber
+category: reading
 layout: articles
 ---
 
@@ -10,8 +11,8 @@ As usual, my considerations grouped by chapter:
 ### Introduction
 
 The book starts with an introduction to the reasons behind BDD. It’s a cool
-introduction, small and clear. It’s very useful if these topics are a closed
-book for you. To cut a long story short, if you want a spectacular and small
+introduction, short and clear. It’s very useful if these topics are a closed
+book for you. To cut a long story short, if you need a spectacular and short
 introduction to BDD/TDD reasons watch [this](http://vimeo.com/23061155) by
 [Corey Haines](http://coreyhaines.com/).
 

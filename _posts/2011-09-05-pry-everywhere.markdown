@@ -2,6 +2,7 @@
 title: Pry Everywhere
 description: "Pry is an IRB alternative. I'll show here a quick way to replace pry everywhere"
 keywords: pry, rails, irb, ruby
+category: ruby
 layout: articles
 ---
 

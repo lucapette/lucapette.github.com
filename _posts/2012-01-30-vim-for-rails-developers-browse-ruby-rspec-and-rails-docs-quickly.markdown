@@ -2,16 +2,18 @@
 title: 'Vim for Rails developers: browse Ruby, RSpec and Rails docs quickly'
 description: 'Install vim-ruby-doc and vim-jquery-doc for better API docs browsing'
 keywords: vim, ruby, rails, rspec, jquery, API doc, apidock.com
+category: vim
 layout: articles
 ---
-In this post I just want to bring to your attention a little plugin I extracted
-from my [vimfiles](http://github.com/lucapette/vimfiles). We all need to read
-some API docs during our work day. And I dislike a lot the idea of opening the
-browser, going to a website, typing something in (very often just a single
-word) and waiting for the result. So I started to search for something better
-and I found [apidock.vim](https://github.com/mileszs/apidock.vim) that does a
-good job. I wrote something very similar to the plugin for my vimfiles because
-the plugin itself didn't fit my needs very well.
+In this post I just want to bring to your attention a little plugin I
+extracted from my [vimfiles](http://github.com/lucapette/vimfiles). We all
+need to read some API docs during our work day. And I dislike a lot the idea
+of opening the browser, going to a website, typing something in (very often
+just a single word) and waiting for the result. So I started to search for
+something better and I found
+[apidock.vim](https://github.com/mileszs/apidock.vim) that does a good job. I
+wrote something very similar to the plugin for my vimfiles because the plugin
+itself didn't fit my needs very well.
 
 Well, I was quite happy with the result. Finally I got something I liked about
 doc browsing and Vim. I just had to type a particular mapping and voilà
@@ -39,8 +41,8 @@ up on apidock.com, type:
 - `RR` for Rails
 
 and the plugin will open a new tab in your browser (or a new instance of the
-browser) to the related docs. Obviously, I added options to both the plugin, in
-case you need other mappings or another command. Check out the README for
+browser) to the related docs. Obviously, I added options to both the plugin,
+in case you need other mappings or another command. Check out the README for
 further information.
 
 I hope you can find it useful. Actually, I use it all the time and I'm asking

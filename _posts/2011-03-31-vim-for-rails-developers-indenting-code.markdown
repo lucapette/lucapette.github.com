@@ -2,6 +2,7 @@
 title: "Vim for rails developers: indenting code"
 description: How you can indent your code preserving the cursor position with a Vim mapping
 keywords: vim, rails, indenting code, tip, map, mapping
+category: vim
 layout: articles
 ---
 

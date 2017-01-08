@@ -2,6 +2,7 @@
 title: "A couple of useful aliases for docker"
 description: A couple of useful aliases for docker that I use everyday
 keywords: docker, bash, zsh
+category: docker
 layout: articles
 ---
 

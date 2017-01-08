@@ -2,6 +2,7 @@
 title: 'Tmux for rails developers'
 description: 'tmux for rails developers'
 keywords: tmux, rails, vim, pair programming
+category: rails
 layout: articles
 ---
 
@@ -56,7 +57,7 @@ In my experience, there is always a context switch when you have to read why a
 test is failing or you have to read the log or you have to open up a terminal
 tab or you have to...  OK you got it.
 
-The tmux answer is panes.
+tmux answer is panes.
 
 Tmux has this *killer* feature that responds to the name of panes. They are
 better that windows because you really don't have to switch a context, what
@@ -86,22 +87,23 @@ stuff. And I'm pretty happy with its appearance too now:
 
 It looks nice, doesn't it?
 
-Of course, panes are not all. There are windows and sessions too. I personally
-use windows when I do want a *context switch* but you could find them useful
-for another reason. Sessions are the *real word* reason why I run into tmux.
-In this period, I'm doing a lot of remote pair programming. When we started to
-pair we tried a lot of different solutions combining video calling and screen
-sharing. But none of them worked well. These technologies are an amazing way
-of communicating with people but unfortunately they requires a very good
-connection to work fine. But, even when the connection is very good, there is
-another problem: you have to choose who types in the pair session because you
-can't switch easily. And that's very important for pair programming. So I did
-a bit of a research and I found that a lot of people solved this problem using
-tmux. And that is how I run into tmux. At first, I didn't understood how tmux
-could help in such a situation. Then, I finally understood what tmux session
-are and how you can easily attach your terminal to an existing tmux session.
-I think that tmux is a perfect solution for remote pair programming. It's
-fast, light (in terms of connection) and very easy to set-up.
+Panes are not all tmux has to offer. There are windows and sessions too. I
+personally use windows when I do want a *context switch* but you could find
+them useful for another reason. Sessions are the *real word* reason why I run
+into tmux.  In this period, I'm doing a lot of remote pair programming. When
+we started to pair we tried a lot of different solutions combining video
+calling and screen sharing. But none of them worked well. These technologies
+are an amazing way of communicating with people but unfortunately they
+requires a very good connection to work fine. But, even when the connection is
+very good, there is another problem: you have to choose who types in the pair
+session because you can't switch easily. And that's very important for pair
+programming. So I did a bit of a research and I found that a lot of people
+solved this problem using tmux. And that is how I run into tmux. At first, I
+didn't understood how tmux could help in such a situation. Then, I finally
+understood what tmux session are and how you can easily attach your terminal
+to an existing tmux session.  I think that tmux is a perfect solution for
+remote pair programming. It's fast, light (in terms of connection) and very
+easy to set-up.
 
 ## the tmux book
 
@@ -153,16 +155,17 @@ panes:
 - console: rails c test
 {% endhighlight %}
 
-So each tab creates a window, there you can just run a command or create
-panes and run commands in them. Pretty neat.
+So each tab creates a window, there you can just run a command or create panes
+and run commands in them. Pretty neat.
 
 I'm very glad there is a `pre` option because, using gnome-terminal, tmux
 won't behave correctly if it doesn't assume it's running inside a 256 colours
-terminal. tmuxinator is a good gem and there is some room for improvements too.
-For example, at this very moment there is no way to specify a socket name and
-it would be great to have it because using a socket name is a quick way to do
-some pair programming using tmux. By the way, I checked the pull-requests and
-there is a lot of nice stuff there (included a patch for the socket name).
+terminal. tmuxinator is a good gem and there is some room for improvements
+too.  For example, at this very moment there is no way to specify a socket
+name and it would be great to have it because using a socket name is a quick
+way to do some pair programming using tmux. By the way, I checked the
+pull-requests and there is a lot of nice stuff there (included a patch for the
+socket name).
 
 I recommend you to give tmuxinator a try, if you're going to use tmux the odds
 are you'll like this gem.
@@ -180,11 +183,11 @@ gnome-terminal.
 All the other issues I run into are Vim related. First of all, I miss how
 beautiful look the GUI versions of some Vim features. Just things like
 underlined chars, bad-spelled words. The other issue is about mappings. Some
-of my mappings aren't working in the terminal. Actually, the problem should
-be related to gnome-terminal but I didn't investigated it yet. You'll have
-some problem if you're using MacVim and apple key mappings. They won't work
-either in the terminal. I read a lot of people just remapped some stuff using
-the leader key. Actually, I have the feeling that sometimes is a good thing to
+of my mappings aren't working in the terminal. Actually, the problem should be
+related to gnome-terminal but I didn't investigated it yet. You'll have some
+problem if you're using MacVim and apple key mappings. They won't work either
+in the terminal. I read a lot of people just remapped some stuff using the
+leader key. Actually, I have the feeling that sometimes is a good thing to
 [embrace the
 uncomfortable](http://matt.might.net/articles/programmers-resolutions/). And,
 fot that very reason, I'm trying to do some od the stuff I was doing with that

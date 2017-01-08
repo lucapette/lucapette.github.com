@@ -1,7 +1,8 @@
 ---
 title: A review of The Rails 3 way
-description:  A review of The Rails 3 way by Obie Fernandez. Published by Addison Wesley in Dicember 2010
+description: Published by Addison Wesley in Dicember 2010
 keywords: the rails 3 way, book, review, Obie Fernandez
+category: reading
 layout: articles
 ---
 

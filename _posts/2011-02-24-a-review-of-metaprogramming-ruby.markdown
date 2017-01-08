@@ -1,7 +1,8 @@
 ---
 title: A review of Metaprogramming Ruby
-description:  A review of Metaprogramming Ruby by Paolo Perrotta. Published by The Pragmatic Bookshelf in 2010
+description: Published by The Pragmatic Bookshelf in 2010
 keywords: metaprogramming ruby, book, review, Paolo Perrotta
+category: reading
 layout: articles
 ---
 

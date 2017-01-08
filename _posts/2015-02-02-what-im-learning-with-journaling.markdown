@@ -2,6 +2,7 @@
 title: "What I'm learning with journaling"
 description: thoughts about journaling
 keywords: journaling
+category: writing
 layout: articles
 ---
 
