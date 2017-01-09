@@ -10,9 +10,8 @@ layout: articles
 
 I invented this recipe after playing around with a few blog posts I found on
 tomato soups. I like that it's neither too spicy nor too sweet, but both
-charateristics are very present in the taste. It's easy to make (please let me
-know if the instructions are not clear) and fast for a good soup. Perfect for
-a winter evening. If you like wine, then a strong red is the perfect
+charateristics are very present in the taste. It's easy and fast to prepare - 
+a perfect soup for a winter evening. If you like wine, then a strong red is the perfect
 companion.
 
 ## Ingredients
@@ -44,7 +43,7 @@ _Serves four_
 
 - Finely chop the garlic and the onions
 - Chop the carrots into small cubes, and halve the tomatoes
-- Place the pot over medium heat and add the olive oil and the chili pepper
+- Place the pot over medium heat, add the olive oil and the chili pepper
 - Once the oil is hot, add the garlic and the onions, followed by the carrots
 - After a few minutes, add the tomato paste and mix together until
   all the ingredients are coated with the paste
@@ -65,5 +64,5 @@ Enjoy it!
 
 ## Notes
 
-If you don't have vegetable broth on hand, you can substitute with a bouillon
+If you don't have vegetable broth on hand, you can substitute it with a bouillon
 cube. The procedure is the same.
