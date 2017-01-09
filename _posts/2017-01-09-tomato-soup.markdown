@@ -10,9 +10,9 @@ layout: articles
 
 I invented this recipe after playing around with a few blog posts I found on
 tomato soups. I like that it's neither too spicy nor too sweet, but both
-charateristics are very present in the taste. It's easy and fast to prepare - 
-a perfect soup for a winter evening. If you like wine, then a strong red is the perfect
-companion.
+charateristics are very present in the taste. It's easy and fast to prepare -
+a perfect soup for a winter evening. If you like wine, then a strong red is
+the perfect companion.
 
 ## Ingredients
 
@@ -64,5 +64,5 @@ Enjoy it!
 
 ## Notes
 
-If you don't have vegetable broth on hand, you can substitute it with a bouillon
-cube. The procedure is the same.
+If you don't have vegetable broth on hand, you can substitute it with a
+bouillon cube. The procedure is the same.
