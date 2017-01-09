@@ -10,7 +10,7 @@ layout: articles
 
 I invented this recipe after playing around with a few blog posts I found on
 tomato soups. I like that it's neither too spicy nor too sweet, but both
-charateristics are very present in the taste. It's easy and fast to prepare -
+characteristics are very present in the taste. It's easy and fast to prepare -
 a perfect soup for a winter evening. If you like wine, then a strong red is
 the perfect companion.
 
@@ -58,7 +58,7 @@ _Serves four_
 
 - Ladle the soup into a bowl
 - Sprinkle with the oregano and estragon to taste
-- Drop a tablespoon of creme fraiche into the centre
+- Drop a tablespoon of crème fraîche into the centre
 
 Enjoy it!
 
