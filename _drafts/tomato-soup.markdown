@@ -53,8 +53,7 @@ _Serves four_
 - Add the broth
 - As soon as the broth stats boiling, add the ras el hanout and salt to taste
 - Turn the heat down to a simmer
-- Cook until the soup reaches the density you like the most (I like it very
-  dense)
+- Cook until the soup reaches the density you like the most
 
 ## Serving
 
