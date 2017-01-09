@@ -6,7 +6,7 @@ category: recipe
 layout: articles
 ---
 
-![tomato soup](/img/tomato-soup.png)
+![tomato soup](/img/tomato-soup.jpg)
 
 I invented this recipe after playing around with a few blog posts I found on
 tomato soups. I like that it's neither too spicy nor too sweet, but both
