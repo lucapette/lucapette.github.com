@@ -6,9 +6,18 @@ category: recipe
 layout: articles
 ---
 
-The recipe is for *4* servings.
+![tomato soup](/img/tomato-soup.png)
+
+I invented this recipe after playing around with a few blog posts I found
+about tomato soups. I like it's not too spicy neither too sweet but it has
+both charateristics very present in the taste. It's easy to make (please let
+me know if the instructions are not clear) and fast for a good soup. That
+makes it perfect for a winter evening, if you are into wine then a strong red
+wine is the perfect companion.
 
 ## Ingredients
+
+_The quantities are for four people._
 
 - A spoon of olive oil
 - A clove of garlic
