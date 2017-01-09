@@ -9,29 +9,27 @@ layout: articles
 ![tomato soup](/img/tomato-soup.png)
 
 I invented this recipe after playing around with a few blog posts I found
-about tomato soups. I like it's not too spicy neither too sweet but it has
-both charateristics very present in the taste. It's easy to make (please let
-me know if the instructions are not clear) and fast for a good soup. That
-makes it perfect for a winter evening, if you are into wine then a strong red
-wine is the perfect companion.
+on tomato soups. I like that it's neither too spicy nor too sweet, but
+both charateristics are very present in the taste. It's easy to make (please let
+me know if the instructions are not clear) and fast for a good soup. Perfect for a winter evening. If you like wine, then a strong red is the perfect companion.
 
 ## Ingredients
 
-_The quantities are for four people._
+_Serves four_
 
-- A spoon of olive oil
-- A clove of garlic
+- A spoonful of olive oil
+- 1 garlic clove
 - 2 big carrots
-- 2 medium sized onions
-- 4/5 big red tomatoes
-- A spoon of tomato paste
+- 2 medium onions
+- 4-5 large red tomatoes
+- A spoonful of tomato paste
 - 1 liter of vegetable broth
-- A spoon of Ras el hanout
-- One small chili pepper
-- Salt
-- Some oregano
-- Some estragon
-- A cup of crème fraîche
+- A spoonful of Ras el hanout
+- 1 small chili pepper
+- Salt to taste
+- Oregano to serve
+- Estragon to serve
+- 1 cup crème fraîche
 
 ## Tools
 
@@ -42,30 +40,28 @@ _The quantities are for four people._
 
 ## Instructions
 
-- Chop the garlic and the onions fine
-- Chop the carrots in small cubes and cut the tomatos in half
-- Put the olive oil in the big pot with the chili pepper
-- Turn the heat on and let the garlic and the onions fry
-- Put the carrots
-- After a few minutes put the tomato paste and mix everything together until
-  all the ingredients are red
-- Put all the tomatoes in the pan
-- Crush the tomatoes with a wooden spoon while they cook in the pot
-- Put the broth into the pot
-- As soon as the broth stats boiling put the ras el hanout and the salt
-- Turn the heat down a little
-- Wait until the soup reaches the density you like the most (I like it very
+- Finely chop the garlic and the onions
+- Chop the carrots into small cubes, and halve the tomatoes
+- Place the pot over medium(?) heat and add the olive oil and the chili pepper
+- Once the oil is hot, add the garlic and the onions, followed by the carrots
+- After a few minutes, add the tomato paste and mix together until
+  all the ingredients are coated with the paste
+- Add the tomatoes
+- Crush the tomatoes with a wooden spoon while they cook
+- Add the broth
+- As soon as the broth stats boiling, add the ras el hanout and salt to taste
+- Turn the heat down to a simmer(??)
+- Cook until the soup reaches the density you like the most (I like it very
   dense)
 
 ## Serving
 
-- Put the soup in a big cup
-- Put some oregano and estragon on the top of the soup
-- Drop a tablespoon of creme in the centre of the soup
+- Ladle the soup into a bowl
+- Sprinkle with the oregano and estragon to taste
+- Drop a tablespoon of creme fraiche into the centre
 
 Enjoy it!
 
 ## Notes
 
-Sometimes, you do not have the broth at home. In those cases, it's totally
-fine to use a vegetable bouillon cube. The procedure is the same.
+If you don't have vegetable broth on hand, you can substitute with a bouillon cube. The procedure is the same.
