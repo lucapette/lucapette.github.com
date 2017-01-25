@@ -5,111 +5,105 @@ keywords: product management, product teams, product development, management
 layout: articles
 ---
 
-Two years ago I had the opportunity to shift my career toward product
-management. It took me a while to accept the job, it was no easy decision.
-I needed to be ready for leading people doing a job I never did before,
-I needed to take product decisions. While I felt ready on the leadership part,
-I was afraid of not being able to get up to speed fast enough with the product
-part.
+Two years ago I had an opportunity to shift my career towards product
+management. It took me a while to accept the job, it was no easy decision. I
+needed to be ready for leading people who were doing a job I had never done
+before, I needed to take product decisions. While I felt ready on the
+leadership part, I was afraid of not being able to get up to speed with the
+product part fast enough.
 
-Two years passed and I learned a lot. On the way, I made a few crucial
-mistakes and I want to focus my attention toward those four or five things
-I consider crucial. I consider those to be just _common sense_. Often, I find
-myself summarising this experience with a joke:
+Two years passed and I learned a lot. Along the way, I made a few mistakes and
+I want to focus my attention on those four or five things I consider crucial.
+Now these learning seem just _common sense_ to me. I often find myself
+summarising this experience in a joke:
 
 > Common sense is not so common
 
-This is the reason why I feel compelled to share mistakes I consider basic
-product management now. Furthermore, writing helps me clearing my own thoughts
-about things. It is a discovery process and the best part is that someone else
-may even find it useful.
+This is the reason why I feel compelled to sharing the learnings I consider
+basic product management now. I will present my list in no particular order.
 
-I will present my list in no particular order. All I learned in the past two
-years revealed to be important to me.
+## Data is nothing. Information is the key
 
-## Data is nothing. Information is key
+We have introduced [blazer](https://github.com/ankane/blazer) at work
+recently. I've wanted to add this little tool to our portfolio of internal
+applications for a long time. The reaction coming from other departments'
+folks was great. Everyone was happy about the tool and it was a stimulating
+process for me. I started asking myself what the real difference between these
+two processes is:
 
-Recently, we introduced [blazer](https://github.com/ankane/blazer) at work.
-I wanted to add this little to our portfolio of internal applications for
-a long time. The reaction from other departments' folk was great. Everyone was
-happy about the tool and it was a stimulating process for me. I started asking
-myself what it is the real difference between a product development team
-providing data for the rest of the company and everyone being able to ask
-questions on their own. My assumption was that people were happy about
-shortening the feedback loop. It's like writing tests instead of deploying
-code, right? It takes less time to figure out you broke something if there are
-tests around.
+- A product development team providing data for the rest of the company, and
+- Everyone being able to ask questions on their own
+
+My assumption was that people were happy about shortening the feedback loop.
+It's like writing tests instead of deploying code, right? It takes less time
+to figure out you broke something if there are tests around.
 
 I was wrong. My technical background made me focus on the wrong aspect of this
-problem. Everyone wants answers faster, no discussion there. The shorter lead
-time could not explain the enthusiasm so I started interviewing the people
-I worked with in other departments. One day I came to realise data is nothing.
-No one really cares about the conversation rate comparison of two countries.
-Everyone wants to know the *why* of the differences and similarities. The
-information that explains the data is the key. People can do a better job when
-they can extract knowledge out of data. Knowing why a company performs better
-in a market is key information. Finding the answer will improve your marketing
-strategy and this kind of initiative can change the story of a company
-dramatically.
+problem. Everyone wants answers faster, no discussion there. However, people's
+enthusiasm was not driven by the shorter lead time, they were happy because
+they could finally participate in the process of transforming data points into
+useful information. One day I came to realise data is nothing. Blazer was
+useful because it could help with information, not because it increased data
+availability for the rest of the company. No one really cares about the
+conversion rate comparison in two different countries. Everyone wants to know
+the *why* of the differences and similarities. The information that explains
+the data is the key. People can do a better job when they can extract
+knowledge out of data. Knowing _why_ a company performs better in a market is
+the key information. Finding the answer will improve your marketing strategy,
+and it could change the story of your company drastically.
 
 Working with product managers and senior management meant being in
 conversations where all you would hear is data. It took me a while to realise
 I was confusing data for information. I had no process in place to make that
-transformation happening. I needed to figure out we needed a systematic
-approach to the transformation process. At the end of the day, it's a simple
-process:
+transformation happen. What we needed was a systematic approach to this
+process. To cut a long story short,
 
-> When presented data, ask yourself: why is that?
+> When presented with data, ask yourself: why that data?
 
 Ask questions all the time. You hear data points and you automatically ask
-yourself why is that. What is the explanation behind it? You need to transform
-all the data points you hear into information. I believe this should be the
-process backing up your roadmap. It's a three steps process:
+yourself why. What is the explanation behind it? You need to transform all the
+data points you hear into useful information. I believe this process should
+back up your roadmap. It's a three steps' process:
 
-1. Look at data
+1. Look at the data
 2. Ask yourself why
 3. Extract information
 
-And I think it should be a big chuck of the product discovery phase. Most of
+And I think it should be a big chunk of the product discovery phase. Most of
 the time the answer to the question "what's next?" is already there, well
 hidden in your data points. You don't know the answer because you're not
 systematically asking yourself why.
 
-Now, I'm thinking a lot about how to craft a small process around these steps
-we have just discussed. Probably, that is a good topic for another article.
-I did not have to chance to design a process and test it.
-
 ## Say no to CEO features
 
-I define "CEO features" as features we builds because someone says so or just
-because it sounded cool building them. According to this definition, those
+I define "CEO features" as features we build because someone says so or just
+because it sounds cool to build them. According to my definition, those
 features do not always come from the CEO. The key mistake is fast tracking
-features without the necessary scrutiny (you need a "definition of ready",
-something I should have done better too). It was very tricky for me to figure
-how to handle those specifically coming from the CEO. Here is the problem:
+features without the necessary scrutiny. It was very tricky for me to figure
+out how to handle those features specifically coming from the CEO. Here is the
+problem:
 
-- My CEO sets up the vision of the company
+- My CEO set up the vision of the company
 - My job was execute that vision translating it into a product vision
 - My team and I translated that vision into a product roadmap
-- We build things from the roadmap
+- We built things from our roadmap
 
 The problem lies in the tiny border between vision and roadmap. I think they
 need to overlap, they must compliment each other. And that's exactly why this
 has been so tricky for me. I struggled a lot with the concept as I could
 correlate with my CEO saying "we should do this because it's the right thing".
-It happened to me often while leading developers to struggle between giving
+It happened to me often while leading developers: to struggle between giving
 people enough room for decision and needing to do what I believed was the
-right thing. So how do I say no to a "CEO feature" and keeping the overlap
+right thing. So how do I say no to a "CEO feature" and keep the overlap
 between his vision and the product vision?
 
-This was hard for me but, still, it had a very simple solution. There isn't
-the word feature in the sentence "translating the vision into a product
-roadmap". It's about the vision and its implementation as a roadmap and
-a roadmap is not a set of features. A crucial mistake I believe only
-a newcomer like me could make. The roadmap is a visualisation of your
-strategy, a high level concept. Nothing about the CEO vision and the product
-roadmap is about the features you build and it took me a while to truly
-understand it.
+This was hard. But still it had a very simple solution. There isn't the word
+feature in the sentence "translating the vision into a product roadmap". It's
+about the vision and its implementation as a roadmap and a roadmap is not a
+set of features. A crucial mistake I believe only a newcomer like me could
+make. The roadmap is a visualisation of your strategy, a high level concept.
+Nothing about the CEO vision and the product roadmap is about the features you
+build and it took me a while to truly understand it.
 
 Once again, it is just common sense. _Of course_ you should not let your "CEO
 features" be fast tracked. _Of course_ it makes no sense to fast track any
@@ -133,7 +127,7 @@ had bad consequences:
 
 It was not the nicest situation and it was that rare case in which hiring was
 the answer (hint: use hiring as the _last_ answer to your problems, it brings
-the best out of you and the people around you). We hired more people and
+    the best out of you and the people around you). We hired more people and
 brought in the necessary skills. Finally my team was saying no to feature
 requests. Oh it felt good. We were saying no to things that made no sense to
 us. But it had consequences for the rest of the company. People were
@@ -150,13 +144,13 @@ It's as easy as that. This approach comes with benefits that go both ways from
 your product team and the rest of the company:
 
 - The rest of the company understands better how you prioritize product work.
-  It's vital for you they get it.
+It's vital for you they get it.
 - You have to convince people your prioritisation is correct. Great
-  side-effects:
-  - You learn how to express things clearly and in plain English. No jargon,
-    no acronyms. It makes your communication more inclusive.
+side-effects:
+- You learn how to express things clearly and in plain English. No jargon,
+  no acronyms. It makes your communication more inclusive.
   - You can catch errors in your own prioritisation. They may be right and
-    that is a *great* outcome too.
+  that is a *great* outcome too.
 
 ## Do not ship what you can't measure
 
@@ -172,9 +166,9 @@ I did not test it yet. I think it would be as easy as:
 
 - Require all the features specs to provide an expected impact.
 - Set up a recurrent meeting for evaluating expected versus reality with the
-  product team.
+product team.
 - Share this twice: with the development teams and with the rest of the
-  company.
+company.
 
 I consider this a good start and I would love to evaluate the process itself
 during retrospectives. I am curious to hear other folks opinion on the subject
