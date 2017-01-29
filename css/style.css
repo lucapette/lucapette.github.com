@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+
+}
 header {
   border-bottom: 1px solid #EEE;
   font-size: 1.2em;
@@ -6,9 +10,19 @@ header #logo a {
   text-decoration: none;
 }
 footer {
-  padding-top: 5px;
-  font-size: 0.9em;
-  font-style: italic;
+  border-top: 1px solid #e5e5e5;
+  height: 4em;
+  padding: 1em 0 0;
+  text-align: center;
+}
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
+.push {
+  height: 4em;
 }
 .highlight {
   overflow: auto;
@@ -16,21 +30,6 @@ footer {
 }
 .highlight pre {
   margin: 0;
-}
-.grey {
-  color: #BBB;
-  font-style: italic;
-  font-size: 0.9em;
-  margin-bottom: 10px;
-}
-.top {
-  position:fixed;
-  right: 15px;
-  bottom: 15px;
-  width: 100px;
-}
-.top.hidden {
-  display:none;
 }
 .blog-masthead {
   background-color: #428bca;
@@ -92,11 +91,22 @@ footer {
   color: #999;
 }
 .blog-footer {
-  border-top: 1px solid #e5e5e5;
-  color: #999;
-  padding: 10px 0;
-  text-align: center;
 }
-.blog-footer p:last-child {
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   margin-bottom: 0;
+  background-color: #fff;
+}
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+.jumbotron-heading {
+  font-weight: 300;
+}
+.jumbotron .container {
+  max-width: 40rem;
+}
+.text-centered {
+  text-align: center!important;
 }
