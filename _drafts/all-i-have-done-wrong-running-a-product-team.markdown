@@ -1,6 +1,6 @@
 ---
 title: "All I have done wrong running a product team"
-description: The first time you do something, you learn a lot. Time to share that.
+description: The first time you do something, you learn a lot. It's time to share that.
 keywords: product management, product teams, product development
 layout: articles
 ---
@@ -13,21 +13,21 @@ leadership part, I was afraid of not being able to get up to speed with the
 product part fast enough.
 
 Two years passed and I learned a lot. Along the way, I made a few mistakes and
-I want to focus my attention on those four or five things I consider crucial.
+in this article I want to focus my attention on those four or five things I consider crucial.
 Now these learning seem just _common sense_ to me. I often find myself
 summarising this experience in a joke:
 
 > Common sense is not so common
 
-This is the reason why I feel compelled to sharing the learnings I consider
+This is the reason why I feel compelled to share the learnings I consider
 basic product management now. I will present my list in no particular order.
 
 ## Data is nothing. Information is the key
 
 We have introduced [blazer](https://github.com/ankane/blazer) at work
 recently. I've wanted to add this little tool to our portfolio of internal
-applications for a long time. The reaction coming from other departments'
-folks was great. Everyone was happy about the tool and it was a stimulating
+applications for a long time. The reaction coming from other departments
+was great. Everyone was happy about the tool and it was a stimulating
 process for me. I started asking myself what the real difference between these
 two processes is:
 
@@ -47,7 +47,7 @@ useful because it could help with information, not because it increased data
 availability for the rest of the company. No one really cares about the
 conversion rate comparison in two different countries. Everyone wants to know
 the *why* of the differences and similarities. The information that explains
-the data is the key. People can do a better job when they can extract
+the data is the key. People can do a better job if they can extract
 knowledge out of data. Knowing _why_ a company performs better in a market is
 the key information. Finding the answer will improve your marketing strategy,
 and it could change the story of your company drastically.
@@ -63,7 +63,7 @@ process. To cut a long story short,
 Ask questions all the time. You hear data points and you automatically ask
 yourself why. What is the explanation behind it? You need to transform all the
 data points you hear into useful information. I believe this process should
-back up your roadmap. It's a three steps' process:
+back up your roadmap. It's a three-step process:
 
 1. Look at the data
 2. Ask yourself why
@@ -80,7 +80,7 @@ I define "CEO features" as features we build because someone says so or just
 because it sounds cool to build them. According to my definition, those
 features do not always come from the CEO. The key mistake is fast tracking
 features without the necessary scrutiny. It was very tricky for me to figure
-out how to handle those features specifically coming from the CEO. Here is the
+out how to handle the features coming specifically from the CEO. Here is the
 problem:
 
 - My CEO set up the vision of the company
@@ -101,7 +101,7 @@ It was hard, however, it had a very simple solution. The word _feature_ is not
 present in the sentence "translating the vision into a product roadmap". It's
 about the vision and its implementation: a roadmap is not a set of features. A
 crucial mistake I believe only a newcomer like me could make. The roadmap is a
-visualisation of your strategy, a high level concept.  Nothing about the CEO
+visualisation of your strategy, a high level concept. Nothing about the CEO
 vision and the product roadmap is about the features you build and it took me a
 while to truly understand it.
 
