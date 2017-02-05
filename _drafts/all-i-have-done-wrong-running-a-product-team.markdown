@@ -200,3 +200,27 @@ loosely into:
 
 > Simplify your product with *every* new feature. Give more to your customers by
 > having *only* the features they need and use.
+
+# Conclusions
+
+Running a product team was a great experience. I learned a lot and had a lot of
+fun building features for such an exciting product. Product management is
+tricky: the job is not well defined and being on the border between technology
+and business is exciting and tricky. Over time I enriched a metaphor I read
+somewhere (maybe it was Dr. Alan Cooper writing) and I use it often to explain
+what's tricky and what's exciting about product management. I compare product
+development to construction building:
+
+- Product people are the architects. They decide how the windows work, where the stairs are, where and how the lifts work and so on.
+- Developers are the construction workers. They build all the blocks and care about all the tiny details that bring the building to life.
+
+The kind of decisions product managers take are tricky because people think they
+know which window you should be putting in your building because they use
+windows. As a developer I never felt this problem, there's very little people
+knowing how a window actually works. They just like to use windows.
+
+This difference between product management and development was an exciting new challenge for me. I like working with people and product management comes with a lot of daily interactions with people doing a job very different from mine.
+
+I'm glad I accepted the job at the time and I'm happy I will be dedicating my time to other things now. I have a lot of writing ahead of me and I have never been so excited about writing in my life.
+
+Thank you for reading and stay tuned!
