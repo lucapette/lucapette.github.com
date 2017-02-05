@@ -97,13 +97,13 @@ people enough room for decision and needing to do what I believed was the
 right thing. So how do I say no to a "CEO feature" and keep the overlap
 between his vision and the product vision?
 
-This was hard. But still it had a very simple solution. There isn't the word
-feature in the sentence "translating the vision into a product roadmap". It's
-about the vision and its implementation as a roadmap and a roadmap is not a
-set of features. A crucial mistake I believe only a newcomer like me could
-make. The roadmap is a visualisation of your strategy, a high level concept.
-Nothing about the CEO vision and the product roadmap is about the features you
-build and it took me a while to truly understand it.
+It was hard, however, it had a very simple solution. The word _feature_ is not
+present in the sentence "translating the vision into a product roadmap". It's
+about the vision and its implementation: a roadmap is not a set of features. A
+crucial mistake I believe only a newcomer like me could make. The roadmap is a
+visualisation of your strategy, a high level concept.  Nothing about the CEO
+vision and the product roadmap is about the features you build and it took me a
+while to truly understand it.
 
 Once again, it is just common sense. _Of course_ you should not let your "CEO
 features" be fast tracked. _Of course_ it makes no sense to fast track any
@@ -117,89 +117,86 @@ strategy and its execution.
 [Saying no](https://duckduckgo.com/?q=saying+no+product+managment&ia=web)
 seems to be a required feature for good product management. I can agree to
 that sentiment but I think it's an incomplete statement. When I started
-running my first product team we did not have enough people and experience to
+running my first product team, we did not have enough people and experience to
 say no. I struggled with it as I felt we were not saying no often enough. It
 had bad consequences:
 
 - Irrelevant features were creeping into our building cycle
-- We would often build the wrong thing and only realise after roll-out
+- We would often build the wrong thing and only realise after the roll-out
 - We would build more than we needed
 
 It was not the nicest situation and it was that rare case in which hiring was
 the answer (hint: use hiring as the _last_ answer to your problems, it brings
-    the best out of you and the people around you). We hired more people and
-brought in the necessary skills. Finally my team was saying no to feature
-requests. Oh it felt good. We were saying no to things that made no sense to
-us. But it had consequences for the rest of the company. People were
-frustrated with this new attitude. I did expect it but I still got something
-wrong. I thought it was a temporary phenomenon. I was telling myself we just
-needed some time to adapt and people would understand why saying no to most
-requests was the right thing to do for everyone. Here we go, it's just common
-sense again: Why would people understand a no without context?
+the best in you and the people around you). We hired more people and brought in
+the necessary skills. Finally my team was saying no to feature requests. Oh, it
+felt good. We were saying no to things that made no sense to us. But it had
+consequences for the rest of the company. People were frustrated by this new
+attitude. I was expecting it but I still got something wrong: I thought it was a
+temporary phenomenon. I was telling myself that we just needed some time to
+adapt and people would understand why saying no to most requests was the right
+thing to do. Here we go, it's just common sense again: why would people
+understand a no without any context?
 
-We were saying no but we were not explaining what was the benefit of saying
-no. It turns out this is easy to fix: You say no to people and always give
-them context about what you are going to do *instead* of what they requested.
-It's as easy as that. This approach comes with benefits that go both ways from
-your product team and the rest of the company:
+We were saying no but we were not explaining its benefit. It turns out this is
+easy to fix: you say no to people and always provide them with an explanation on
+what you are going to do *instead*. It's as easy as that. This approach comes
+with mutual benefits for both your product team and the rest of your company:
 
-- The rest of the company understands better how you prioritize product work.
-It's vital for you they get it.
-- You have to convince people your prioritisation is correct. Great
-side-effects:
-- You learn how to express things clearly and in plain English. No jargon,
-  no acronyms. It makes your communication more inclusive.
-  - You can catch errors in your own prioritisation. They may be right and
-  that is a *great* outcome too.
+- The rest of the company understands better how you prioritise product work.
+It's vital they get it.  
+- You have to convince people your prioritisation is
+correct. Great side-effects:
+  - You learn how to express things clearly and in plain English. No jargon, no
+  acronyms. It makes your communication more inclusive.
+  - Together with other teams you can catch errors in the prioritisation and that is a *great*
+  outcome too.
 
 ## Do not ship what you can't measure
 
 I must confess I felt guilty while reading about [feature
 factories](https://hackernoon.com/12-signs-youre-working-in-a-feature-factory-44a5b938d6a2#.wkyer1gmt).
-We showed clear signs when it came about impact analysis. What I did wrong
-here is realising too late how important it is to design a process around
-impact. It felt especially bad to realise I was doing it wrong because I find
-obvious there's value in doing impact analysis of features.
+We were showing clear signs when it came to impact analysis. What I did wrong
+here was realising too late how important it is to design a process around
+impact. It felt especially bad to realise I was doing it wrong; it's obvious to
+me there is value in analysing the impact of features.
 
-Now, I think I would be able to design a process around impact analysis but
-I did not test it yet. I think it would be as easy as:
+Nowadays, I would be able to design a process around impact analysis but I have
+never tested it yet. I think it would be as easy as:
 
-- Require all the features specs to provide an expected impact.
-- Set up a recurrent meeting for evaluating expected versus reality with the
-product team.
-- Share this twice: with the development teams and with the rest of the
-company.
+- Require all the feature specs to provide an expected impact.
+- Set up a recurrent meeting with the product team to evaluate expected impact
+versus reality.
+- Share the outcome of the meeting twice: with the development teams and with
+  the rest of the company.
 
-I consider this a good start and I would love to evaluate the process itself
-during retrospectives. I am curious to hear other folks opinion on the subject
-as my approach is still just a theory. And that needs testing and feedback.
-I like to say:
+I consider this process a good start and I would love to evaluate it during
+retrospectives. I am curious to hear other folks' opinion on the subject as my
+approach is still just a hypothesis that needs testing and feedback. I like to
+say:
 
 > In theory, there's no difference between theory and practise, in practise
 > there is always a difference.
 
 ## Get rid of features no one uses
 
-Deprecating features simplifies your product, simpler is better. I think
-feature deprecation is strongly connected to impact analysis. We did not do
-this enough because we did not know enough about some of our features. This
-way our product kept growing in terms of complexity and we missed some
-opportunities to make our life easier and, above all, the experience of our
-customers.
+Deprecating features simplifies your product, simpler is better. I think feature
+deprecation is strongly connected to impact analysis. We did not do this enough
+because we did not know enough about some of our features. This way our product
+kept growing in terms of complexity and we missed the opportunity to make our
+life easier and, above all, the experience of our customers better.
 
-Given my background as developer, I found myself thinking about this problem
-as they way I think about refactoring code. It helped me realise I can
-approach decommissioning of features the same way I approach a code base. My
-approach is
+Given my background as a developer, I found myself thinking about this problem
+the same way I think about refactoring code. It helped me realise I can approach
+decommissioning of features as I approach a code base. My approach is
 
 > you should not be refactoring your code
 
-It's more a catchy title for a short article but I think it conveys my
-message. My view is that you should be improving your code base with every
-single change. You should be doing it up to a point you won't need any set of
-changes (developers tend to call it "pull requests" these days) consisting
-only of refactored code. Applying this approach to product management can
-translate loosely into:
+It's more of a catchy title for a short article but I think it conveys my
+message. You should be improving your code base with every single change. You
+should be doing it up to a point when you don't need any set of changes
+(developers tend to call it "pull requests" these days) consisting only of
+refactored code. Applying this approach to product management can translate
+loosely into:
 
-> Simplify your product with every feature. Give more to your customers by
+> Simplify your product with *every* new feature. Give more to your customers by
 > having *only* the features they need and use.
