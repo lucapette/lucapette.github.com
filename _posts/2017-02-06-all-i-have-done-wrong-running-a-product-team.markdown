@@ -143,7 +143,7 @@ what you are going to do *instead*. It's as easy as that. This approach comes
 with mutual benefits for both your product team and the rest of your company:
 
 - The rest of the company understands better how you prioritise product work.
-It's vital they get it.  
+It's vital they get it.
 - You have to convince people your prioritisation is
 correct. Great side-effects:
   - You learn how to express things clearly and in plain English. No jargon, no
@@ -207,7 +207,8 @@ Running a product team was great experience. I learned a lot and had fun
 building features for such an exciting product. Product management is tricky:
 the job is not well defined and being on the border between technology and
 business is challenging. Over time, I enriched a metaphor I had read somewhere
-in the past (maybe it was Dr. Alan Cooper's writing) and I use it often to
+in the past (maybe it was [Dr. Alan
+Cooper](https://twitter.com/MrAlanCooper)'s writing) and I use it often to
 explain what's tricky and exciting about product management. I compare product
 development to the construction of a building:
 
