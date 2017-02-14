@@ -6,7 +6,7 @@ layout: articles
 ---
 
 I have just started my journey in the [React](https://facebook.github.io/react/)
-eco-system. I decided to take notes along the way so I could share my experience
+ecosystem. I decided to take notes along the way so I could share my experience
 with you. Most of the resources I found focus on the _coding experience_: how to
 test, how to integrate React with X and so on. I, on the other hand, tend to
 focus on:
