@@ -19,7 +19,7 @@ handles it. I thought there was a need for the following features:
 
 Ignoring duplicated lines on irb exit would be also great.
 
-## The methods
+## Some code to solve this problem
 
 This is the code I wrote:
 
