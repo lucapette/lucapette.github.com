@@ -440,10 +440,6 @@ article h7 a,
 .article h7 a {
   font-family: "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
 }
-article h1,
-.article h1 {
-  font-size: 24px;
-}
 article h1 a,
 .article h1 a {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.75, rgba(0,0,0,0)), color-stop(0.75, rgba(0,0,0,0.8)));
