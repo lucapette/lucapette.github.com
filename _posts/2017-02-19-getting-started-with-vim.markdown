@@ -2,6 +2,7 @@
 title: "Getting started with Vim"
 description: Trying to make Vim's learning curve more gradual
 keywords: vim, learning, editor, drew neil, practical vim, tpope
+category: vim
 layout: articles
 ---
 
