@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Building an activity tracker with Go, Grafana and InfluxDB"
+title: "Building an activity tracker with Go, Grafana, and InfluxDB"
 date: "2017-02-23 14:53"
 category: go
 keywords: golang, grafana, influxdb, open source, productivity
