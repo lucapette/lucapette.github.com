@@ -89,7 +89,7 @@ problem:
 - We built things from our roadmap
 
 The problem lies in the tiny border between vision and roadmap. I think they
-need to overlap, they must compliment each other. And that's exactly why this
+need to overlap, they must complement each other. And that's exactly why this
 has been so tricky for me. I struggled a lot with the concept as I could
 correlate with my CEO saying "we should do this because it's the right thing".
 It happened to me often while leading developers: to struggle between giving
