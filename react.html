@@ -1,0 +1,36 @@
+---
+title: "My journey with React and its ecosystem"
+description: A series of articles about Reac and its ecosystem
+keywords: react, yarn, babel, webpack, flowtype
+layout: default
+---
+<div class="blog-header">
+  <h1>My journey with React and its ecosystem</h1>
+  <p>In January 2017 I started a journey with React and its ecosystem.</p>
+</div>
+
+<article>
+<p>
+Here is a list of technologies I planned to explore:
+<ul>
+  <li><a href="https://facebook.github.io/react/">React</a></li>
+  <li><a href="http://es6-features.org/">ES6</a></li>
+  <li><a href="https://webpack.js.org/">Webpack</a></li>
+  <li><a href="http://babeljs.io/">Babel</a></li>
+  <li><a href="https://flowtype.org">Flow</a></li>
+  <li><a href="http://electron.atom.io/">Electron</a></li>
+  <li><a href="https://facebook.github.io/react-native/">React native</a></li>
+  <li><a href="http://semantic-ui.com/">semantic-ui</a></li>
+  <li><a href="http://facebook.github.io/jest/">jest</a></li>
+</ul>
+</p>
+
+<p>
+Since it's a long list, it will be a long series. Published so far:
+<ul>
+  {% for post in site.categories.react %}
+  <li><a href="{{post.url}}">{{post.description}}</a>
+  {% endfor %}
+</ul>
+</p>
+</article>

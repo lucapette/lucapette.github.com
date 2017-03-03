@@ -1,7 +1,10 @@
 ---
-title: "My journey with React and its ecosystem: First steps with webpack, babel and yarn"
-description: First article of the series "My journey with React and its ecosystem".
+title: "First steps with webpack, babel, and yarn"
+description: First steps with webpack, babel, and yarn
 keywords: react, yarn, babel, webpack, flowtype
+category: react
+redirect_from:
+  - /my-journey-with-react-and-its-ecosystem-first-steps-with-webpack-babel-and-yarn
 layout: articles
 ---
 
