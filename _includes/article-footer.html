@@ -1,0 +1,19 @@
+<div class="article-nav">
+  {% if page.previous.url %}
+  <a class="prev" href="{{page.previous.url}}"><span aria-hidden="true">&larr;</span>{{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+  <a class="next" href="{{page.next.url}}"><span aria-hidden="true">&rarr;</span>{{page.next.title}}</a>
+  {% endif %}
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body">
+    <p>
+    You can subscribe to my <a
+      href="https://tinyletter.com/lucapette">newsletter</a> if
+    you liked this article. I will send you an email every time I
+    publish something new. No spam, just articles.
+    </p>
+  </div>
+</div>

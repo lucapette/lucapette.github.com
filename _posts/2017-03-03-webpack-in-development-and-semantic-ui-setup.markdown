@@ -2,11 +2,13 @@
 title: "Webpack in development and semantic-ui setup"
 description: Webpack in development and semantic-ui setup
 keywords: react, webpack, source maps, flowtype, semantic-ui
+category: react
 layout: articles
 ---
 
-This article is part of a series. If you have not read previous articles, I
-suggest you check [them](/react.hmtl) first!
+This article is part of the series [my journey with React and its
+ecosystem](/react.html). If you have not familiar with it, I suggest you
+check that out first!
 
 ## How do I setup webpack for development?
 
@@ -127,6 +129,6 @@ was no such version. It was hard to figure out how to make all the different
 parts [work](https://github.com/lucapette/passata/commit/c053e8f). At that
 point, `passata` was ready to do something. I sketched the screens of the
 application with pencil and paper. I ended up with three screens and a dynamic
-menu which I will be sharing soon.
+menu which I will be sharing next week.
 
 Thank you for reading me and stay tuned for the next article!
