@@ -7,8 +7,8 @@ layout: articles
 ---
 
 This article is part of the series [my journey with React and its
-ecosystem](/react.html). If you have not familiar with it, I suggest you
-check that out first!
+ecosystem](/react.html). If you are not familiar with it, I suggest you check
+that out first!
 
 ## How do I setup webpack for development?
 
