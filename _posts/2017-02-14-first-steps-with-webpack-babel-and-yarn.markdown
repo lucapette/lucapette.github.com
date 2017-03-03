@@ -8,7 +8,7 @@ redirect_from:
 layout: articles
 ---
 
-I have just started my journey in the [React](https://facebook.github.io/react/)
+I have just started [my journey](/react.html) in the [React](https://facebook.github.io/react/)
 ecosystem. I decided to take notes along the way so I could share my experience
 with you. Most of the resources I found focus on the _coding experience_: how to
 test, how to integrate React with X and so on. I, on the other hand, tend to
