@@ -76,5 +76,4 @@ informal.  The core point will anyway remain the same: you shouldn't be driving
 a single one-on-one. It will be more formal with some people and "exactly like
 going for a coffee" for other people. Making it serious and official makes it
 boring too, like most meetings. You have to let the other person go where they
-wants to
-go. You'll love the results.
+want to go. You'll love the results.
