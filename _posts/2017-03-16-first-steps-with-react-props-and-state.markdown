@@ -12,11 +12,15 @@ that out first!
 
 ## passata design and features
 
-The [pomodoro technique](http://cirillocompany.de/pages/pomodoro-technique) is a
-time management technique. I used it in the past and I plan to use it in the
-coming months, as it works well for me when I work alone. I don't really need an
-application for it, but since I started my journey with React, I decided that
-building an application for the pomodoro technique would be a good playground.
+The [pomodoro technique](http://cirillocompany.de/pages/pomodoro-technique) is
+a time management technique. I used it in the past and I plan to use it in the
+coming months, as it works well for me when I work alone. I don't really need
+an application for it, but since I started my journey with React, I decided
+that building an application for the pomodoro technique would be a good
+playground.  Having the pomodoro in my hands, I "processed" it and called my
+application [passata](https://github.com/lucapette/passata). I guess my
+passion for cooking played its role here.
+
 Here is a list of features I wanted to work on:
 
 - Basic 25-minute timer for a pomodoro and a 5-minute timer for breaks. I don't
