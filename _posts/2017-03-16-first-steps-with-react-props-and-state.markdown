@@ -6,8 +6,9 @@ category: react
 layout: articles
 ---
 
-This article is part of the series "my journey with React and its ecosystem".
-If you're not familiar with the series, I suggest you check it out first.
+This article is part of the series [my journey with React and its
+ecosystem](/react.html). If you are not familiar with it, I suggest you check
+that out first!
 
 ## passata design and features
 
