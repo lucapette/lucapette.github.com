@@ -6,11 +6,10 @@ layout: default
 ---
 <div class="blog-header">
   <h1>My journey with React and its ecosystem</h1>
-  <p>In January 2017 I started a journey with React and its ecosystem.</p>
 </div>
 
 <article>
-<p>
+<p>In January 2017 I started a journey with React and its ecosystem.
 Here is a list of technologies I planned to explore:
 <ul>
   <li><a href="https://facebook.github.io/react/">React</a></li>
@@ -29,7 +28,7 @@ Here is a list of technologies I planned to explore:
 Since it's a long list, it will be a long series. Published so far:
 <ul>
   {% for post in site.categories.react %}
-  <li><a href="{{post.url}}">{{post.description}}</a>
+  <li><a href="{{post.url}}">{{post.title}}</a>
   {% endfor %}
 </ul>
 </p>
