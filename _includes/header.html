@@ -1,5 +1,6 @@
 {% assign home = " " %}
 {% assign articles = " " %}
+{% assign hire = " " %}
 {% assign about = " " %}
 
 {% case page.url %}
@@ -7,6 +8,8 @@
 {% assign home = "active" %}
 {% when '/articles', '/archive' %}
 {% assign articles = "active" %}
+{% when '/hire-me' %}
+{% assign hire = "active" %}
 {% when '/about' %}
 {% assign about = "active" %}
 {% endcase %}
@@ -16,6 +19,7 @@
     <nav class="blog-nav">
       <a class="blog-nav-item {{ home }}" href="/">Home</a>
       <a class="blog-nav-item {{ articles }}" href="/articles.html">Articles</a>
+      <a class="blog-nav-item {{ hire }}" href="/hire-me.html">Hire me</a>
       <a class="blog-nav-item {{ about }}" href="/about.html">About</a>
     </nav>
   </div>

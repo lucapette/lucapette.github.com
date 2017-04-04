@@ -20,33 +20,9 @@ layout: default
     <li><a href="#vim">Vim</a></li>
     <li><a href="#writing">Writing</a></li>
   </ul>
-  <h2 id="writing">Writing</h2>
-  <ul>
-    {% for post in site.categories.writing %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-  <h2 id="reading">Reading</h2>
-  <ul>
-    {% for post in site.categories.reading %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
   <h2 id="leading">Leading developers</h2>
   <ul>
     {% for post in site.categories.leading %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-  <h2 id="vim">Vim</h2>
-  <ul>
-    {% for post in site.categories.vim %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-  <h2 id="ruby">Ruby</h2>
-  <ul>
-    {% for post in site.categories.ruby %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
@@ -59,6 +35,30 @@ layout: default
   <h2 id="react">React</h2>
   <ul>
     {% for post in site.categories.react %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <h2 id="reading">Reading</h2>
+  <ul>
+    {% for post in site.categories.reading %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <h2 id="ruby">Ruby</h2>
+  <ul>
+    {% for post in site.categories.ruby %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <h2 id="vim">Vim</h2>
+  <ul>
+    {% for post in site.categories.vim %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <h2 id="writing">Writing</h2>
+  <ul>
+    {% for post in site.categories.writing %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
