@@ -71,10 +71,8 @@ code base, and that is important to me: it's about how you communicate with
 other developers via simple structures and conventions. I researched the topic
 and read the following articles:
 
--[Organize large React
-applications](http://engineering.kapost.com/2016/01/organizing-large-react-applications/)
--[How to better organize your React
-applications](https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1#.n4pw42yk5)
+-[Organize large React applications](http://engineering.kapost.com/2016/01/organizing-large-react-applications/)
+-[How to better organize your React applications](https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1#.n4pw42yk5)
 
 I think I like the idea of laying out the folders of a project by its parts. I
 can think of pages and flows as the parts that compose a project. As I said,
