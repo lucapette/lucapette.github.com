@@ -172,8 +172,8 @@ by Rossini. It never really impressed me, but I can still recall exactly how I
 felt the first time I ran into an [incredible
 version](https://www.youtube.com/watch?v=qdm8IfInaJg) directed by [Claudio
 Abbado](https://en.wikipedia.org/wiki/Claudio_Abbado). An important thing to
-note: when it comes to orchestras, directors act as performers in a solo
-composition. This is the reason why being a director is such a big deal.
+note: when it comes to orchestras, conductors act as performers in a solo
+composition. This is the reason why being a conductor is such a big deal.
 
 ### Record labels
 
