@@ -2,6 +2,7 @@
 title: "My experience with standups"
 description: My experience running and attending standups. What I like and what I don't like about them.
 keywords: standup, leading developers
+category: leading
 layout: articles
 ---
 I have been running standups for many years and I've never liked them. I often
