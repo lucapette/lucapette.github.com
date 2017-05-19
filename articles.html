@@ -13,6 +13,7 @@ layout: default
 <article>
   <ul>
     <li><a href="#leading">Leading developers</a></li>
+    <li><a href="#golang">Go</a></li>
     <li><a href="#rails">Rails</a></li>
     <li><a href="#react">React</a></li>
     <li><a href="#reading">Reading</a></li>
@@ -23,6 +24,12 @@ layout: default
   <h2 id="leading">Leading developers</h2>
   <ul>
     {% for post in site.categories.leading %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <h2 id="golang">Go</h2>
+  <ul>
+    {% for post in site.categories.golang %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
