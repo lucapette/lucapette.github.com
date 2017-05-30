@@ -1,5 +1,5 @@
 ---
-title: "Open-sourcing deloominator: a data visualization tool for SQL users"
+title: "deloominator: a data visualization tool for SQL users"
 description: deloominator is a Go/React application I've been working in the past few months and it's time to open-source it
 keywords: golang, react, data visualization, vega-lite, sql, databases
 layout: articles
