@@ -26,9 +26,9 @@ to end.  I wanted to do something like:
 
 I managed to get it done [here](https://github.com/lucapette/fakedata/pull/14)
 and decided to share the key ingredients that made this a simple and effective
-way of writing integration tests for a Go CLI application. I created an example
-application for the sake of the discussion, it's available
-[here](https://github.com/lucapette/go-cli-integration-tests.
+way of writing integration tests for a Go CLI application. I created an
+example application for the sake of the discussion, it's available
+[here](https://github.com/lucapette/go-cli-integration-tests).
 
 I use `make` to build my Go applications, it suits the task well and it gives me
 a very short command to build an entire project (as `build` is the de-facto
