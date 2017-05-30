@@ -237,6 +237,6 @@ think the best entry points are here (in no particular order):
 I have planned a series of articles about the how and why of the technical
 choices, I think there's a lot to say, even though the project is still small.
 
-Please feel free to approach me with any question about `deloominator`:
+Please feel free to approach me with any questions about `deloominator`:
 [email](mailto:lucapette@gmail.com) or
 [twitter](https://twitter.com/lucapette) are the best channels!
