@@ -65,7 +65,7 @@ resource "github_issue_label" "fakedata-bug-label" {
 
 I ran `terraform apply` and a few seconds later
 [fakedata](https://github.com/lucapette/fakedata) had labels properly
-configured. It felt like magic! Just a note: tunning `terraform apply` will
+configured. It felt like magic! Just a note: running `terraform apply` will
 either create or update a `terraform.tfstate`, which contains an up-to-date
 version of the infrastructure. I think it makes sense to commit this file. I did
 not look into good practices yet, so take the advice with a grain of salt. Of
