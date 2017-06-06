@@ -107,7 +107,7 @@ I ran `terraform apply` once more and I had all the labels synced within
 multiple projects. To recap, the entire process consisted of the following
 steps:
 
-- light read of the documentation
+- quick read of the documentation
 - writing a first configuration
 - running `terraform apply`
 - writing a more general configuration
