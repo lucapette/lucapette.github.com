@@ -114,11 +114,15 @@ steps:
 - running `terraform apply`
 
 It took around 10 minutes from the idea to a fully automated configuration of
-GitHub labels. Of course, this was so trivial one could do it with a shell
-script, but I believe it shows the huge potential of this wonderful tool. I
-suggest you have a look at the providers and the syntax, because there's much
-more than this simple use case I just showed you here. One great feature is
-[terraform import](https://www.terraform.io/docs/import/index.html), which can
-help a great deal with adoption.
+GitHub labels.
+[Here](https://gist.github.com/lucapette/962d0cafe7edfceb9c2ba97bf7b6948f) is
+the entire file if you're curious.
+
+Of course, this was so trivial one could do it with a shell script, but I
+believe it shows the huge potential of this wonderful tool. I suggest you have
+a look at the providers and the syntax, because there's much more than this
+simple use case I just showed you here. One great feature is [terraform
+import](https://www.terraform.io/docs/import/index.html), which can help a
+great deal with adoption.
 
 Happy terraforming!
