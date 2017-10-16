@@ -30,7 +30,7 @@ for thought.
 Well, this is a good question. I have no idea what "we use Kanban" means for
 other people. I know what it means for me and here are my key points:
 
-### Everone owns everything, everyone does everything at every stage
+### Everyone owns everything, everyone does everything at every stage
 
 I consider every version of Kanban is a variation of the sequential stages: to
 do, doing, done. As we are talking specifically about development it is likely
