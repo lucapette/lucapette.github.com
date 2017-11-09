@@ -3,6 +3,7 @@ title: "My experience with Go"
 description: I have been using Go for a project long enough to form opinions around it
 keywords: golang, deloominator
 layout: articles
+category: go
 ---
 
 In a previous article about
