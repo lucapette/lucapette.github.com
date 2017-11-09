@@ -285,10 +285,10 @@ tooling.
 Here is a list of libraries I have been using in `deloominator`:
 
 - [graphql-go](https://github.com/graphql-go/graphql)
-- [mysql](github.com/go-sql-driver/mysql) and [postgres](github.com/lib/pq)
+- [mysql](https://github.com/go-sql-driver/mysql) and [postgres](https://github.com/lib/pq)
   driver
 - [goji](http://goji.io) for URL pattern matching
-- [gorm](github.com/jinzhu/gorm)
+- [gorm](https://github.com/jinzhu/gorm)
 
 They all have one thing in common: they are rock-solid and well-documented. It
 sums up nicely how I feel about the entire ecosystem. I've rarely run into
