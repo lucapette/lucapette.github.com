@@ -315,7 +315,7 @@ guide](https://golang.org/doc/contribute.html). It was depressing:
 - The review process must happen via gerrit, which makes me think the team cares
   about their comfort of review much more than about external contributions
 
-I like [self-hoisting](https://en.wikipedia.org/wiki/Self-hosting) languages, so
+I like [self-hosting](https://en.wikipedia.org/wiki/Self-hosting) languages, so
 I moved on to issues anyway. But it has not been a better experience. I've often
 felt people tried to be clever more than helpful, and I have seen incredible
 resistance to change. I do understand changing a programming language is no easy
