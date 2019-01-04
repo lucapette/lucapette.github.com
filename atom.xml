@@ -7,7 +7,7 @@
  <id>http://lucapette.me</id>
  <author>
    <name>Luca Pette</name>
-   <email>lucapette@gmail.com</email>
+   <email>ciao@lucapette.me</email>
  </author>
  {% for post in site.posts limit:10 %}
  <entry>
